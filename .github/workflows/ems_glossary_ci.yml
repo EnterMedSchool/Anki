@@ -1,4 +1,4 @@
-name: Validate & Index EMS Glossary
+name: Validate, Check & Index EMS Glossary
 
 on:
   push:
@@ -25,18 +25,39 @@ jobs:
           python -m pip install --upgrade pip
           pip install jsonschema requests
 
-      - name: Validate terms and build index.json
+      - name: Validate, link-check, and build index.json
+        env:
+          MAX_IMAGE_KB: "750"
+          ALLOWED_DOMAINS: "entermedschool.com,entermedschool.b-cdn.net,raw.githubusercontent.com,githubusercontent.com,wikipedia.org,wikimedia.org,youtube.com,youtu.be,vimeo.com,imgur.com,googleusercontent.com"
         run: |
           python - << 'PY'
-          import os, json, hashlib, sys, re
-          from jsonschema import validate, Draft7Validator
-          SCHEMA = json.loads(open('glossary/schema.json','r').read()) if os.path.exists('glossary/schema.json') else None
+          import os, json, hashlib, sys, re, time
+          import requests
+          from urllib.parse import urlparse
+          from jsonschema import Draft7Validator
+          schema_path = 'glossary/schema.json'
+          if not os.path.exists(schema_path):
+            print('::warning ::schema.json not found; skipping schema validation')
+            SCHEMA=None
+          else:
+            SCHEMA=json.loads(open(schema_path,'r',encoding='utf-8').read())
 
           terms_dir = 'glossary/terms'
           files = []
           errs = 0
           if not os.path.isdir(terms_dir):
             print('::error ::glossary/terms missing'); sys.exit(1)
+          ids=set()
+          allowed=set((os.environ.get('ALLOWED_DOMAINS') or '').split(','))
+          max_kb=int(os.environ.get('MAX_IMAGE_KB','750'))
+          sess = requests.Session(); sess.headers['User-Agent']='EMSGlossary/CI'
+
+          def allowed_domain(url):
+            try:
+              h=urlparse(url).hostname or ''
+              return any(h==d or h.endswith('.'+d) for d in allowed)
+            except: return False
+
           for name in sorted(os.listdir(terms_dir)):
             if not name.endswith('.json'): continue
             p = os.path.join(terms_dir, name)
@@ -47,12 +68,41 @@ jobs:
             if SCHEMA:
               v = Draft7Validator(SCHEMA)
               for error in sorted(v.iter_errors(data), key=str):
-                print(f'::error file={p}::{error.message}')
-                errs += 1
+                print(f'::error file={p}::{error.message}'); errs += 1
+            tid = data.get('id') or os.path.splitext(name)[0]
+            if tid in ids:
+              print(f'::error file={p}::Duplicate id {tid}'); errs += 1
+            ids.add(tid)
+            # Links
+            for a in data.get('actions') or []:
+              u=a.get('href','')
+              if u and u.startswith('http'):
+                if not allowed_domain(u):
+                  print(f'::error file={p}::Disallowed action URL domain {u}'); errs += 1
+                try:
+                  r=sess.head(u, allow_redirects=True, timeout=15)
+                  if r.status_code>=400: print(f'::error file={p}::Broken action link {u} -> {r.status_code}'); errs += 1
+                except Exception as e:
+                  print(f'::error file={p}::Action link check failed {u}: {e}'); errs += 1
+            for im in data.get('images') or []:
+              u=im.get('src',''); alt=im.get('alt','')
+              if not alt:
+                print(f'::error file={p}::Image missing alt text'); errs += 1
+              if u and u.startswith('http'):
+                if not allowed_domain(u):
+                    print(f'::error file={p}::Disallowed image URL domain {u}'); errs += 1
+                try:
+                  r=sess.head(u, allow_redirects=True, timeout=15)
+                  if r.status_code>=400: print(f'::error file={p}::Broken image link {u} -> {r.status_code}'); errs += 1
+                  size = int(r.headers.get('content-length') or 0)
+                  if size and size > max_kb*1024:
+                    print(f'::warning file={p}::Large image ({size/1024:.0f}KB) {u} — consider WebP < {max_kb}KB')
+                except Exception as e:
+                  print(f'::error file={p}::Image link check failed {u}: {e}'); errs += 1
             files.append(name)
           if errs:
             print(f'::error ::Validation failed with {errs} error(s).'); sys.exit(1)
-          # index.json
+
           out = {'schema':1, 'version': os.environ.get('GITHUB_SHA','unknown')[:7], 'files': files}
           with open('glossary/index.json','w',encoding='utf-8') as fh: json.dump(out, fh, ensure_ascii=False, indent=2)
           print('index.json written with', len(files), 'files')

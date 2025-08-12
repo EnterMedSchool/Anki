@@ -1,0 +1,5 @@
+{
+  "endocrine": { "accent": "#8b5cf6", "icon": "🧠" },
+  "pharm":     { "accent": "#1fa2ff", "icon": "💊" },
+  "micro":     { "accent": "#ff6b6b", "icon": "🦠" }
+}

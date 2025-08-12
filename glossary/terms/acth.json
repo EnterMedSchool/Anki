@@ -1,27 +1,38 @@
 {
   "id": "acth",
-  "names": [
-    "ACTH",
-    "Adrenocorticotropic hormone"
+  "names": ["ACTH", "Adrenocorticotropic hormone"],
+  "aliases": ["Adrenocorticotrophic hormone"],
+  "abbr": ["ACTH"],
+  "patterns": ["ACTH hormone"],
+  "definition": "Pituitary peptide hormone that stimulates adrenal cortisol.",
+  "mnemonics": ["ACTH → think 'Adrenal Cortisol Trigger Hormone'"],
+  "pitfalls": ["Don't confuse Cushing disease (pituitary ACTH) with exogenous steroids."],
+  "see_also": ["cortisol", "crh", "hpa-axis"],
+  "prerequisites": ["pituitary", "adrenal-cortex"],
+  "sources": [
+    {"title": "Endocrine overview", "url": "https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone"}
   ],
-  "aliases": [
-    "Corticotropin"
-  ],
-  "definition": "teeeeeeest Pituitary peptide hormone that stimulates adrenal cortisol.",
+  "reviewed_by": ["Dr. Example (2025-08-10)"],
   "images": [
     {
       "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Adrenocorticotropic_hormone.svg/512px-Adrenocorticotropic_hormone.svg.png",
-      "alt": "ACTH diagram"
+      "alt": "ACTH diagram",
+      "caption": "Peptide structure"
     }
   ],
   "actions": [
-    {
-      "label": "Watch Lecture",
-      "href": "https://entermedschool.com/acth",
-      "variant": "primary"
-    }
+    {"label": "Watch Lecture", "href": "https://entermedschool.com/acth", "variant": "primary"},
+    {"label": "Read Notes",   "href": "https://entermedschool.com/acth-notes", "variant": "secondary"}
   ],
-  "tags": [
-    "endocrine"
-  ]
+  "qa": [
+    {"q": "Which pituitary hormone stimulates adrenal cortisol?", "a": "ACTH"}
+  ],
+  "tags": ["endocrine"],
+  "difficulty": 2,
+  "deck_overrides": {
+    ".*Step.*|.*USMLE.*": {
+      "definition": "High-yield: ACTH stimulates adrenal cortex (zona fasciculata) → cortisol; part of HPA axis.",
+      "actions": [{"label": "Step‑1 Endocrine Playlist", "href": "https://entermedschool.com/playlists/endocrine"}]
+    }
+  }
 }
