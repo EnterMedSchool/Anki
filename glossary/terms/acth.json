@@ -1,0 +1,27 @@
+{
+  "id": "acth",
+  "names": [
+    "ACTH",
+    "Adrenocorticotropic hormone"
+  ],
+  "aliases": [
+    "Corticotropin"
+  ],
+  "definition": "teeeeeeest Pituitary peptide hormone that stimulates adrenal cortisol.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Adrenocorticotropic_hormone.svg/512px-Adrenocorticotropic_hormone.svg.png",
+      "alt": "ACTH diagram"
+    }
+  ],
+  "actions": [
+    {
+      "label": "Watch Lecture",
+      "href": "https://entermedschool.com/acth",
+      "variant": "primary"
+    }
+  ],
+  "tags": [
+    "endocrine"
+  ]
+}
