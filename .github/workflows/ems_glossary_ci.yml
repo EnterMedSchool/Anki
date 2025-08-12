@@ -1,0 +1,65 @@
+name: Validate & Index EMS Glossary
+
+on:
+  push:
+    paths:
+      - 'glossary/**'
+  pull_request:
+    paths:
+      - 'glossary/**'
+
+jobs:
+  validate-and-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema requests
+
+      - name: Validate terms and build index.json
+        run: |
+          python - << 'PY'
+          import os, json, hashlib, sys, re
+          from jsonschema import validate, Draft7Validator
+          SCHEMA = json.loads(open('glossary/schema.json','r').read()) if os.path.exists('glossary/schema.json') else None
+
+          terms_dir = 'glossary/terms'
+          files = []
+          errs = 0
+          if not os.path.isdir(terms_dir):
+            print('::error ::glossary/terms missing'); sys.exit(1)
+          for name in sorted(os.listdir(terms_dir)):
+            if not name.endswith('.json'): continue
+            p = os.path.join(terms_dir, name)
+            try:
+              data = json.load(open(p,'r',encoding='utf-8'))
+            except Exception as e:
+              print(f'::error file={p}::Invalid JSON: {e}'); errs += 1; continue
+            if SCHEMA:
+              v = Draft7Validator(SCHEMA)
+              for error in sorted(v.iter_errors(data), key=str):
+                print(f'::error file={p}::{error.message}')
+                errs += 1
+            files.append(name)
+          if errs:
+            print(f'::error ::Validation failed with {errs} error(s).'); sys.exit(1)
+          # index.json
+          out = {'schema':1, 'version': os.environ.get('GITHUB_SHA','unknown')[:7], 'files': files}
+          with open('glossary/index.json','w',encoding='utf-8') as fh: json.dump(out, fh, ensure_ascii=False, indent=2)
+          print('index.json written with', len(files), 'files')
+          PY
+
+      - name: Upload index.json artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: glossary-index
+          path: glossary/index.json
