@@ -1,0 +1,99 @@
+{
+  "schema_version": "ugcs-plus-2025-08",
+  "id": "burkitt",
+  "names": ["Burkitt lymphoma"],
+  "aliases": ["Burkitt's lymphoma", "Endemic Burkitt lymphoma", "Sporadic Burkitt lymphoma", "Immunodeficiency-associated Burkitt lymphoma"],
+  "patterns": ["Burkitt lymphoma", "Burkitt's lymphoma", "Burkitt"],
+  "tags": ["hemeonc", "lymphoma", "pediatrics", "virology", "genetics", "boards-high-yield"],
+  "definition": "Aggressive mature B‑cell NHL with MYC translocation (classically t(8;14)), near‑100% Ki‑67, starry‑sky; endemic (EBV, jaw) vs sporadic (abdomen).",
+
+  "hy": {
+    "one_liner": "MYC‑driven mature B‑cell NHL; t(8;14); Ki‑67 ~100%; starry‑sky.",
+    "distinguishers": [
+      "vs DLBCL → monomorphic medium cells, Ki‑67 ≈100%, BCL2 often −, MYC rearranged",
+      "vs reactive nodes → genetics (MYC), uniform cytology, explosive growth",
+      "vs lymphoblastic lymphoma → mature B‑cell phenotype with strong surface Ig, CD10+"
+    ],
+    "numbers": [
+      "t(8;14) (IgH–MYC) ± t(2;8), t(8;22)",
+      "Ki‑67 ≈ 100%",
+      "Endemic often EBV+"
+    ],
+    "actions_or_core": [
+      "Start TLS prophylaxis before chemo (IV fluids ± allopurinol/rasburicase)",
+      "Flow: CD19/20+, CD10+, BCL6+, often BCL2−; strong surface Ig",
+      "Confirm MYC rearrangement by FISH; stage marrow/CSF as indicated"
+    ],
+    "qa3": [
+      {"q": "Signature translocation?", "a": "t(8;14) (IgH–MYC)"},
+      {"q": "Typical proliferation index?", "a": "≈100% (Ki‑67)"},
+      {"q": "First step to prevent lethal complication pre‑chemo?", "a": "Tumor lysis prophylaxis"}
+    ]
+  },
+
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Large_facial_Burkitt%27s_Lymphoma.JPG/250px-Large_facial_Burkitt%27s_Lymphoma.JPG",
+      "alt": "Large facial mass typical of endemic Burkitt lymphoma"
+    }
+  ],
+
+  "mnemonics": [
+    "8;14 → ate (8) with Ig heavy (14).",
+    "MYC makes cells cycle."
+  ],
+  "pitfalls": [
+    "Starry‑sky is not specific; confirm MYC rearrangement.",
+    "Don’t delay TLS prophylaxis."
+  ],
+  "see_also": ["starry-sky", "myc", "t(8;14)", "ebv", "diffuse-large-b-cell-lymphoma", "tumor-lysis-syndrome"],
+  "sources": [
+    { "title": "Pathology Outlines — Burkitt lymphoma", "url": "https://www.pathologyoutlines.com/topic/lymphomaburkitt.html" },
+    { "title": "Wikipedia — Burkitt lymphoma", "url": "https://en.wikipedia.org/wiki/Burkitt_lymphoma" }
+  ],
+  "actions": [
+    { "label": "Pathology Outlines", "href": "https://www.pathologyoutlines.com/topic/lymphomaburkitt.html", "variant": "primary" }
+  ],
+
+  "display": { "mode": "HY", "show_image_in_hy": false },
+
+  "html": "<div class='ems-body'>\
+    <div class='ems-content'>\
+      <h3>Burkitt lymphoma — High‑Yield</h3>\
+      <p><strong>One‑liner:</strong> MYC‑driven mature B‑cell NHL; t(8;14); Ki‑67 ~100%; starry‑sky.</p>\
+    </div>\
+    <details open><summary>🆚 Distinguishers</summary>\
+      <ul>\
+        <li>vs <a href='#' data-ems-link='diffuse-large-b-cell-lymphoma'>DLBCL</a> → monomorphic medium cells, Ki‑67 ≈100%, BCL2 often −, MYC rearranged</li>\
+        <li>vs reactive nodes → MYC genetics, uniform cytology, explosive growth</li>\
+        <li>vs lymphoblastic lymphoma → mature B‑cell phenotype, strong surface Ig, CD10+</li>\
+      </ul>\
+    </details>\
+    <details open><summary>🔢 Numbers</summary>\
+      <ul>\
+        <li>t(8;14) (IgH–MYC); ± t(2;8), t(8;22)</li>\
+        <li>Ki‑67 ≈ 100%</li>\
+        <li>Endemic often EBV+</li>\
+      </ul>\
+    </details>\
+    <details open><summary>✅ Do first / Core</summary>\
+      <ul>\
+        <li>TLS prophylaxis before chemo (IV fluids ± allopurinol/rasburicase)</li>\
+        <li>Flow: CD19/20+, CD10+, BCL6+, often BCL2−; strong surface Ig</li>\
+        <li>Confirm MYC by FISH; stage marrow/CSF as indicated</li>\
+      </ul>\
+    </details>\
+    <details open><summary>🧪 Quick self‑check</summary>\
+      <ul>\
+        <li><strong>Signature translocation?</strong> t(8;14) (IgH–MYC)</li>\
+        <li><strong>Proliferation index?</strong> ≈100% (Ki‑67)</li>\
+        <li><strong>Key pre‑chemo step?</strong> Tumor lysis prophylaxis</li>\
+      </ul>\
+    </details>\
+    <div style='margin-top:6px'>🔗 Related: <a href='#' data-ems-link='myc'>[myc]</a> · <a href='#' data-ems-link='t(8;14)'>[t(8;14)]</a> · <a href='#' data-ems-link='ebv'>[ebv]</a> · <a href='#' data-ems-link='tumor-lysis-syndrome'>[tumor‑lysis‑syndrome]</a></div>\
+  </div>",
+
+  "version": "1.0",
+  "last_updated": "2025-08-13",
+  "author": "EnterMedSchool Glossary"
+}
