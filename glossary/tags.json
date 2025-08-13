@@ -1,5 +1,6 @@
 {
-  "endocrine": { "accent": "#8b5cf6", "bg": "rgba(139,92,246,0.18)", "icon": "🩺" },
-  "cardio":    { "accent": "#22c55e", "bg": "rgba(34,197,94,0.18)",  "icon": "❤️" },
-  "neuro":     { "accent": "#f59e0b", "bg": "rgba(245,158,11,0.18)","icon": "🧠" }
+  "endocrine": { "accent": "#8b5cf6", "icon": "🧬" },
+  "hormone":   { "accent": "#f59e0b", "icon": "🧪" },
+  "physiology":{ "accent": "#22d3ee", "icon": "📈" },
+  "stress_response": { "accent": "#ef4444", "icon": "🚨" }
 }

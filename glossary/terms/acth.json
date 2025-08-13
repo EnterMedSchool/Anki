@@ -1,72 +1,91 @@
 {
-  "id": "pulmonary-embolism",
-  "names": ["Pulmonary embolism", "PE"],
-  "abbr": ["PE"],
-  "primary_tag": "pulmonology",
-  "tags": ["emergency", "cardiorespiratory"],
+  "id": "acth",
+  "names": ["ACTH", "Adrenocorticotropic hormone"],
+  "aliases": ["Corticotropin"],
+  "abbr": ["ACTH"],
+  "primary_tag": "endocrine",
+  "tags": ["hormone", "physiology"],
 
-  "definition": "Clot blocks pulmonary arterial flow → acute dyspnea, pleuritic chest pain, tachycardia.",
-  "why_it_matters": "Common, lethal if missed, and shows up everywhere—from wards to exams.",
+  "definition": "Anterior pituitary peptide from POMC that stimulates the adrenal cortex (zona fasciculata/reticularis) to make cortisol (and adrenal androgens).",
+  "why_it_matters": "It’s the switch that separates adrenal from pituitary/ectopic causes of hypercortisolism and explains steroid‑induced adrenal suppression.",
+
   "how_youll_see_it": [
-    "Sudden pleuritic chest pain + dyspnea after long flight or surgery",
-    "Tachycardia, mild fever; clear lungs on exam; O2 sat dropped",
-    "Risk: immobility, OCPs, cancer, postpartum"
+    "Diurnal: high in early morning, low at night",
+    "↑ACTH + ↑cortisol → Cushing **disease** (pituitary) or ectopic ACTH",
+    "↓ACTH + ↓cortisol → secondary (pituitary) adrenal insufficiency",
+    "↓ACTH + ↑cortisol → adrenal tumor or exogenous steroids"
   ],
+
   "problem_solving": [
-    "Unstable? —> **Resuscitate** + **thrombolyse** if high suspicion and no contraindications",
-    "Stable? —> **Wells score** → D‑dimer if low; **CTPA** if moderate/high",
-    "Pregnant or contrast allergy? —> V/Q scan"
+    "Suspected hypercortisolism: 1) low‑dose dex suppression OR late‑night salivary cortisol OR 24‑hr urinary free cortisol",
+    "If confirmed ↑cortisol → measure **ACTH**",
+    "↑ACTH? → High‑dose dex suppression: pituitary disease tends to suppress; ectopic does not",
+    "Low/undetectable ACTH? → adrenal source or exogenous steroid use"
   ],
+
   "differentials": [
-    {"id": "pneumothorax", "name": "Pneumothorax", "hint": "Unilateral ↓ breath sounds; hyperresonant; pleuritic pain"},
-    {"id": "mi", "name": "MI", "hint": "Crushing chest pain, not pleuritic; ECG changes, ↑troponin"},
-    "Pneumonia — fever + productive cough, focal crackles"
+    {"id": "cushing-disease", "name": "Cushing disease", "hint": "Pituitary ACTH; often suppresses with high‑dose dex"},
+    {"id": "ectopic-acth", "name": "Ectopic ACTH", "hint": "SCLC/carcinoid; severe hypokalemia, no suppression"},
+    {"id": "adrenal-adenoma", "name": "Adrenal adenoma", "hint": "Low ACTH; unilateral adrenal mass"},
+    "Primary adrenal insufficiency — low cortisol **with** high ACTH + hyperpigmentation",
+    "Secondary adrenal insufficiency — low cortisol **and** low ACTH; normal potassium"
   ],
+
   "tricks": [
-    "PE pain is pleuritic and sharp; MI pain is pressure‑like",
-    "Clear CXR + hypoxia = think PE",
-    "Tachycardia almost always there; don’t ignore"
+    "Exogenous steroids → **low ACTH** and adrenal atrophy; taper slowly to avoid crisis",
+    "Hyperpigmentation happens only when **ACTH is high** (POMC → MSH peptides)",
+    "ACTH has a short half‑life; draw with cortisol in the morning when possible"
   ],
+
   "exam_appearance": [
-    "Post‑op day 3 with sudden dyspnea; clear lungs; ABG: **resp alkalosis**",
-    "Long‑haul flight + chest pain, **tachycardia**, normal CXR",
-    "‘S1Q3T3’ is rare; don’t overvalue it"
+    "Pituitary macroadenoma + Cushingoid features; high‑dose dex **suppresses** cortisol",
+    "Smoker with weight loss + severe hypokalemia; **no suppression** with high‑dose dex → ectopic ACTH",
+    "Long‑term prednisone stopped abruptly → hypotension, nausea, **low ACTH & cortisol**"
   ],
+
   "treatment": [
-    "Immediate **anticoagulation** (LMWH/DOAC) if no contraindication",
-    "Massive PE with shock — **tPA**",
-    "Submassive + RV strain — consider thrombolysis case‑by‑case",
-    "Cancer‑associated — LMWH preferred"
+    "Cushing disease — transsphenoidal resection; medical therapy if not surgical candidate (ketoconazole, metyrapone)",
+    "Ectopic ACTH — treat the tumor; temporary cortisol blockade if needed",
+    "Secondary adrenal insufficiency — physiologic glucocorticoid replacement; stress‑dose steroids when ill",
+    "Never stop chronic steroids abruptly; taper"
   ],
+
   "red_flags": [
-    "Hypotension/syncope — **massive PE** until proven otherwise",
-    "Contraindications to anticoagulation — call for filter/IR consult",
-    "Pregnancy — imaging & drugs change"
+    "Adrenal crisis: hypotension, vomiting, abdominal pain—**give IV hydrocortisone first, ask questions later**",
+    "Severe hypokalemia + metabolic alkalosis in ectopic ACTH"
   ],
+
   "algorithm": [
-    "Assess stability (BP, mentation, O2).",
-    "If unstable + high suspicion → thrombolysis.",
-    "If stable → Wells → D‑dimer or CTPA.",
-    "Start anticoagulation when not contraindicated."
+    "Confirm hypercortisolism with one reliable test.",
+    "Measure ACTH → high vs low.",
+    "High ACTH → high‑dose dex suppression ± CRH test → pituitary vs ectopic.",
+    "Low ACTH → adrenal imaging or steroid history.",
+    "Address cause; manage comorbidities and bone protection."
   ],
+
   "cases": [
     {
-      "stem": "24‑year‑old on OCP, sudden pleuritic pain after a 9‑hour flight.",
-      "clues": ["Tachycardia 120", "O2 90% on room air", "Clear lungs; normal CXR"],
-      "answer": "Pulmonary embolism",
-      "teaching": "Clear CXR + tachy + pleuritic pain after immobilization — classic."
+      "stem": "52‑year‑old with facial rounding, purple striae, new hypertension.",
+      "clues": ["Late‑night salivary cortisol elevated", "ACTH high", "High‑dose dex lowers cortisol 60%"],
+      "answer": "Cushing disease (pituitary ACTH)",
+      "teaching": "High ACTH + suppression with high‑dose dex → pituitary source."
+    },
+    {
+      "stem": "65‑year‑old smoker with rapid‑onset weakness and weight loss.",
+      "clues": ["K+ 2.6", "Metabolic alkalosis", "ACTH very high", "No suppression with dex"],
+      "answer": "Ectopic ACTH",
+      "teaching": "Hypokalemia is a clue to ectopic ACTH (mineralocorticoid effect of very high cortisol)."
     }
   ],
-  "images": [
-    {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/CTPA_PE_example.jpg", "alt": "CTPA saddle embolus"},
-    {"src": "https://media.giphy.com/media/3o7aD4UpkF8sUTW5qU/giphy.gif", "alt": "Clot animation"}
-  ],
+
+  "images": [],
   "actions": [
-    {"label": "Watch Lecture", "href": "https://entermedschool.com/…/pe", "variant": "primary"},
-    {"label": "Read Notes", "href": "https://entermedschool.com/…/pe-notes", "variant": "secondary"}
+    {"label": "Watch Lecture", "href": "https://entermedschool.com", "variant": "primary"},
+    {"label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary"}
   ],
-  "see_also": ["dvt", "pneumothorax"],
+  "see_also": ["hpa-axis", "cushing-disease", "adrenal-adenoma"],
   "sources": [
-    {"title": "ACCP guideline (summary)", "url": "https://example.org/accp-pe"}
+    {"title": "Endocrine Society guideline (overview)", "url": "https://example.org/endo-cushing"},
+    {"title": "Review: ACTH physiology", "url": "https://example.org/acth-phys"}
   ]
 }

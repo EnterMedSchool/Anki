@@ -1,10 +1,7 @@
 {
-  "schema": 1,
-  "version": "2025-08-13",
+  "version": "2025-08-15",
   "files": [
     "acth.json",
-    "cushing-syndrome.json",
-    "hpa-axis.json",
-    "pulmonary-embolism.json"
+    "hpa-axis.json"
   ]
 }
