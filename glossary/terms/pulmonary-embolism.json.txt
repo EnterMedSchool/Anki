@@ -1,0 +1,72 @@
+{
+  "id": "pulmonary-embolism",
+  "names": ["Pulmonary embolism", "PE"],
+  "abbr": ["PE"],
+  "primary_tag": "pulmonology",
+  "tags": ["emergency", "cardiorespiratory"],
+
+  "definition": "Clot blocks pulmonary arterial flow → acute dyspnea, pleuritic chest pain, tachycardia.",
+  "why_it_matters": "Common, lethal if missed, and shows up everywhere—from wards to exams.",
+  "how_youll_see_it": [
+    "Sudden pleuritic chest pain + dyspnea after long flight or surgery",
+    "Tachycardia, mild fever; clear lungs on exam; O2 sat dropped",
+    "Risk: immobility, OCPs, cancer, postpartum"
+  ],
+  "problem_solving": [
+    "Unstable? —> **Resuscitate** + **thrombolyse** if high suspicion and no contraindications",
+    "Stable? —> **Wells score** → D‑dimer if low; **CTPA** if moderate/high",
+    "Pregnant or contrast allergy? —> V/Q scan"
+  ],
+  "differentials": [
+    {"id": "pneumothorax", "name": "Pneumothorax", "hint": "Unilateral ↓ breath sounds; hyperresonant; pleuritic pain"},
+    {"id": "mi", "name": "MI", "hint": "Crushing chest pain, not pleuritic; ECG changes, ↑troponin"},
+    "Pneumonia — fever + productive cough, focal crackles"
+  ],
+  "tricks": [
+    "PE pain is pleuritic and sharp; MI pain is pressure‑like",
+    "Clear CXR + hypoxia = think PE",
+    "Tachycardia almost always there; don’t ignore"
+  ],
+  "exam_appearance": [
+    "Post‑op day 3 with sudden dyspnea; clear lungs; ABG: **resp alkalosis**",
+    "Long‑haul flight + chest pain, **tachycardia**, normal CXR",
+    "‘S1Q3T3’ is rare; don’t overvalue it"
+  ],
+  "treatment": [
+    "Immediate **anticoagulation** (LMWH/DOAC) if no contraindication",
+    "Massive PE with shock — **tPA**",
+    "Submassive + RV strain — consider thrombolysis case‑by‑case",
+    "Cancer‑associated — LMWH preferred"
+  ],
+  "red_flags": [
+    "Hypotension/syncope — **massive PE** until proven otherwise",
+    "Contraindications to anticoagulation — call for filter/IR consult",
+    "Pregnancy — imaging & drugs change"
+  ],
+  "algorithm": [
+    "Assess stability (BP, mentation, O2).",
+    "If unstable + high suspicion → thrombolysis.",
+    "If stable → Wells → D‑dimer or CTPA.",
+    "Start anticoagulation when not contraindicated."
+  ],
+  "cases": [
+    {
+      "stem": "24‑year‑old on OCP, sudden pleuritic pain after a 9‑hour flight.",
+      "clues": ["Tachycardia 120", "O2 90% on room air", "Clear lungs; normal CXR"],
+      "answer": "Pulmonary embolism",
+      "teaching": "Clear CXR + tachy + pleuritic pain after immobilization — classic."
+    }
+  ],
+  "images": [
+    {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/CTPA_PE_example.jpg", "alt": "CTPA saddle embolus"},
+    {"src": "https://media.giphy.com/media/3o7aD4UpkF8sUTW5qU/giphy.gif", "alt": "Clot animation"}
+  ],
+  "actions": [
+    {"label": "Watch Lecture", "href": "https://entermedschool.com/…/pe", "variant": "primary"},
+    {"label": "Read Notes", "href": "https://entermedschool.com/…/pe-notes", "variant": "secondary"}
+  ],
+  "see_also": ["dvt", "pneumothorax"],
+  "sources": [
+    {"title": "ACCP guideline (summary)", "url": "https://example.org/accp-pe"}
+  ]
+}
