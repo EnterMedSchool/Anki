@@ -1,21 +1,73 @@
 {
   "id": "acth",
-  "names": ["Adrenocorticotropic hormone", "Corticotropin"],
-  "abbr": ["ACTH"],
-  "definition_html": "<p>ACTH is released from the <b>anterior pituitary</b> and drives cortisol synthesis in the zona fasciculata.</p><table><tr><th>Stimulus</th><th>Effect</th></tr><tr><td>CRH</td><td>↑ ACTH</td></tr></table>",
-  "sections": [
-    {"title": "Clinical Clues", "icon": "🩺", "html": "<ul><li>Hyperpigmentation in Addison disease</li><li>Elevated in Cushing disease</li></ul>"}
+
+  "names": [
+    "Adrenocorticotropic hormone",
+    "Corticotropin"
   ],
-  "mnemonics": ["<i>ACTH = Adrenal Cortex To Hormone</i>"],
-  "pitfalls": ["Confuse <b>Cushing disease</b> (pituitary) with <b>Cushing syndrome</b> (any cause)."],
-  "qa": [{"q": "Main target of ACTH?", "a": "Adrenal cortex (zona fasciculata) → cortisol."}],
-  "see_also": ["crh"],
-  "sources": [{"title": "UpToDate: ACTH physiology", "url": "https://..."}],
+
+  "aliases": [
+    "Adrenocorticotrophin", 
+    "Corticotropic hormone"
+  ],
+
+  "abbr": [
+    "ACTH"
+  ],
+
+  "patterns": [
+    "ACTH hormone", 
+    "pituitary ACTH"
+  ],
+
+  "tags": ["endocrine", "hormone", "high_yield"],
+
+  "definition": "Peptide from the anterior pituitary that stimulates the adrenal cortex (zona fasciculata) → cortisol. [[crh]] ↑ ACTH; chronic ↑ causes adrenal hyperplasia.",
+
+  "mnemonics": [
+    "A C T H → Adrenal Cortex To Hormone (cortisol)",
+    "CRH → ACTH → Cortisol"
+  ],
+
+  "pitfalls": [
+    "Don’t confuse Cushing *disease* (pituitary ACTH excess) with Cushing *syndrome* (any cause of cortisol excess).",
+    "Hyperpigmentation in primary adrenal failure is ACTH‑driven (↑MSH)."
+  ],
+
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Endocrine_axis_ACTH.png",
+      "alt": "Hypothalamic–pituitary–adrenal axis"
+    }
+  ],
+
   "actions": [
-    {"label": "Watch lecture", "href": "https://entermedschool.com/...", "variant": "primary"},
-    {"label": "Read article", "href": "https://entermedschool.com/...", "variant": "secondary"}
+    {
+      "label": "Watch lecture",
+      "href": "https://entermedschool.com/some/path/acth",
+      "variant": "primary"
+    },
+    {
+      "label": "Read article",
+      "href": "https://entermedschool.com/blog/acth-overview",
+      "variant": "secondary"
+    }
   ],
-  "images": [{"src": "https://upload.wikimedia.org/.../ACTH.png", "alt": "ACTH pathway"}],
-  "tags": ["endocrine", "hormone"],
-  "reviewed_by": ["Dr. X, MD"]
+
+  "sources": [
+    { "title": "Wikipedia: Adrenocorticotropic hormone", "url": "https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone" },
+    { "title": "EnterMedSchool: ACTH", "url": "https://entermedschool.com/some/path/acth" }
+  ],
+
+  "see_also": ["crh", "cortisol"],
+  "prerequisites": ["pituitary-gland", "adrenal-cortex"],
+
+  "deck_overrides": {
+    ".*UWorld.*|.*STEP.*": {
+      "definition": "High‑yield: ACTH from **anterior pituitary** → cortisol. ↑ in Cushing *disease*; ↓ in exogenous steroid use.",
+      "actions": [
+        { "label": "Targeted practice", "href": "https://entermedschool.com/practice/acth", "variant": "primary" }
+      ]
+    }
+  }
 }
