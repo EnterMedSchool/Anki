@@ -1,5 +1,6 @@
 {
-  "endocrine": { "accent": "#8b5cf6", "icon": "🧠" },
-  "pharm":     { "accent": "#1fa2ff", "icon": "💊" },
-  "micro":     { "accent": "#ff6b6b", "icon": "🦠" }
+  "endocrine":  { "accent": "#8b5cf6", "icon": "🧬" },
+  "hormone":    { "accent": "#34d399", "icon": "🧪" },
+  "high_yield": { "accent": "#f59e0b", "icon": "⚡" },
+  "custom":     { "accent": "#60a5fa", "icon": "🎛️" }
 }

@@ -1,38 +1,21 @@
 {
   "id": "acth",
-  "names": ["ACTH", "Adrenocorticotropic hormone"],
-  "aliases": ["Adrenocorticotrophic hormone"],
+  "names": ["Adrenocorticotropic hormone", "Corticotropin"],
   "abbr": ["ACTH"],
-  "patterns": ["ACTH hormone"],
-  "definition": "Pituitary peptide hormone that stimulates adrenal cortisol.",
-  "mnemonics": ["ACTH → think 'Adrenal Cortisol Trigger Hormone'"],
-  "pitfalls": ["Don't confuse Cushing disease (pituitary ACTH) with exogenous steroids."],
-  "see_also": ["cortisol", "crh", "hpa-axis"],
-  "prerequisites": ["pituitary", "adrenal-cortex"],
-  "sources": [
-    {"title": "Endocrine overview", "url": "https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone"}
+  "definition_html": "<p>ACTH is released from the <b>anterior pituitary</b> and drives cortisol synthesis in the zona fasciculata.</p><table><tr><th>Stimulus</th><th>Effect</th></tr><tr><td>CRH</td><td>↑ ACTH</td></tr></table>",
+  "sections": [
+    {"title": "Clinical Clues", "icon": "🩺", "html": "<ul><li>Hyperpigmentation in Addison disease</li><li>Elevated in Cushing disease</li></ul>"}
   ],
-  "reviewed_by": ["Dr. Example (2025-08-10)"],
-  "images": [
-    {
-      "src": "https://cdn.entermedschool.com/wp-content/uploads/2024/12/study_stages1.png",
-      "alt": "ACTH diagram",
-      "caption": "Peptide structure"
-    }
-  ],
+  "mnemonics": ["<i>ACTH = Adrenal Cortex To Hormone</i>"],
+  "pitfalls": ["Confuse <b>Cushing disease</b> (pituitary) with <b>Cushing syndrome</b> (any cause)."],
+  "qa": [{"q": "Main target of ACTH?", "a": "Adrenal cortex (zona fasciculata) → cortisol."}],
+  "see_also": ["crh"],
+  "sources": [{"title": "UpToDate: ACTH physiology", "url": "https://..."}],
   "actions": [
-    {"label": "Watch Lecture", "href": "https://entermedschool.com/acth", "variant": "primary"},
-    {"label": "Read Notes",   "href": "https://entermedschool.com/acth-notes", "variant": "secondary"}
+    {"label": "Watch lecture", "href": "https://entermedschool.com/...", "variant": "primary"},
+    {"label": "Read article", "href": "https://entermedschool.com/...", "variant": "secondary"}
   ],
-  "qa": [
-    {"q": "Which pituitary hormone stimulates adrenal cortisol?", "a": "ACTH"}
-  ],
-  "tags": ["endocrine"],
-  "difficulty": 2,
-  "deck_overrides": {
-    ".*Step.*|.*USMLE.*": {
-      "definition": "High-yield: ACTH stimulates adrenal cortex (zona fasciculata) → cortisol; part of HPA axis.",
-      "actions": [{"label": "Step‑1 Endocrine Playlist", "href": "https://entermedschool.com/playlists/endocrine"}]
-    }
-  }
+  "images": [{"src": "https://upload.wikimedia.org/.../ACTH.png", "alt": "ACTH pathway"}],
+  "tags": ["endocrine", "hormone"],
+  "reviewed_by": ["Dr. X, MD"]
 }
