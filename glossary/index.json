@@ -4,7 +4,7 @@
   "files": [
     "acth.json",
     "cushing-syndrome.json",
-    "hpa-axis.json"
+    "hpa-axis.json",
     "acth_custom.json"
   ]
 }
