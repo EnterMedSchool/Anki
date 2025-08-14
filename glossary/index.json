@@ -3,5 +3,12 @@
   "files": [
     "acth.json",
     "hpa-axis.json"
+    "burkitt.json",
+    "follicular-lymphoma.json",
+    "mantle-cell-lymphoma.json",
+    "hodgkin-lymphoma.json",
+    "non-hodgkin-lymphoma.json",
+    "lymphoma.json",
+    "leukemia.json"
   ]
 }

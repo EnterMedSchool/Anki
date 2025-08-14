@@ -1,0 +1,40 @@
+{
+  "id": "mantle-cell-lymphoma",
+  "names": ["Mantle cell lymphoma"],
+  "aliases": ["MCL"],
+  "abbr": ["MCL"],
+  "patterns": ["mantle cell lymphoma", "mantle-cell lymphoma", "mantle lymphoma", "mantle"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics"],
+  "definition": "B‑cell NHL with t(11;14) → cyclin D1 (CCND1) overexpression; typically older men; often disseminated at dx.",
+  "why_it_matters": "More aggressive than other indolent B‑cell NHLs and frequently involves GI (lymphomatous polyposis).",
+  "how_youll_see_it": [
+    "Older male with generalized lymphadenopathy + splenomegaly",
+    "May have multiple GI polyps due to mucosal involvement"
+  ],
+  "problem_solving": [
+    "IHC: cyclin D1+, SOX11+ supports diagnosis",
+    "Distinguish from CLL/SLL (CD23+) and FL (BCL2 in follicles)"
+  ],
+  "differentials": [
+    { "id": "follicular-lymphoma", "hint": "indolent; BCL2+ follicles" },
+    { "id": "non-hodgkin-lymphoma", "hint": "umbrella category" }
+  ],
+  "tricks": [
+    "Mnemonic: **11 to 1** → t(11;14) drives **D1** (cyclin D1)"
+  ],
+  "treatment": [
+    "Rituximab‑based chemoimmunotherapy ± targeted agents (BTK inhibitors) depending on stage/fitness"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mantle_cell_lymphoma_high_mag.jpg",
+      "alt": "Mantle cell lymphoma high magnification",
+      "credit": "https://commons.wikimedia.org/wiki/File:Mantle_cell_lymphoma_high_mag.jpg"
+    }
+  ],
+  "see_also": ["non-hodgkin-lymphoma", "lymphoma"],
+  "sources": [
+    { "title": "Mantle cell lymphoma (overview)", "url": "https://en.wikipedia.org/wiki/Mantle_cell_lymphoma" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "lymphoma",
+  "names": ["Lymphoma"],
+  "aliases": ["lymphoid cancer"],
+  "patterns": ["lymphoma", "lymphomas"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc"],
+  "definition": "Malignant neoplasms of lymphoid tissue (nodes or extranodal) subdivided into Hodgkin and non‑Hodgkin categories.",
+  "why_it_matters": "Common cause of persistent, painless lymphadenopathy with B symptoms; approach differs by subtype.",
+  "how_youll_see_it": [
+    "Rubbery, non‑tender nodes; B symptoms (fever, night sweats, weight loss)",
+    "Mediastinal mass on chest imaging (HL) or extranodal disease (NHL)"
+  ],
+  "problem_solving": [
+    "Localized single region → think HL; widespread/non‑contiguous → think NHL",
+    "Always biopsy an accessible node; avoid empiric steroids before biopsy"
+  ],
+  "differentials": [
+    { "id": "leukemia", "hint": "dominant marrow/blood involvement with blasts" },
+    { "id": "infectious_dz", "hint": "tender nodes, acute infectious symptoms" }
+  ],
+  "exam_appearance": [
+    "Young adult with B symptoms + mediastinal mass (HL)",
+    "Indolent waxing/waning nodes in middle‑aged adult (FL)"
+  ],
+  "see_also": ["hodgkin-lymphoma", "non-hodgkin-lymphoma"],
+  "sources": [
+    { "title": "Lymphoma", "url": "https://en.wikipedia.org/wiki/Lymphoma" }
+  ]
+}
