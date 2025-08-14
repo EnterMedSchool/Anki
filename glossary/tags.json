@@ -38,7 +38,7 @@
   "epi_stats":       { "accent": "#0ea5a0", "icon": "📊" },
   "ethics":          { "accent": "#a3a3a3", "icon": "⚖️" },
 
-  "endocrine":       { "accent": "#a855f7", "icon": "🦋" },   // convenience duplicate of endo
+  "endocrine":       { "accent": "#a855f7", "icon": "🦋" },  
   "infectious_dz":   { "accent": "#22d3ee", "icon": "🧫" },
   "rheum":           { "accent": "#16a34a", "icon": "🦵" }
 }
