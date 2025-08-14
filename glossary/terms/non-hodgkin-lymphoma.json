@@ -1,1 +1,37 @@
-
+{
+  "id": "non-hodgkin-lymphoma",
+  "names": ["Non‑Hodgkin lymphoma"],
+  "aliases": ["Non-Hodgkin's lymphoma", "B/T/NK lymphoma"],
+  "abbr": ["NHL"],
+  "patterns": [
+    "non hodgkin lymphoma",
+    "non-hodgkin lymphoma",
+    "nonhodgkin lymphoma",
+    "nhl"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc"],
+  "definition": "Heterogeneous group of mostly B‑cell lymphomas (also T/NK) with non‑contiguous spread and frequent extranodal disease.",
+  "why_it_matters": "Big umbrella that includes Burkitt, follicular, mantle, DLBCL, marginal zone, etc.",
+  "how_youll_see_it": [
+    "Generalized lymphadenopathy ± extranodal sites (GI, skin, CNS)",
+    "Immunocompromised states (HIV, post‑transplant), autoimmune disease"
+  ],
+  "problem_solving": [
+    "Biopsy and subclassify (IHC/genetics) → therapy depends on specific subtype",
+    "Look for hallmark translocations (MYC, BCL2, CCND1) to narrow dx"
+  ],
+  "differentials": [
+    { "id": "hodgkin-lymphoma", "hint": "RS cells; contiguous spread" },
+    { "id": "leukemia", "hint": "primarily marrow/blood process" }
+  ],
+  "see_also": [
+    "burkitt-lymphoma",
+    "follicular-lymphoma",
+    "mantle-cell-lymphoma",
+    "lymphoma"
+  ],
+  "sources": [
+    { "title": "Non‑Hodgkin lymphoma (overview)", "url": "https://en.wikipedia.org/wiki/Non-Hodgkin_lymphoma" }
+  ]
+}
