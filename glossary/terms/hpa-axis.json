@@ -6,45 +6,45 @@
   "tags": ["endocrine", "stress_response"],
 
   "definition": "CRH (hypothalamus) → ACTH (anterior pituitary) → cortisol (adrenal cortex) with negative feedback on CRH & ACTH.",
-  "why_it_matters": "Explains the physiology behind Cushing’s, adrenal insufficiency, and **steroid tapers**.",
+  "why_it_matters": "Explains the physiology behind Cushing’s, adrenal insufficiency, and steroid tapers.",
 
   "how_youll_see_it": [
     "Acute stress → transient ↑ACTH & ↑cortisol",
     "Chronic exogenous steroids → suppressed ACTH, adrenal atrophy",
-    "Primary adrenal failure → low cortisol, **high ACTH**, hyperpigmentation"
+    "Primary adrenal failure → low cortisol, high ACTH, hyperpigmentation"
   ],
 
   "problem_solving": [
-    "Suspected adrenal insufficiency: morning cortisol ± **cosyntropin** test; ACTH helps localize",
+    "Suspected adrenal insufficiency: morning cortisol ± cosyntropin test; ACTH helps localize",
     "Suspected hypercortisolism: screen (low‑dose dex, late‑night salivary cortisol, or 24‑hr UFC) → then ACTH to localize"
   ],
 
   "differentials": [
     {"id": "primary-adrenal-insufficiency", "name": "Primary adrenal insufficiency", "hint": "Low cortisol, high ACTH, hyperpigmentation, hyperkalemia"},
-    {"id": "secondary-adrenal-insufficiency", "name": "Secondary adrenal insufficiency", "hint": "Low cortisol and **low ACTH**; normal potassium"},
+    {"id": "secondary-adrenal-insufficiency", "name": "Secondary adrenal insufficiency", "hint": "Low cortisol and low ACTH; normal potassium"},
     {"id": "cushing-disease", "name": "Cushing disease", "hint": "Pituitary ACTH; suppresses with high‑dose dex"},
     {"id": "ectopic-acth", "name": "Ectopic ACTH", "hint": "No suppression; severe hypokalemia"}
   ],
 
   "tricks": [
-    "Only **high ACTH** causes hyperpigmentation (POMC → MSH peptide fragments).",
-    "Do **not** abruptly stop long‑term steroids—risk of adrenal crisis.",
+    "Only high ACTH causes hyperpigmentation (POMC → MSH peptide fragments).",
+    "Do not abruptly stop long‑term steroids—risk of adrenal crisis.",
     "Late‑night salivary cortisol is a sensitive screen for hypercortisolism."
   ],
 
   "exam_appearance": [
-    "Post‑op day 3 patient with sudden dyspnea, normal CXR → think PE; stress can raise cortisol but not all dyspnea is endocrine.",
-    "Dexamethasone tests show **lack of suppression** in ectopic ACTH."
+    "Dexamethasone tests show lack of suppression in ectopic ACTH.",
+    "Chronic steroid user who stops suddenly → adrenal crisis picture."
   ],
 
   "treatment": [
     "Adrenal insufficiency — physiologic glucocorticoid ± mineralocorticoid (if primary).",
     "Cushing states — treat the source; medical cortisol blockade if necessary.",
-    "Chronic steroid users — slow **taper**; stress‑dose coverage for illness/surgery."
+    "Chronic steroid users — slow taper; stress‑dose coverage for illness/surgery."
   ],
 
   "red_flags": [
-    "Adrenal crisis: hypotension, vomiting, confusion — **treat immediately with IV hydrocortisone**.",
+    "Adrenal crisis: hypotension, vomiting, confusion — treat immediately with IV hydrocortisone.",
     "Infections and trauma increase steroid requirements in known adrenal insufficiency."
   ],
 
