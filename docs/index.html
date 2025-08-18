@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="dark light">
+  <title>Glossary</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <base href="./">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Glossary</h1>
+      <div class="controls">
+        <label class="search">
+          <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="20" height="20"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 10-.71.71l.27.28v.79L20 21.49 21.49 20 15.5 14zm-6 0A4.5 4.5 0 1114 9.5 4.5 4.5 0 019.5 14z"/></svg>
+          <input id="q" type="search" placeholder="Search definitions, names, tags…" autocomplete="off">
+        </label>
+        <div id="active-filters" class="active-filters" aria-live="polite"></div>
+      </div>
+      <div id="tag-bar" class="tag-bar" aria-label="Filter by tag"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="status" class="status">Loading glossary…</div>
+    <div id="cards" class="cards" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Data auto‑loads from <code>glossary/index.json</code> in this repository. Update JSON → refresh page.</p>
+    </div>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This site requires JavaScript to render your glossary.</p>
+  </noscript>
+
+  <script>window.GLOSSARY_PATH = 'glossary';</script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
