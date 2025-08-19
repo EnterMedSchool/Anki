@@ -9,6 +9,7 @@
     "hodgkin-lymphoma.json",
     "non-hodgkin-lymphoma.json",
     "lymphoma.json",
-    "leukemia.json"
+    "leukemia.json",
+    "abacavir.json"
   ]
 }
