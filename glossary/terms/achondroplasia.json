@@ -1,0 +1,77 @@
+{
+  "id": "achondroplasia",
+  "names": ["Achondroplasia"],
+  "aliases": ["FGFR3 skeletal dysplasia", "short‑limb disproportionate dwarfism"],
+  "abbr": [],
+  "patterns": ["achondroplasia", "fgfr3", "short-limbed dwarfism", "rhizomelic shortening"],
+  "primary_tag": "genetics",
+  "tags": ["genetics", "msk_derm", "peds"],
+  "definition": "Autosomal‑dominant disorder caused by a gain‑of‑function mutation in FGFR3 that overly suppresses chondrocyte proliferation at the growth plate. Endochondral ossification of long bones is impaired, producing disproportionate short limbs with relatively preserved trunk length and a large head.",
+  "images": [
+    {
+      "src": "https://fake.link/achondroplasia.png",
+      "alt": "Achondroplasia with rhizomelic limb shortening and large head"
+    }
+  ],
+  "why_it_matters": "Most common cause of disproportionate short stature. High‑yield genetics (AD with full penetrance, paternal‑age–related de novo mutations) and classic bone‑biology concept: endochondral vs membranous ossification.",
+  "how_youll_see_it": [
+    "Disproportionate short stature: proximal limb (rhizomelic) shortening, normal trunk length.",
+    "Large head with frontal bossing and midface hypoplasia; normal intelligence.",
+    "Lumbar lordosis; trident hand; genu varum.",
+    "Perinatal or early‑childhood recognition; prenatal ultrasound may show shortened long bones and relatively large head.",
+    "Most cases arise sporadically from new mutations; risk increases with advanced paternal age."
+  ],
+  "problem_solving": [
+    "Remember the mechanism: **activating** FGFR3 mutation inhibits cartilage growth (not loss of function).",
+    "Endochondral bone formation is affected (long bones); membranous ossification (calvarium) is spared → large head relative to body.",
+    "Inheritance: autosomal dominant with full penetrance; **homozygous disease is usually perinatal lethal** due to thoracic hypoplasia.",
+    "Complications to monitor: foramen magnum stenosis and cervicomedullary compression (central apnea), spinal stenosis, recurrent otitis media/hearing loss, and obesity."
+  ],
+  "differentials": [
+    { "id": "thanatophoric-dysplasia", "hint": "Severe, usually lethal FGFR3 mutation with very small thorax; perinatal death." },
+    { "id": "hypochondroplasia", "hint": "Milder FGFR3 phenotype; disproportion may be subtle." },
+    { "id": "osteogenesis-imperfecta", "hint": "Multiple fractures, blue sclerae; collagen defect rather than FGFR3." },
+    { "id": "endocrine-short-stature", "hint": "GH deficiency or hypothyroidism cause proportionate, not disproportionate, short stature." },
+    { "id": "rickets", "hint": "Bone pain and deformities with biochemical evidence of defective mineralization." }
+  ],
+  "tricks": [
+    "Mnemonic: **A‑CHON‑droplasia** — FGFR3 **A**ctivation inhibits **CHON**drocytes.",
+    "Disproportion clue: short limbs with a big head and normal trunk = endochondral problem.",
+    "Do not confuse with constitutional growth delay (normal body proportions and delayed bone age)."
+  ],
+  "exam_appearance": [
+    "Newborn with short proximal limbs, frontal bossing, and normal intelligence; father is older → diagnose achondroplasia due to FGFR3 activation.",
+    "Couple with achondroplasia asks about inheritance: cross of two heterozygotes yields 25% average‑stature child, 50% heterozygous achondroplasia, 25% homozygous lethal.",
+    "Question distinguishing bone formation pathways: disorder affecting **endochondral** ossification but sparing **membranous** ossification."
+  ],
+  "treatment": [
+    "Supportive/monitoring: growth and development surveillance, sleep study if apnea symptoms, audiology for recurrent otitis media, and MRI if signs of cervicomedullary compression.",
+    "Surgical: decompression for foramen magnum or spinal stenosis when indicated; guided growth/orthopedic procedures for limb alignment.",
+    "Pharmacologic: in selected children with open growth plates, a C‑type natriuretic peptide analog (e.g., vosoritide) can increase growth velocity; long‑term outcome monitoring required.",
+    "Lifestyle: weight management and physical therapy to reduce lumbar lordosis and joint strain."
+  ],
+  "red_flags": [
+    "Signs of brainstem or cord compression (apnea, hypotonia, hyperreflexia) → urgent neurosurgical evaluation.",
+    "Progressive neurologic deficits, severe spinal stenosis, or hydrocephalus → advanced imaging and specialist referral."
+  ],
+  "algorithm": [
+    "Clinical suspicion (disproportionate short stature) → confirm with radiographs showing characteristic skeletal features; consider targeted FGFR3 testing.",
+    "Baseline assessment for foramen magnum stenosis and sleep‑disordered breathing in infancy.",
+    "Long‑term follow‑up: growth charts specific for achondroplasia, hearing checks, and surveillance for spinal stenosis.",
+    "Discuss genetics: AD inheritance; most cases de novo, paternal‑age effect; offer genetic counseling for family planning."
+  ],
+  "cases": [
+    {
+      "stem": "A term newborn has marked shortening of the upper arms and thighs, frontal bossing, and a normal trunk length. The father is 47 years old.",
+      "clues": ["Rhizomelic shortening", "Large head with frontal bossing", "Advanced paternal age"],
+      "answer": "Achondroplasia due to activating FGFR3 mutation",
+      "teaching": "Impaired endochondral ossification leads to disproportionate short stature; most cases arise de novo, especially with older paternal age."
+    },
+    {
+      "stem": "Two adults with achondroplasia (both heterozygous) ask about recurrence risk in pregnancy.",
+      "clues": ["Autosomal dominant", "Both parents affected"],
+      "answer": "25% average stature, 50% heterozygous achondroplasia, 25% homozygous lethal outcome",
+      "teaching": "Achondroplasia shows full penetrance; homozygosity typically results in perinatal death from thoracic hypoplasia."
+    }
+  ]
+}
