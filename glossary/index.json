@@ -12,6 +12,10 @@
     "leukemia.json",
     "abacavir.json",
     "abaloparatide.json",
-    "achondroplasia.json"
+    "achondroplasia.json",
+    "disseminated-intravascular-coagulation.json",
+    "von-willebrand-disease.json",
+    "hemolytic-uremic-syndrome.json",
+    "thrombotic-thrombocytopenic-purpura.json"
   ]
 }

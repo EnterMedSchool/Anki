@@ -1,0 +1,69 @@
+{
+  "id": "disseminated-intravascular-coagulation",
+  "names": ["Disseminated intravascular coagulation"],
+  "aliases": ["consumptive coagulopathy"],
+  "abbr": ["DIC"],
+  "patterns": ["dic", "disseminated intravascular coagulation", "consumptive coagulopathy"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "infectious_dz", "obgyn", "surgery"],
+  "definition": "Systemic activation of coagulation (often via tissue factor or widespread endothelial injury) produces fibrin‑rich microthrombi with **consumption** of platelets and clotting factors, leading to both thrombosis and diffuse bleeding.",
+  "images": [
+    {
+      "src": "https://fake.link/dic.png",
+      "alt": "DIC—consumptive coagulopathy with bleeding and thrombosis"
+    }
+  ],
+  "why_it_matters": "Rapidly fatal if untreated; hallmark lab pattern and broad differential show up frequently on exams.",
+  "how_youll_see_it": [
+    "Acutely ill patient with bleeding from venipuncture/lines, ecchymoses, or oozing wounds.",
+    "Common precipitants: **sepsis (especially gram‑negative)**, **obstetric emergencies** (placental abruption, amniotic fluid embolism, retained dead fetus), **trauma**, **malignancy** (esp. acute promyelocytic leukemia), **severe pancreatitis**, **snakebite**, **massive transfusion**.",
+    "Labs: **↓ platelets**, **prolonged PT and PTT**, **↓ fibrinogen**, **↑ D‑dimer**, **schistocytes**."
+  ],
+  "problem_solving": [
+    "Treat the **underlying trigger** (e.g., control infection, deliver placenta, start ATRA for APL).",
+    "Supportive products for bleeding: **platelets**, **FFP**, and **cryoprecipitate** (fibrinogen).",
+    "If thrombosis predominates and bleeding is controlled, **heparin** can be considered case‑by‑case.",
+    "Differentiate from liver disease: factor VIII is consumed in DIC (low), whereas it’s normal/high in liver failure."
+  ],
+  "differentials": [
+    { "id": "thrombotic-thrombocytopenic-purpura", "hint": "normal PT/PTT; platelet‑rich microthrombi without factor consumption" },
+    { "id": "hemolytic-uremic-syndrome", "hint": "triad with normal PT/PTT, post‑diarrheal in kids" },
+    { "id": "liver-failure-coagulopathy", "name": "Liver failure–related coagulopathy", "hint": "prolonged PT/PTT but often **normal/high factor VIII**" }
+  ],
+  "tricks": [
+    "Think **D‑dimer** for **D**IC—almost always elevated.",
+    "Oozing from IV sites in a septic or obstetric patient is classic."
+  ],
+  "exam_appearance": [
+    "Postpartum patient with heavy bleeding, hypotension, schistocytes, ↓fibrinogen, ↑D‑dimer → DIC from placental abruption.",
+    "Febrile patient with meningococcemia and diffuse purpura → DIC due to endotoxin‑driven tissue factor release."
+  ],
+  "treatment": [
+    "Manage the cause (antibiotics and source control, obstetric management, treat APL with ATRA).",
+    "Transfuse platelets/FFP/cryoprecipitate for active bleeding or procedures.",
+    "Consider heparin if thrombotic manifestations dominate and bleeding is minimal."
+  ],
+  "red_flags": [
+    "Rapid fall in fibrinogen with bleeding—give **cryoprecipitate** urgently.",
+    "Unrecognized APL can present as fulminant DIC—look for promyelocytes; start **ATRA** promptly."
+  ],
+  "algorithm": [
+    "Suspect DIC → order CBC, PT/PTT, fibrinogen, D‑dimer, smear.",
+    "If ↓platelets + ↑PT/↑PTT + ↓fibrinogen + ↑D‑dimer → DIC likely.",
+    "Treat underlying cause; provide blood products as needed; monitor labs frequently."
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old with abruptio placentae develops oozing from IV sites and postpartum hemorrhage.",
+      "clues": ["↓platelets", "↑PT/↑PTT", "↓fibrinogen", "↑D‑dimer", "schistocytes"],
+      "answer": "Disseminated intravascular coagulation",
+      "teaching": "Consumptive coagulopathy from tissue factor release; treat obstetric cause and replace consumed factors (platelets/FFP/cryoprecipitate)."
+    },
+    {
+      "stem": "A man with gram‑negative sepsis develops widespread purpura and hypotension.",
+      "clues": ["High D‑dimer", "Low fibrinogen", "Prolonged coagulation studies"],
+      "answer": "Sepsis‑induced DIC",
+      "teaching": "Endotoxin triggers tissue‑factor–mediated coagulation; address infection and support coagulation system."
+    }
+  ]
+}
