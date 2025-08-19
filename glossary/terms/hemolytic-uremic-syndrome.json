@@ -1,0 +1,73 @@
+{
+  "id": "hemolytic-uremic-syndrome",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "renal", "peds", "micro_bacteria"],
+  "names": ["Hemolytic uremic syndrome"],
+  "aliases": ["Typical HUS (Shiga toxin–associated)", "Atypical HUS (complement‑mediated)"],
+  "abbr": ["HUS"],
+  "patterns": [
+    "HUS", "hus",
+    "hemolytic uremic syndrome",
+    "hemolytic-uremic syndrome",
+    "shiga toxin", "EHEC O157"
+  ],
+  "definition": "Thrombotic microangiopathy with the triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. Classically follows Shiga toxin–producing E. coli diarrhea; atypical forms arise from complement dysregulation.",
+  "images": [
+    {
+      "src": "https://fake.link/hus.png",
+      "alt": "HUS—renal‑predominant thrombotic microangiopathy after diarrheal illness",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Important cause of pediatric AKI with hemolysis. Management is mainly supportive (typical HUS) and differs from TTP and DIC.",
+  "how_youll_see_it": [
+    "Child with bloody diarrhea → pallor, petechiae, and oliguria several days later.",
+    "Labs: schistocytes, thrombocytopenia, ↑creatinine; **PT/PTT normal**."
+  ],
+  "problem_solving": [
+    "Avoid antibiotics and antimotility drugs in suspected EHEC—may increase toxin release.",
+    "Differentiate from TTP (more neurologic findings) and DIC (abnormal PT/PTT with low fibrinogen).",
+    "For atypical HUS, consider complement blockade (e.g., eculizumab) after infection is excluded."
+  ],
+  "differentials": [
+    { "id": "thrombotic-thrombocytopenic-purpura", "hint": "ADAMTS13 deficiency; prominent neuro sx." },
+    { "id": "disseminated-intravascular-coagulation", "name": "Disseminated intravascular coagulation", "hint": "↑PT/↑PTT, ↓fibrinogen, ↑D‑dimer." },
+    { "id": "poststreptococcal-gn", "name": "Post‑streptococcal GN", "hint": "Renal failure without hemolysis or thrombocytopenia." }
+  ],
+  "tricks": [
+    "Think **H**amburger → **H**US in **H**ospitalized kids.",
+    "Normal PT/PTT steers you away from DIC."
+  ],
+  "exam_appearance": [
+    "Toddler after petting‑zoo exposure develops anemia, thrombocytopenia, and AKI with normal PT/PTT.",
+    "Adult with recurrent MAHA + AKI without diarrhea—complement‑mediated HUS; responds to C5 inhibition."
+  ],
+  "treatment": [
+    "Typical (Shiga toxin–associated): **supportive care** (fluids, dialysis if needed, RBCs).",
+    "Atypical (complement‑mediated): **eculizumab**; vaccinate for meningococcus before therapy."
+  ],
+  "red_flags": [
+    "Rising creatinine/anuria or severe hypertension → urgent nephrology involvement.",
+    "Avoid platelet transfusions unless life‑threatening bleeding."
+  ],
+  "algorithm": [
+    "MAHA + thrombocytopenia + AKI → check PT/PTT.",
+    "If PT/PTT normal and diarrheal prodrome → treat as HUS (supportive).",
+    "If neuro sx prominent → treat as TTP (PLEX).",
+    "If PT/PTT prolonged with low fibrinogen → DIC likely."
+  ],
+  "cases": [
+    {
+      "stem": "4‑year‑old with pallor and decreased urine output 5 days after bloody diarrhea.",
+      "clues": ["Schistocytes", "Platelets 60k/µL", "Cr 2.3 mg/dL", "PT/PTT normal"],
+      "answer": "Typical HUS from Shiga toxin–producing E. coli",
+      "teaching": "Supportive care; antibiotics may worsen toxin release."
+    },
+    {
+      "stem": "28‑year‑old with recurrent episodes of MAHA and AKI, no diarrhea.",
+      "clues": ["Family history", "Normal PT/PTT"],
+      "answer": "Atypical HUS (complement dysregulation)",
+      "teaching": "Consider eculizumab after ruling out infection."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "thrombotic-thrombocytopenic-purpura",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "renal"],
+  "names": ["Thrombotic thrombocytopenic purpura"],
+  "aliases": ["ADAMTS13 deficiency", "Moschcowitz syndrome"],
+  "abbr": ["TTP"],
+  "patterns": [
+    "TTP", "ttp",
+    "thrombotic thrombocytopenic purpura",
+    "thrombotic-thrombocytopenic purpura",
+    "adamts13", "ADAMTS13"
+  ],
+  "definition": "Life‑threatening thrombotic microangiopathy from severe ADAMTS13 deficiency or inhibition → ultra‑large vWF multimers → platelet‑rich microthrombi → thrombocytopenia and microangiopathic hemolytic anemia with organ ischemia.",
+  "images": [
+    {
+      "src": "https://fake.link/ttp.png",
+      "alt": "TTP with platelet microthrombi due to ADAMTS13 deficiency",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Emergency—mortality falls with rapid plasma exchange. PT/PTT are usually normal, which helps separate TTP from DIC.",
+  "how_youll_see_it": [
+    "Adult (often female) with petechiae/purpura and neurologic changes (headache, confusion).",
+    "Hemolysis signs: jaundice, dark urine; smear with schistocytes; ↑LDH, ↓haptoglobin.",
+    "Thrombocytopenia with normal PT and PTT."
+  ],
+  "problem_solving": [
+    "Treat immediately when MAHA + thrombocytopenia + normal PT/PTT—do not wait for ADAMTS13 assay.",
+    "Avoid platelet transfusions unless life‑threatening bleeding.",
+    "Common triggers: autoantibodies, pregnancy/postpartum, infection, HIV, malignancy, quinine/clopidogrel/calcineurin inhibitors."
+  ],
+  "differentials": [
+    { "id": "hemolytic-uremic-syndrome", "hint": "Kidney‑predominant; often post‑diarrheal in children." },
+    { "id": "disseminated-intravascular-coagulation", "name": "Disseminated intravascular coagulation", "hint": "↑PT/↑PTT, ↓fibrinogen, ↑D‑dimer." },
+    { "id": "immune-thrombocytopenia", "name": "Immune thrombocytopenia", "hint": "Isolated thrombocytopenia; no schistocytes." }
+  ],
+  "tricks": [
+    "Mnemonic **FAT RN**: Fever, microangiopathic hemolytic **Anemia**, **Thrombocytopenia**, **Renal** injury, **Neurologic** signs.",
+    "Normal PT/PTT separates TTP/HUS from DIC."
+  ],
+  "exam_appearance": [
+    "Woman with confusion, petechiae, anemia, schistocytes, and normal PT/PTT → start plasma exchange.",
+    "Postpartum patient with MAHA + neuro findings; ADAMTS13 activity low → TTP."
+  ],
+  "treatment": [
+    "Immediate **plasma exchange (PLEX)**.",
+    "High‑dose **glucocorticoids**.",
+    "**Rituximab** for refractory/relapsing disease; **caplacizumab** can reduce early events."
+  ],
+  "red_flags": [
+    "Delays in PLEX increase mortality.",
+    "Platelet transfusion can worsen thrombosis—reserve for life‑threatening hemorrhage."
+  ],
+  "algorithm": [
+    "Suspect TTP in MAHA + thrombocytopenia → check PT/PTT.",
+    "If normal → treat as TTP (PLEX + steroids) and send ADAMTS13 tests.",
+    "If PT/PTT prolonged and fibrinogen low → evaluate for DIC."
+  ],
+  "cases": [
+    {
+      "stem": "34‑year‑old woman with petechiae, confusion, and dark urine.",
+      "clues": ["Schistocytes", "Platelets 18k/µL", "PT/PTT normal", "↑LDH", "↓Haptoglobin"],
+      "answer": "TTP",
+      "teaching": "Start plasma exchange promptly; do not wait for assays."
+    },
+    {
+      "stem": "Postpartum patient with fluctuating aphasia and renal injury.",
+      "clues": ["MAHA", "Thrombocytopenia", "Normal PT/PTT"],
+      "answer": "TTP triggered in pregnancy",
+      "teaching": "Pregnancy/postpartum can precipitate inhibitory ADAMTS13 deficiency."
+    }
+  ]
+}
