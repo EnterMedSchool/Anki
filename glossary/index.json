@@ -16,6 +16,10 @@
     "disseminated-intravascular-coagulation.json",
     "von-willebrand-disease.json",
     "hemolytic-uremic-syndrome.json",
-    "thrombotic-thrombocytopenic-purpura.json"
+    "thrombotic-thrombocytopenic-purpura.json",
+    "bernard-soulier-syndrome.json",
+    "glanzmann-thrombasthenia.json",
+    "glossary/terms/immune-thrombocytopenia.json",
+    "uremic-platelet-dysfunction.json"
   ]
 }
