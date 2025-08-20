@@ -3,7 +3,23 @@ from __future__ import annotations
 import json, os, re, time, urllib.request, urllib.error, threading, shutil, html, uuid, hashlib
 from typing import Any, Dict, List, Tuple
 from aqt import mw, gui_hooks
-from aqt.qt import QAction, qconnect, QDialog, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QComboBox, QSpinBox, QCheckBox, QLineEdit, QIcon
+from aqt.qt import (
+    QAction,
+    qconnect,
+    QDialog,
+    QVBoxLayout,
+    QHBoxLayout,
+    QLabel,
+    QPushButton,
+    QComboBox,
+    QSpinBox,
+    QCheckBox,
+    QLineEdit,
+    QIcon,
+    QListWidget,
+    QListWidgetItem,
+    Qt,
+)
 from aqt.utils import openFolder, showInfo, showText, tooltip
 from anki.notes import Note
 
@@ -986,6 +1002,51 @@ class SettingsDialog(QDialog):
             cfg[k] = v
         write_config(cfg); showInfo("Reset to defaults.")
 
+class SearchDialog(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent or mw)
+        self.setWindowTitle("Search Glossary")
+        self.setMinimumWidth(360)
+
+        lay = QVBoxLayout(self)
+        top = QHBoxLayout()
+        top.addWidget(QLabel("Query:"))
+        self.queryLE = QLineEdit()
+        top.addWidget(self.queryLE, 1)
+        lay.addLayout(top)
+
+        self.list = QListWidget()
+        lay.addWidget(self.list, 1)
+
+        self.queryLE.textChanged.connect(self._on_query)
+        self.list.itemDoubleClicked.connect(self._on_open)
+
+        self._on_query("")
+
+    def _on_query(self, text: str):
+        self.list.clear()
+        text = (text or "").lower().strip()
+        if not text:
+            return
+        for tid, term in GLOSSARY.terms_by_id.items():
+            names = (term.get("names") or []) + (term.get("aliases") or []) + [tid]
+            tags = term.get("tags") or []
+            hay = " ".join(names + tags).lower()
+            if text in hay:
+                disp = (term.get("names") or [tid])[0]
+                item = QListWidgetItem(disp)
+                item.setData(Qt.UserRole, tid)
+                self.list.addItem(item)
+
+    def _on_open(self, item: QListWidgetItem):
+        tid = item.data(Qt.UserRole)
+        payload = GLOSSARY.popup_payload(tid)
+        pkg = mw.addonManager.addonFromModule(MODULE)
+        css = f"<link rel='stylesheet' href='/_addons/{pkg}/web/popup.css'>"
+        html = css + (payload.get("html") or "")
+        title = payload.get("title") or tid
+        showText(html, title=title, plain=False)
+
 def on_show_options():
     try: SettingsDialog(mw).exec()
     except Exception as e: _log(f"Settings dialog failed: {e}")
@@ -1032,6 +1093,10 @@ def _build_menu():
             except Exception as e: raw = f"(error reading diagnostics: {e})"
             showText("Parsed index:\n\n"+json.dumps(parsed, ensure_ascii=False, indent=2)+"\n\nRaw:\n\n"+raw[:4000], title="EMS — Diagnostics")
         qconnect(aDiag.triggered, show_diag); menu.addAction(aDiag)
+
+        aSearch = QAction("🔍  Search Glossary…", mw)
+        qconnect(aSearch.triggered, lambda: SearchDialog(mw).exec())
+        menu.addAction(aSearch)
 
         menu.addSeparator()
         a3 = QAction("🎨  Appearance & Settings…", mw); qconnect(a3.triggered, on_show_options); menu.addAction(a3)
