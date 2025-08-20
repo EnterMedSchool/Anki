@@ -1,0 +1,44 @@
+{
+  "anatomy":         { "accent": "#ef476f", "icon": "🦴" },
+  "histology":       { "accent": "#d66b8a", "icon": "🔬" },
+  "physiology":      { "accent": "#06d6a0", "icon": "📈" },
+  "biochemistry":    { "accent": "#118ab2", "icon": "🧪" },
+  "genetics":        { "accent": "#5a3cc4", "icon": "🧬" },
+  "cell_bio":        { "accent": "#7a5af5", "icon": "🧫" },
+
+  "pharmacology":    { "accent": "#f59e0b", "icon": "💊" },
+  "toxicology":      { "accent": "#d97706", "icon": "☣️" },
+
+  "micro_bacteria":  { "accent": "#60a5fa", "icon": "🦠" },
+  "micro_virus":     { "accent": "#3b82f6", "icon": "🧿" },
+  "micro_fungi":     { "accent": "#2563eb", "icon": "🍄" },
+  "micro_parasite":  { "accent": "#1d4ed8", "icon": "🪱" },
+
+  "immunology":      { "accent": "#14b8a6", "icon": "🛡️" },
+  "pathology":       { "accent": "#9b2226", "icon": "🩸" },
+  "heme_onc":        { "accent": "#b91c1c", "icon": "🎗️" },
+
+  "neuro":           { "accent": "#8b5cf6", "icon": "🧠" },
+  "cardio":          { "accent": "#ef4444", "icon": "❤️" },
+  "pulm":            { "accent": "#0ea5e9", "icon": "🫁" },
+  "renal":           { "accent": "#16a34a", "icon": "🫘" },
+  "gi":              { "accent": "#fb923c", "icon": "🧻" },
+  "endo":            { "accent": "#a855f7", "icon": "🦋" },
+  "repro":           { "accent": "#ec4899", "icon": "🫃" },
+  "msk_derm":        { "accent": "#22c55e", "icon": "🏃" },
+
+  "peds":            { "accent": "#f472b6", "icon": "🧸" },
+  "obgyn":           { "accent": "#f43f5e", "icon": "👶" },
+  "surgery":         { "accent": "#64748b", "icon": "🔪" },
+  "emerg":           { "accent": "#f97316", "icon": "🚑" },
+  "radiology":       { "accent": "#94a3b8", "icon": "🩻" },
+
+  "psych":           { "accent": "#6b7280", "icon": "🧠‍🫨" },
+  "behavior":        { "accent": "#525252", "icon": "🧩" },
+  "epi_stats":       { "accent": "#0ea5a0", "icon": "📊" },
+  "ethics":          { "accent": "#a3a3a3", "icon": "⚖️" },
+
+  "endocrine":       { "accent": "#a855f7", "icon": "🦋" },  
+  "infectious_dz":   { "accent": "#22d3ee", "icon": "🧫" },
+  "rheum":           { "accent": "#16a34a", "icon": "🦵" }
+}

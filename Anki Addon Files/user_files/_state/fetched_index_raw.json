@@ -1,0 +1,21 @@
+{
+  "version": "2025-08-16",
+  "files": [
+    "acth.json",
+    "hpa-axis.json",
+    "burkitt.json",
+    "follicular-lymphoma.json",
+    "mantle-cell-lymphoma.json",
+    "hodgkin-lymphoma.json",
+    "non-hodgkin-lymphoma.json",
+    "lymphoma.json",
+    "leukemia.json",
+    "abacavir.json",
+    "abaloparatide.json",
+    "achondroplasia.json",
+    "disseminated-intravascular-coagulation.json",
+    "von-willebrand-disease.json",
+    "hemolytic-uremic-syndrome.json",
+    "thrombotic-thrombocytopenic-purpura.json"
+  ]
+}
