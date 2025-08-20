@@ -1,0 +1,3 @@
+
+.ems-glossary-highlight { transition: box-shadow 0.15s ease; }
+.ems-glossary-highlight:hover { box-shadow: 0 0 0 2px rgba(0,0,0,0.12); }

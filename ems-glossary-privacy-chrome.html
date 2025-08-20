@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — EMS Anki Glossary Popups</title>
+  <style>
+    body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; color: #1b1f23; }
+    h1, h2 { line-height: 1.25; }
+    code { background: #f6f8fa; padding: 2px 4px; border-radius: 4px; }
+    pre { background: #f6f8fa; padding: 12px; border-radius: 6px; overflow: auto; }
+    .muted { color: #586069; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for EMS Anki Glossary Popups</h1>
+  <p class="muted">Effective date: 2025-08-20</p>
+
+  <p><strong>Extension name:</strong> <em>EMS Anki Glossary Popups</em><br>
+     <strong>Publisher:</strong> <em>EnterMedSchool</em> (the “Developer”)</p>
+
+  <p>This extension highlights medical glossary terms on web pages and shows an in‑page popup
+  with the definition. The glossary content is pulled from the public GitHub repository
+  <a href="https://github.com/EnterMedSchool/Anki">EnterMedSchool/Anki</a>.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>We <strong>do not collect</strong>, sell, or share any personal data.</li>
+    <li>Page content is processed <strong>locally</strong> in your browser only to find and highlight glossary terms.
+        It is <strong>not transmitted</strong> to the Developer or to third‑party servers.</li>
+    <li>The extension stores a small local cache of the public glossary files and your appearance settings.</li>
+  </ul>
+
+  <h2>Data We Process</h2>
+  <p>The extension reads the text of the web page <strong>locally</strong> to find term matches and render highlights/popups.
+  This is ephemeral processing in memory. The extension does <strong>not</strong>:</p>
+  <ul>
+    <li>send page content, browsing history, or identifiers off your device;</li>
+    <li>log or store page content beyond the short‑lived processing necessary for highlighting.</li>
+  </ul>
+
+  <h3>Local Storage</h3>
+  <p>We use Chrome’s <code>storage.local</code> to keep:</p>
+  <ul>
+    <li><strong>Glossary cache and tags</strong> fetched from GitHub (public JSON files);</li>
+    <li><strong>Settings</strong> such as font scale, max popup size, and highlight preferences;</li>
+    <li><strong>Metadata</strong> like last update time and default branch name.</li>
+  </ul>
+  <p>You can clear this data at any time by removing the extension or clearing the extension’s site data in your browser.</p>
+
+  <h3>Network Requests</h3>
+  <p>The extension makes read‑only requests to <strong>GitHub</strong> to fetch the public glossary files:</p>
+  <ul>
+    <li><code>https://api.github.com/repos/EnterMedSchool/Anki</code> (default branch info)</li>
+    <li><code>https://raw.githubusercontent.com/EnterMedSchool/Anki/*</code> (glossary JSON &amp; tags)</li>
+  </ul>
+  <p>No authentication tokens are used. No user data is sent in these requests.</p>
+
+  <h3>No Remote Code</h3>
+  <p>The extension does <strong>not</strong> execute remote code. It only downloads <strong>data</strong> (JSON) from
+  the GitHub repository listed above. All extension logic (JavaScript/HTML/CSS) ships in the extension package and runs locally.</p>
+
+  <h2>Permissions Rationale</h2>
+  <ul>
+    <li><strong>Access to all sites</strong> — required to read page text and inject term highlights on any page you visit.
+        Processing happens locally; no content is transmitted.</li>
+    <li><strong>Host permissions for GitHub</strong> — required to download the public glossary JSON and tag colors from the
+        <code>EnterMedSchool/Anki</code> repository.</li>
+    <li><strong>Storage</strong> — to cache the glossary and remember user settings.</li>
+    <li><strong>Alarms</strong> — to refresh the glossary on a schedule (e.g., every 4 hours).</li>
+    <li><strong>Context menus</strong> — to expose a “Refresh glossary now” command in the toolbar.</li>
+  </ul>
+
+  <h2>Children’s Privacy</h2>
+  <p>This extension is not directed to children. It does not collect personal information.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we change this policy, we will update the effective date at the top of this page.
+     Material changes will be documented in the extension’s release notes.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about privacy, please contact the Developer at: <strong>YOUR‑CONTACT‑EMAIL</strong>.</p>
+</body>
+</html>
