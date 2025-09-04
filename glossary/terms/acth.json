@@ -1,20 +1,19 @@
 {
   "id": "acth",
-  "primary_tag": "endocrine",
-  "tags": ["endocrine", "physiology", "hormone"],
-  "names": ["ACTH", "adrenocorticotropic hormone"],
-  "aliases": ["corticotropin"],
-  "abbr": ["ACTH"],
+  "names": [
+    "ACTH",
+    "adrenocorticotropic hormone"
+  ],
   "definition": "Anterior pituitary peptide from POMC that stimulates the adrenal cortex (zona fasciculata/reticularis) to make cortisol (and adrenal androgens).",
-  "images": [
-    {
-      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAG9ZJe3OCF2U-Re8lLxAN8F45bWGGiwegqA&s",
-      "alt": "ACTH illustration",
-      "credit": {
-        "text": "image credit",
-        "href": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAG9ZJe3OCF2U-Re8lLxAN8F45bWGGiwegqA&s"
-      }
-    }
+  "aliases": [
+    "corticotropin"
+  ],
+  "abbr": [
+    "ACTH"
+  ],
+  "primary_tag": "endocrine",
+  "tags": [
+    "endocrine"
   ],
   "why_it_matters": "Key switch in hypercortisolism work‑ups (pituitary vs ectopic) and in adrenal insufficiency. Also explains steroid‑induced adrenal suppression.",
   "how_youll_see_it": [
@@ -27,11 +26,6 @@
     "If adrenal insufficiency suspected → 8am cortisol ± ACTH stim test",
     "Hypercortisolism: start with overnight dexamethasone suppression",
     "If cortisol not suppressed → measure ACTH; then high‑dose dex or inferior petrosal sinus sampling if needed"
-  ],
-  "differentials": [
-    { "id": "cushing-disease", "name": "Cushing disease", "hint": "pituitary ACTH ↑; partial suppression with high‑dose dex" },
-    { "id": "adrenal-adenoma", "name": "Adrenal adenoma", "hint": "ACTH suppressed; adrenal source" },
-    { "id": "ectopic-acth", "name": "Ectopic ACTH", "hint": "no suppression with dex; very high ACTH" }
   ],
   "tricks": [
     "Primary adrenal failure → ↑ACTH, hyperpigmentation, hyperkalemia",
@@ -58,28 +52,78 @@
     "Low/undetectable ACTH → adrenal cause (image adrenals)",
     "Suspect adrenal insufficiency → 8am cortisol ± ACTH stimulation test"
   ],
+  "differentials": [
+    {
+      "name": "Cushing disease",
+      "hint": "pituitary ACTH ↑; partial suppression with high‑dose dex"
+    },
+    {
+      "name": "Adrenal adenoma",
+      "hint": "ACTH suppressed; adrenal source"
+    },
+    {
+      "name": "Ectopic ACTH",
+      "hint": "no suppression with dex; very high ACTH"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Endocrine Society—Cushing Syndrome overview",
+      "url": "https://www.endocrine.org"
+    },
+    {
+      "title": "Review: ACTH physiology",
+      "url": "https://www.ncbi.nlm.nih.gov/books/"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAG9ZJe3OCF2U-Re8lLxAN8F45bWGGiwegqA&s",
+      "alt": "ACTH illustration",
+      "credit": {
+        "text": "image credit",
+        "href": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAG9ZJe3OCF2U-Re8lLxAN8F45bWGGiwegqA&s"
+      }
+    }
+  ],
   "cases": [
     {
       "stem": "A 28‑year‑old with hyperpigmented palmar creases, weight loss, and salt craving after a GI illness.",
-      "clues": ["Low BP", "Hyponatremia", "Hyperkalemia", "Low morning cortisol", "High ACTH"],
+      "clues": [
+        "Low BP",
+        "Hyponatremia",
+        "Hyperkalemia",
+        "Low morning cortisol",
+        "High ACTH"
+      ],
       "answer": "Primary adrenal insufficiency",
       "teaching": "Loss of cortisol removes negative feedback → ↑ACTH and ↑MSH → hyperpigmentation."
     },
     {
       "stem": "A 62‑year‑old smoker with muscle weakness, edema, and refractory hypokalemia.",
-      "clues": ["Very high ACTH", "No suppression with high‑dose dex"],
+      "clues": [
+        "Very high ACTH",
+        "No suppression with high‑dose dex"
+      ],
       "answer": "Ectopic ACTH (e.g., small‑cell lung CA)",
       "teaching": "Paraneoplastic ACTH production lacks feedback responsiveness."
     }
   ],
-  "see_also": ["hpa-axis", "cushing-disease", "adrenal-adenoma"],
-  "prerequisites": ["pituitary-gland", "adrenal-cortex"],
-  "actions": [
-    { "label": "Watch Lecture", "href": "https://entermedschool.com", "variant": "primary" },
-    { "label": "Read Notes", "href": "https://entermedschool.com/acth", "variant": "secondary" }
+  "see_also": [
+    "hpa-axis",
+    "cushing-disease",
+    "adrenal-adenoma"
   ],
-  "sources": [
-    { "title": "Endocrine Society—Cushing Syndrome overview", "url": "https://www.endocrine.org" },
-    { "title": "Review: ACTH physiology", "url": "https://www.ncbi.nlm.nih.gov/books/" }
+  "prerequisites": [
+    "pituitary-gland",
+    "adrenal-cortex"
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
   ]
 }
