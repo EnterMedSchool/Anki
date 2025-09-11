@@ -1,0 +1,73 @@
+{
+  "id": "hemolytic-uremic-syndrome",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "renal", "peds", "micro_bacteria"],
+  "names": ["Hemolytic uremic syndrome"],
+  "aliases": ["Typical HUS (Shiga toxin associated)", "Atypical HUS (complement mediated)"],
+  "abbr": ["HUS"],
+  "patterns": [
+    "HUS", "hus",
+    "hemolytic uremic syndrome",
+    "hemolytic-uremic syndrome",
+    "shiga toxin", "EHEC O157"
+  ],
+  "definition": "Thrombotic microangiopathy with the triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. Classically follows diarrhea from Shiga toxin producing Escherichia coli; atypical forms arise from complement dysregulation.",
+  "images": [
+    {
+      "src": "https://fake.link/hus.png",
+      "alt": "HUS with kidney predominant microthrombi after diarrheal illness",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Important cause of pediatric acute kidney injury with hemolysis. Management is mainly supportive in typical HUS and differs from TTP and DIC.",
+  "how_youll_see_it": [
+    "Child with bloody diarrhea develops pallor, petechiae, and oliguria several days later.",
+    "Labs: schistocytes, thrombocytopenia, high creatinine; PT and PTT normal."
+  ],
+  "problem_solving": [
+    "Avoid antibiotics and antimotility drugs in suspected EHEC because they may increase toxin release.",
+    "Differentiate from TTP (more neurologic findings) and DIC (abnormal PT and PTT with low fibrinogen).",
+    "For atypical HUS, consider complement blockade such as eculizumab after infection is excluded."
+  ],
+  "differentials": [
+    { "id": "thrombotic-thrombocytopenic-purpura", "hint": "ADAMTS13 deficiency; prominent neurologic symptoms." },
+    { "id": "disseminated-intravascular-coagulation", "name": "Disseminated intravascular coagulation", "hint": "Prolonged PT and PTT, low fibrinogen, high D-dimer." },
+    { "id": "poststreptococcal-gn", "name": "Post streptococcal glomerulonephritis", "hint": "Renal failure without hemolysis or thrombocytopenia." }
+  ],
+  "tricks": [
+    "Think hamburger exposure leading to HUS in hospitalized kids.",
+    "Normal PT and PTT steers you away from DIC."
+  ],
+  "exam_appearance": [
+    "Toddler after petting zoo exposure develops anemia, thrombocytopenia, and acute kidney injury with normal PT and PTT.",
+    "Adult with recurrent episodes of microangiopathic hemolytic anemia and kidney injury without diarrhea; complement mediated HUS responds to C5 inhibition."
+  ],
+  "treatment": [
+    "Typical HUS: supportive care (fluids, dialysis if needed, red cell transfusion).",
+    "Atypical HUS: eculizumab or related complement inhibitors; vaccinate for meningococcus before therapy."
+  ],
+  "red_flags": [
+    "Rising creatinine, anuria, or severe hypertension warrants urgent nephrology involvement.",
+    "Avoid platelet transfusions unless life-threatening bleeding."
+  ],
+  "algorithm": [
+    "Microangiopathic hemolytic anemia plus thrombocytopenia plus acute kidney injury; check PT and PTT.",
+    "If PT and PTT normal and diarrheal prodrome present, treat as HUS with supportive care.",
+    "If neurologic symptoms prominent, treat as TTP with plasma exchange.",
+    "If PT or PTT prolonged with low fibrinogen, DIC is likely."
+  ],
+  "cases": [
+    {
+      "stem": "Four-year-old with pallor and decreased urine output five days after bloody diarrhea.",
+      "clues": ["Schistocytes", "Platelets 60000 per microliter", "Creatinine 2.3 mg/dL", "PT and PTT normal"],
+      "answer": "Typical HUS from Shiga toxin producing E. coli",
+      "teaching": "Supportive care is first line; antibiotics may worsen toxin release."
+    },
+    {
+      "stem": "Twenty-eight-year-old with recurrent microangiopathic hemolysis and acute kidney injury without diarrhea.",
+      "clues": ["Family history", "Normal PT and PTT"],
+      "answer": "Atypical HUS due to complement dysregulation",
+      "teaching": "Consider eculizumab after ruling out infection."
+    }
+  ]
+}

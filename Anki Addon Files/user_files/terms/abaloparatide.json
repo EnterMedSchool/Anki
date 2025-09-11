@@ -1,0 +1,81 @@
+{
+  "id": "abaloparatide",
+  "names": ["Abaloparatide"],
+  "aliases": ["PTHrP analog", "PTH1‑receptor agonist", "Tymlos"],
+  "abbr": [],
+  "patterns": ["abaloparatide", "tymlos"],
+  "primary_tag": "pharmacology",
+  "tags": ["pharmacology", "endo", "msk_derm"],
+  "definition": "Synthetic analog of parathyroid hormone–related peptide (PTHrP 1–34). When given as once‑daily subcutaneous pulses, it activates PTH1 receptors on osteoblast lineage cells, favoring bone formation over resorption and increasing bone mineral density.",
+  "images": [
+    {
+      "src": "https://fake.link/abaloparatide.png",
+      "alt": "Abaloparatide—PTHrP analog that builds bone with intermittent dosing"
+    }
+  ],
+  "why_it_matters": "An anabolic osteoporosis therapy that reduces vertebral and non‑vertebral fractures in very high‑risk patients. Shares class warnings with teriparatide and has a strict lifetime use limit.",
+  "how_youll_see_it": [
+    "Postmenopausal patient with severe osteoporosis or multiple fragility fractures starting a **daily SC injection**.",
+    "Bone density rises quickly (first 6–12 months) compared with antiresorptive drugs.",
+    "Early adverse effects: **dizziness**, **palpitations/tachycardia**, orthostatic symptoms, **transient hypercalcemia**, injection‑site reactions.",
+    "Therapy duration capped at **≤ 2 years total** across all PTH‑analog use, followed by an antiresorptive to maintain gains."
+  ],
+  "problem_solving": [
+    "Confirm adequate calcium & vitamin D before starting; check baseline **serum calcium** (avoid if hypercalcemic).",
+    "Avoid in patients at increased osteosarcoma risk: **Paget disease**, prior **skeletal radiation**, **bone metastases/malignant bone tumors**, or **unexplained elevated alkaline phosphatase**.",
+    "Use caution with **urolithiasis** or hypercalciuria; consider urine calcium in those with stone history.",
+    "If symptomatic hypercalcemia occurs, hold drug and reassess vitamin D/calcium supplements and thiazide use.",
+    "Plan for **sequential therapy**: after completing abaloparatide, start a bisphosphonate or denosumab to preserve bone density.",
+    "Not used concurrently with other PTH analogs; lifetime class exposure ≤ 2 years."
+  ],
+  "differentials": [
+    { "id": "teriparatide", "hint": "PTH(1‑34) analog; very similar efficacy and warnings; tends to cause hypercalcemia slightly more often." },
+    { "id": "bisphosphonates", "hint": "Antiresorptives (e.g., alendronate); first‑line for typical osteoporosis; GI irritation, esophagitis, ONJ, atypical femur fracture." },
+    { "id": "denosumab", "hint": "RANKL inhibitor; antiresorptive; watch for hypocalcemia and infections; useful after anabolic phase." },
+    { "id": "calcitonin", "hint": "Weak antiresorptive; analgesic for acute vertebral fracture but not a potent long‑term option." },
+    { "id": "romosozumab", "hint": "Sclerostin inhibitor with anabolic/antiresorptive effects; cardiovascular risk warning." }
+  ],
+  "tricks": [
+    "Mnemonic: **“A‑BONE‑lo‑paratide”** — builds bone when given in **pulses**.",
+    "Continuous PTH signaling breaks bone; **intermittent** PTH‑receptor stimulation **makes** bone.",
+    "Rotate abdominal injection sites; counsel about brief post‑dose lightheadedness."
+  ],
+  "exam_appearance": [
+    "Postmenopausal woman with multiple vertebral compression fractures despite alendronate → started on daily SC **abaloparatide**; question asks why it works: **intermittent PTH‑receptor activation stimulates osteoblasts**.",
+    "Patient on new osteoporosis injection develops **fever‑free dizziness + tachycardia** soon after doses and **mild hypercalcemia** on labs → identify expected adverse effects of a **PTH analog**.",
+    "Osteoporosis with **Paget disease** history → which drug is contraindicated due to **osteosarcoma risk**? **Abaloparatide (and other PTH analogs)**."
+  ],
+  "treatment": [
+    "Indication: Osteoporosis at **very high fracture risk** or after failure/intolerance of antiresorptives (commonly in postmenopausal patients).",
+    "Dose: **80 micrograms SC once daily** into the periumbilical abdomen; rotate sites.",
+    "Duration: Use for **no more than 2 years total** (class limit); then transition to an antiresorptive agent.",
+    "Monitoring: Baseline and symptom‑triggered **serum calcium**; consider urinary calcium in stone formers; periodic BMD (DEXA). Counsel on orthostasis precautions after injection."
+  ],
+  "red_flags": [
+    "**Boxed warning (class): possible osteosarcoma risk (seen in rats).** Do **not** use with Paget disease, prior skeletal radiation, bone malignancy/metastases, unexplained ↑ALP, or open epiphyses.",
+    "Avoid in **hypercalcemia** or **primary hyperparathyroidism**.",
+    "Stop if persistent hypercalcemia or severe orthostatic symptoms occur."
+  ],
+  "algorithm": [
+    "Assess fracture risk and secondary causes; ensure calcium/vitamin D sufficiency and fall‑risk mitigation.",
+    "If **very high risk** (e.g., T‑score ≤ −3.0 or fractures on therapy) → consider **abaloparatide/teriparatide**.",
+    "Screen for contraindications (Paget disease, prior radiation, bone cancer). Obtain baseline calcium.",
+    "Start **abaloparatide 80 mcg SC daily**; educate on timing and orthostasis.",
+    "Reassess symptoms and calcium early; continue up to **24 months maximum**.",
+    "Upon completion → **switch to antiresorptive** (bisphosphonate or denosumab) to maintain bone mass."
+  ],
+  "cases": [
+    {
+      "stem": "A 67‑year‑old woman with two low‑trauma vertebral fractures despite 2 years of alendronate has a T‑score of −3.1.",
+      "clues": ["High fracture risk", "On antiresorptive already", "Willing to self‑inject daily"],
+      "answer": "Start abaloparatide (anabolic therapy) and plan sequential antiresorptive after 18–24 months.",
+      "teaching": "Intermittent PTH1‑receptor activation increases osteoblastic bone formation and rapidly improves BMD; maintain gains with an antiresorptive afterward."
+    },
+    {
+      "stem": "A 58‑year‑old with severe osteoporosis and a history of Paget disease asks about ‘bone‑building shots.’",
+      "clues": ["History of Paget disease", "Considering PTH analog"],
+      "answer": "Avoid abaloparatide due to osteosarcoma risk; choose an alternative (e.g., denosumab or potent bisphosphonate).",
+      "teaching": "Paget disease and other high‑turnover/irradiated bone states are contraindications to PTH‑analog therapy."
+    }
+  ]
+}

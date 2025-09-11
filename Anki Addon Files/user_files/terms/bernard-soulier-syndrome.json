@@ -1,0 +1,73 @@
+{
+  "id": "bernard-soulier-syndrome",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc"],
+  "names": ["Bernard-Soulier syndrome"],
+  "aliases": ["GPIb deficiency", "platelet adhesion defect"],
+  "abbr": [],
+  "patterns": [
+    "bernard soulier", "bernard-soulier",
+    "gpi b", "GPIb", "glycoprotein Ib",
+    "platelet adhesion defect"
+  ],
+  "definition": "Autosomal recessive quantitative or qualitative defect of the platelet GPIb-IX-V receptor that binds vWF. Impaired platelet-to-vWF adhesion causes mucocutaneous bleeding. Smear shows giant platelets with mild-to-moderate thrombocytopenia.",
+  "images": [
+    {
+      "src": "https://fake.link/bernard-soulier.png",
+      "alt": "Bernard-Soulier: big platelets and defective adhesion",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Classic congenital adhesion defect. Distinguishing it from von Willebrand disease and Glanzmann thrombasthenia is a common exam task.",
+  "how_youll_see_it": [
+    "Epistaxis, easy bruising, gingival bleeding since childhood.",
+    "Peripheral smear: macrothrombocytes (giant platelets).",
+    "Labs: platelet count low or low-normal; bleeding time prolonged; PT and PTT normal."
+  ],
+  "problem_solving": [
+    "Ristocetin aggregation is absent and does not correct with normal plasma (receptor missing).",
+    "Desmopressin is not helpful; consider platelet transfusion for major bleeds or procedures.",
+    "Avoid aspirin and NSAIDs; use antifibrinolytics for dental or ENT bleeding."
+  ],
+  "differentials": [
+    { "id": "von-willebrand-disease", "hint": "ristocetin defect corrects with normal plasma; platelet count normal" },
+    { "id": "glanzmann-thrombasthenia", "hint": "aggregation defect to ADP, epinephrine, collagen; ristocetin normal" },
+    { "id": "immune-thrombocytopenia", "hint": "isolated thrombocytopenia without congenital giant platelets" }
+  ],
+  "tricks": [
+    "B for Big platelets and Bad binding to vWF.",
+    "Adhesion problem (GPIb) vs aggregation problem (GPIIb/IIIa in Glanzmann)."
+  ],
+  "exam_appearance": [
+    "Teen with lifelong nosebleeds, giant platelets, abnormal ristocetin that does not correct with mixing: Bernard-Soulier.",
+    "Dental extraction planning in congenital adhesion disorder: give platelets or antifibrinolytics; avoid aspirin."
+  ],
+  "treatment": [
+    "Local measures and antifibrinolytics for minor bleeds.",
+    "Platelet transfusion for severe bleeding or surgery.",
+    "Counsel to avoid platelet-inhibiting drugs."
+  ],
+  "red_flags": [
+    "Uncontrolled mucosal hemorrhage or menorrhagia needs urgent hemostatic support.",
+    "Repeated transfusions carry alloimmunization risk; coordinate with hematology."
+  ],
+  "algorithm": [
+    "Mucocutaneous bleeding with large platelets -> order platelet function testing.",
+    "Absent ristocetin response that does not correct -> Bernard-Soulier likely.",
+    "Prepare peri-procedural plan (antifibrinolytic +/- platelets)."
+  ],
+  "cases": [
+    {
+      "stem": "16-year-old with lifelong epistaxis; smear shows giant platelets.",
+      "clues": ["Prolonged bleeding time", "PT/PTT normal", "Ristocetin non-correctable"],
+      "answer": "Bernard-Soulier syndrome",
+      "teaching": "GPIb deficiency causes defective adhesion; mixing with normal plasma does not correct."
+    },
+    {
+      "stem": "Adult with congenital adhesion defect needs dental surgery.",
+      "clues": ["Known Bernard-Soulier", "No other coagulopathy"],
+      "answer": "Plan antifibrinolytic; give platelet transfusion if significant bleeding risk.",
+      "teaching": "Desmopressin will not fix receptor absence; use platelets when needed."
+    }
+  ]
+}

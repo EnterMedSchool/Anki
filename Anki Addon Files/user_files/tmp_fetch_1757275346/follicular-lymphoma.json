@@ -1,0 +1,45 @@
+
+{
+  "id": "follicular-lymphoma",
+  "names": ["Follicular lymphoma"],
+  "aliases": ["FL", "Folicular lymphoma"],
+  "abbr": ["FL"],
+  "patterns": ["follicular lymphoma", "follicular", "folicular lymphoma"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics"],
+  "definition": "Indolent B‑cell NHL with t(14;18) causing BCL2 overexpression and inhibited apoptosis.",
+  "why_it_matters": "Classic cause of painless, waxing and waning lymphadenopathy; can transform to DLBCL.",
+  "how_youll_see_it": [
+    "Middle‑aged adult with months of painless cervical/axillary nodes",
+    "Nodes enlarge with stress or infections, then shrink (wax/wane)"
+  ],
+  "problem_solving": [
+    "Indolent course → often observe if asymptomatic",
+    "Confirm with flow/IHC (CD10+, BCL2+ in follicles)"
+  ],
+  "differentials": [
+    { "id": "mantle-cell-lymphoma", "hint": "cyclin D1+, t(11;14), older men" },
+    { "id": "hodgkin-lymphoma", "hint": "RS cells, contiguous spread" }
+  ],
+  "tricks": [
+    "t(14;18) → BCL2 next to IgH enhancer = anti‑apoptosis",
+    "Transformation to DLBCL = sudden rapid node growth, systemic symptoms"
+  ],
+  "exam_appearance": [
+    "Small cleaved cells in follicular pattern; BCL2+ in germinal centers"
+  ],
+  "treatment": [
+    "Observation if low tumor burden; rituximab‑based therapy if symptomatic"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Follicular_lymphoma_-_very_low_mag.jpg",
+      "alt": "Follicular lymphoma nodular architecture",
+      "credit": "https://commons.wikimedia.org/wiki/File:Follicular_lymphoma_-_very_low_mag.jpg"
+    }
+  ],
+  "see_also": ["non-hodgkin-lymphoma", "lymphoma"],
+  "sources": [
+    { "title": "Follicular lymphoma (overview)", "url": "https://en.wikipedia.org/wiki/Follicular_lymphoma" }
+  ]
+}

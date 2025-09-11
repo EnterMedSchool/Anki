@@ -1,0 +1,73 @@
+{
+  "id": "abacavir",
+  "names": ["Abacavir"],
+  "aliases": ["carbovir prodrug"],
+  "abbr": ["ABC"],
+  "patterns": ["abacavir", "abc", "abacavir sulfate"],
+  "primary_tag": "pharmacology",
+  "tags": ["pharmacology", "micro_virus", "infectious_dz", "genetics"],
+  "definition": "Guanosine‑analogue NRTI used in combination antiretroviral therapy. After intracellular phosphorylation to the triphosphate, it competitively inhibits HIV reverse transcriptase and causes DNA chain termination.",
+  "images": [
+    {
+      "src": "https://fake.link/abacavir.png",
+      "alt": "Abacavir (ABC) — nucleoside reverse‑transcriptase inhibitor"
+    }
+  ],
+  "why_it_matters": "Widely used NRTI backbone option. Unique risk of a potentially fatal hypersensitivity reaction strongly associated with HLA‑B*57:01; patients must be screened before starting therapy.",
+  "how_youll_see_it": [
+    "Used as part of 2‑NRTI backbone (often with lamivudine) plus an integrase inhibitor.",
+    "Pre‑treatment HLA‑B*57:01 testing documented before dispensing.",
+    "Hypersensitivity usually within the first 2–6 weeks: fever, malaise, GI upset (nausea, abdominal pain), ± rash, and respiratory symptoms (dyspnea, cough).",
+    "Class effects of NRTIs: mitochondrial toxicity → lactic acidosis/steatosis (rare)."
+  ],
+  "problem_solving": [
+    "Always verify HLA‑B*57:01 is NEGATIVE before initiating; if positive, choose another NRTI (e.g., tenofovir).",
+    "If hypersensitivity is suspected: STOP abacavir immediately; symptoms typically resolve after discontinuation; NEVER re‑challenge.",
+    "Consider cardiovascular risk profile—some data link abacavir exposure with higher MI risk; prefer alternatives in patients with high ASCVD risk when options exist.",
+    "Hepatic metabolism (alcohol dehydrogenase/glucuronidation) → avoid in significant hepatic impairment; no renal adjustment needed."
+  ],
+  "differentials": [
+    { "id": "tenofovir", "hint": "Nucleotide NRTI; renal phosphate wasting and decreased bone mineral density—not an HLA‑linked hypersensitivity." },
+    { "id": "zidovudine", "hint": "NRTI causing macrocytic anemia and myopathy; used for peripartum prophylaxis." },
+    { "id": "efavirenz", "hint": "NNRTI with vivid dreams, CNS effects, and rash/hepatotoxicity (not HLA‑B*57:01–specific)." }
+  ],
+  "tricks": [
+    "Mnemonic: **ABC = Always Be Checking** HLA‑B*57:01 first.",
+    "Hypersensitivity often mimics viral syndrome; presence of fever + GI ± respiratory symptoms after starting ART is a red flag.",
+    "Do not confuse with sulfa allergy; mechanism is T‑cell–mediated, allele‑restricted—re‑exposure can be life‑threatening."
+  ],
+  "exam_appearance": [
+    "New ART start; 10 days later develops fever, nausea, abdominal pain, and shortness of breath with a diffuse rash. Best next step → **stop abacavir; never re‑challenge**.",
+    "HIV patient with strong family history of early MI—choose NRTI backbone avoiding abacavir due to potential CV risk signal.",
+    "Question asks which pre‑treatment test is required before ABC initiation → **HLA‑B*57:01 genotyping**."
+  ],
+  "treatment": [
+    "Indication: part of combination ART for HIV‑1/2.",
+    "Dosing: typically once daily in fixed‑dose combinations (e.g., with lamivudine).",
+    "Monitoring: document negative HLA‑B*57:01, counsel on early hypersensitivity symptoms, monitor liver enzymes and for lactic acidosis if symptomatic."
+  ],
+  "red_flags": [
+    "Suspected abacavir hypersensitivity → **permanent discontinuation**; re‑exposure may cause rapid, fatal reactions.",
+    "Do not start in patients who are HLA‑B*57:01 positive or with a prior history of abacavir hypersensitivity."
+  ],
+  "algorithm": [
+    "Before starting ART: order HLA‑B*57:01 test.",
+    "If positive → avoid abacavir; select alternative NRTI.",
+    "If negative → initiate abacavir‑containing regimen with counseling about early symptoms.",
+    "If fever ± GI/respiratory symptoms or rash within 2–6 weeks → stop abacavir immediately → switch regimen → document allergy; never re‑challenge."
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old with newly diagnosed HIV begins abacavir/lamivudine + dolutegravir. Ten days later, she develops fever, malaise, nausea, and dyspnea; exam shows a faint maculopapular rash.",
+      "clues": ["Recent ABC start", "Systemic symptoms (fever, GI, respiratory)", "Onset within 2–6 weeks"],
+      "answer": "Abacavir hypersensitivity reaction",
+      "teaching": "Stop abacavir permanently and record as a contraindication. Reaction is strongly associated with HLA‑B*57:01; do not re‑challenge."
+    },
+    {
+      "stem": "A 55‑year‑old man with HIV, prior MI, and LDL 170 mg/dL is starting ART. HLA‑B*57:01 is negative.",
+      "clues": ["High ASCVD risk", "Considering NRTI backbone options"],
+      "answer": "Prefer tenofovir‑based backbone over abacavir",
+      "teaching": "Observational data suggest a higher MI risk with abacavir; many clinicians avoid it in patients with substantial cardiovascular risk when alternatives are available."
+    }
+  ]
+}

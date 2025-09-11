@@ -1,0 +1,43 @@
+{
+  "id": "hodgkin-lymphoma",
+  "names": ["Hodgkin lymphoma"],
+  "aliases": ["Hodgkin's disease", "Hodgkin disease"],
+  "abbr": ["HL"],
+  "patterns": ["hodgkin lymphoma", "hodgkin's lymphoma", "hodgkin", "hodgkins"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc"],
+  "definition": "B‑cell lymphoma characterized by Reed–Sternberg (CD15+, CD30+) cells and contiguous nodal spread.",
+  "why_it_matters": "Classically presents with B symptoms; highly curable with stage‑based therapy.",
+  "how_youll_see_it": [
+    "Painless cervical/mediastinal nodes in a young adult",
+    "Alcohol‑induced node pain (classic exam tidbit)"
+  ],
+  "problem_solving": [
+    "Look for contiguous spread pattern; RS cells on histology",
+    "Check for EBV association; define subtype (e.g., nodular sclerosis)"
+  ],
+  "differentials": [
+    { "id": "non-hodgkin-lymphoma", "hint": "non‑contiguous spread, more extranodal disease" }
+  ],
+  "tricks": [
+    "RS cells = 'owl‑eye' nucleoli; **CD15/CD30** positive",
+    "Pruritus and Pel‑Ebstein fevers sometimes tested"
+  ],
+  "exam_appearance": [
+    "Mediastinal mass + B symptoms in young woman (nodular sclerosis)"
+  ],
+  "treatment": [
+    "ABVD‑based regimens; involved‑field radiation depending on stage"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Reed-Sternberg_cell.jpg",
+      "alt": "Reed–Sternberg cell",
+      "credit": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_cell.jpg"
+    }
+  ],
+  "see_also": ["lymphoma"],
+  "sources": [
+    { "title": "Hodgkin lymphoma (overview)", "url": "https://en.wikipedia.org/wiki/Hodgkin_lymphoma" }
+  ]
+}

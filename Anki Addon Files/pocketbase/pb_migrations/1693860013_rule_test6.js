@@ -1,0 +1,12 @@
+﻿/// <reference path="../pb_data/types.d.ts" />
+migrate((db) => {
+  const name = 'tmp_rule6';
+  try { const c = db.findCollectionByNameOrId(name); if (c) { db.delete(c) } } catch (e) {}
+  const coll = new Collection({ name, type: 'base', system: false });
+  coll.fields = new FieldsList([
+    new TextField({ system: false, id: 'foo', name: 'foo', hidden: false, presentable: true, required: false, unique: false, options: { min: null, max: null, pattern: '' } })
+  ]);
+  coll.listRule = 'foo != null';
+  try { db.save(coll); console.log('tmp_rule6 saved ok'); } catch (e) { console.log('tmp_rule6 save error:', String(e)); }
+  try { db.delete(coll); } catch (e) {}
+}, (db) => {});

@@ -1,0 +1,72 @@
+{
+  "id": "uremic-platelet-dysfunction",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "renal", "heme_onc"],
+  "names": ["Uremic platelet dysfunction"],
+  "aliases": ["Uremic bleeding", "Platelet dysfunction of renal failure"],
+  "abbr": [],
+  "patterns": [
+    "uremic platelet dysfunction", "uremic bleeding",
+    "renal failure bleeding", "dialysis bleeding"
+  ],
+  "definition": "Qualitative platelet defect in advanced kidney failure due to circulating uremic toxins and altered nitric oxide or prostacyclin balance. Causes impaired adhesion and aggregation with normal platelet count.",
+  "images": [
+    {
+      "src": "https://fake.link/uremic-platelet.png",
+      "alt": "Uremia causing qualitative platelet dysfunction with normal count",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Common, under-recognized cause of mucosal bleeding in renal failure. Peri-procedural planning and rapid reversal options are frequently tested.",
+  "how_youll_see_it": [
+    "Patients with ESRD or severe AKI with epistaxis, easy bruising, or oozing from access sites.",
+    "Labs: platelet count normal; bleeding time prolonged; PT and PTT usually normal.",
+    "History of missed dialysis or uremic symptoms such as nausea, pericarditis, or pruritus."
+  ],
+  "problem_solving": [
+    "Best treatment is dialysis to reduce uremic toxins.",
+    "For urgent procedures or active bleeding: give desmopressin to raise endogenous vWF; consider cryoprecipitate.",
+    "Correct anemia; raising hematocrit improves platelet function. Avoid antiplatelet drugs when possible."
+  ],
+  "differentials": [
+    { "id": "von-willebrand-disease", "hint": "inherited adhesion defect; not limited to renal failure" },
+    { "id": "glanzmann-thrombasthenia", "hint": "aggregation receptor defect; congenital" },
+    { "id": "disseminated-intravascular-coagulation", "name": "Disseminated intravascular coagulation", "hint": "abnormal PT or PTT with low fibrinogen and high D-dimer" }
+  ],
+  "tricks": [
+    "Normal platelet count with prolonged bleeding time in a dialysis patient points to uremic dysfunction.",
+    "Desmopressin works within hours by releasing vWF from endothelium."
+  ],
+  "exam_appearance": [
+    "ESRD patient with oozing from fistula site and normal platelet count before an urgent procedure; receives desmopressin.",
+    "Missed dialysis session followed by epistaxis and prolonged bleeding time that improves after dialysis."
+  ],
+  "treatment": [
+    "Dialysis to clear uremic toxins.",
+    "Desmopressin for rapid hemostasis; add cryoprecipitate if refractory.",
+    "Optimize hematocrit; avoid or hold antiplatelet drugs when safe."
+  ],
+  "red_flags": [
+    "Life-threatening hemorrhage requires urgent dialysis plus pharmacologic hemostasis.",
+    "Consider alternative causes if PT or PTT are prolonged or if platelet count is low."
+  ],
+  "algorithm": [
+    "Renal failure patient with mucocutaneous bleeding -> check platelet count and coagulation tests.",
+    "If platelet count normal and PT and PTT normal but bleeding time prolonged -> uremic dysfunction likely.",
+    "Treat with dialysis and desmopressin; plan peri-procedural prophylaxis."
+  ],
+  "cases": [
+    {
+      "stem": "A patient with ESRD scheduled for emergent central line placement is oozing from access sites.",
+      "clues": ["Normal platelet count", "Prolonged bleeding time", "On hemodialysis"],
+      "answer": "Uremic platelet dysfunction",
+      "teaching": "Give desmopressin for rapid effect and arrange dialysis."
+    },
+    {
+      "stem": "A man with missed dialysis presents with nosebleeds.",
+      "clues": ["ESRD", "Normal platelets", "Bleeding time prolonged"],
+      "answer": "Uremic platelet dysfunction",
+      "teaching": "Bleeding improves after dialysis; correct anemia to improve platelet function."
+    }
+  ]
+}

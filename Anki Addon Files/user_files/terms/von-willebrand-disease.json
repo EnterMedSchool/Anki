@@ -1,0 +1,75 @@
+{
+  "id": "von-willebrand-disease",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "immunology"],
+  "names": ["von Willebrand disease"],
+  "aliases": ["vWF deficiency", "vWF dysfunction"],
+  "abbr": ["vWD", "VWD"],
+  "patterns": [
+    "von willebrand disease",
+    "von-willebrand disease",
+    "vwd", "VWD",
+    "vwf disease", "vWF disease",
+    "von willebrand"
+  ],
+  "definition": "Common inherited bleeding disorder due to quantitative or qualitative defects of von Willebrand factor leading to impaired platelet adhesion and secondary reduction of factor VIII levels; presentation is mucocutaneous bleeding.",
+  "images": [
+    {
+      "src": "https://fake.link/vwd.png",
+      "alt": "von Willebrand disease with defective vWF-GPIb adhesion",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Most prevalent inherited bleeding disorder; usually mild and responsive to desmopressin, but peri-procedural planning is crucial.",
+  "how_youll_see_it": [
+    "Easy bruising, epistaxis, menorrhagia, and bleeding after dental work.",
+    "Labs: normal platelet count with prolonged bleeding time; PT normal; PTT normal or mildly prolonged."
+  ],
+  "problem_solving": [
+    "Ristocetin aggregation test is impaired.",
+    "Type 1 disease responds to desmopressin (endothelial release of vWF and factor VIII).",
+    "Severe disease or major surgery: vWF-containing concentrates plus or minus tranexamic acid.",
+    "Avoid aspirin and NSAIDs which worsen mucosal bleeding."
+  ],
+  "differentials": [
+    { "id": "hemophilia-a", "name": "Hemophilia A", "hint": "Hemarthroses and deep bleeding; normal bleeding time; markedly prolonged PTT; X-linked." },
+    { "id": "bernard-soulier", "name": "Bernard-Soulier syndrome", "hint": "GPIb defect with macrothrombocytes and thrombocytopenia." },
+    { "id": "immune-thrombocytopenia", "name": "Immune thrombocytopenia", "hint": "Isolated thrombocytopenia with normal coagulation tests." }
+  ],
+  "tricks": [
+    "Platelet adhesion uses vWF with GPIb; platelet-to-platelet aggregation uses GPIIb/IIIa.",
+    "Pregnancy and stress can raise vWF levels; bleeding may improve transiently."
+  ],
+  "exam_appearance": [
+    "Teen with heavy menses and epistaxis, normal platelets, prolonged bleeding time, and mild PTT elevation.",
+    "Dental extraction in mild vWD; best prophylaxis is desmopressin."
+  ],
+  "treatment": [
+    "Type 1: desmopressin plus or minus tranexamic acid for procedures.",
+    "Type 2/3 or major surgery/trauma: vWF and factor VIII concentrate.",
+    "Menorrhagia: combined hormonal contraception or levonorgestrel IUD; add tranexamic acid during menses if needed."
+  ],
+  "red_flags": [
+    "Massive bleeding unresponsive to desmopressin: give vWF concentrate.",
+    "Avoid platelet-inhibiting drugs such as aspirin or NSAIDs."
+  ],
+  "algorithm": [
+    "Mucocutaneous bleeding history; order CBC with platelets, PT, PTT, and ristocetin assay.",
+    "If consistent with vWD, treat per severity (desmopressin vs vWF concentrate).",
+    "For procedures: test desmopressin response beforehand; add antifibrinolytic for oral or ENT surgery."
+  ],
+  "cases": [
+    {
+      "stem": "Seventeen-year-old with recurrent nosebleeds and heavy menses.",
+      "clues": ["Normal platelets", "Prolonged bleeding time", "Abnormal ristocetin test", "PT normal", "PTT slightly prolonged"],
+      "answer": "von Willebrand disease",
+      "teaching": "Defective vWF impairs platelet adhesion and reduces factor VIII; desmopressin increases endothelial release of vWF."
+    },
+    {
+      "stem": "Known vWD patient scheduled for dental extraction.",
+      "clues": ["Mild type 1 disease"],
+      "answer": "Give desmopressin prior to the procedure; consider tranexamic acid after the procedure.",
+      "teaching": "Peri-procedural planning prevents mucosal bleeding."
+    }
+  ]
+}

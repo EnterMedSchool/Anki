@@ -1,0 +1,72 @@
+{
+  "id": "glanzmann-thrombasthenia",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc"],
+  "names": ["Glanzmann thrombasthenia"],
+  "aliases": ["GPIIb/IIIa deficiency", "ITGA2B/ITGB3 defect", "platelet aggregation defect"],
+  "abbr": [],
+  "patterns": [
+    "glanzmann", "glanzmann thrombasthenia",
+    "gpIIb/IIIa", "GPIIb/IIIa", "integrin alphaIIb beta3",
+    "platelet aggregation defect"
+  ],
+  "definition": "Autosomal recessive deficiency or dysfunction of the platelet integrin GPIIb/IIIa (alphaIIb beta3), preventing fibrinogen-mediated platelet-to-platelet aggregation and stable plug formation. Platelet count is normal; bleeding time is prolonged.",
+  "images": [
+    {
+      "src": "https://fake.link/glanzmann.png",
+      "alt": "Glanzmann: impaired platelet aggregation via GPIIb/IIIa defect",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Prototypic congenital aggregation disorder. Differentiating it from adhesion defects and from von Willebrand disease is high yield.",
+  "how_youll_see_it": [
+    "Recurrent epistaxis, gingival bleeding, menorrhagia, and postsurgical oozing.",
+    "Smear may show few or no platelet clumps.",
+    "Aggregation testing: absent response to ADP, epinephrine, collagen; normal response to ristocetin."
+  ],
+  "problem_solving": [
+    "Desmopressin does not correct; use platelet transfusion for major bleeds or procedures.",
+    "Antifibrinolytics for mucosal bleeding; recombinant factor VIIa can be considered in refractory life-threatening hemorrhage.",
+    "Avoid aspirin and NSAIDs and GPIIb/IIIa antagonists."
+  ],
+  "differentials": [
+    { "id": "bernard-soulier-syndrome", "hint": "adhesion defect; giant platelets; abnormal ristocetin that does not correct" },
+    { "id": "von-willebrand-disease", "hint": "adhesion defect with normal platelet count; ristocetin corrects with normal plasma" },
+    { "id": "immune-thrombocytopenia", "hint": "isolated low platelets rather than qualitative dysfunction" }
+  ],
+  "tricks": [
+    "GPIIb/IIIa = aggregation; GPIb = adhesion.",
+    "Normal ristocetin response helps separate Glanzmann from vWD and Bernard-Soulier."
+  ],
+  "exam_appearance": [
+    "Child with mucosal bleeding and no platelet clumping on smear; aggregation absent to ADP, epinephrine, and collagen but normal to ristocetin.",
+    "Young woman with heavy menses and normal platelet count; congenital aggregation defect suspected."
+  ],
+  "treatment": [
+    "Local measures and antifibrinolytics for minor bleeds.",
+    "Platelet transfusion for severe bleeding or surgery; consider recombinant factor VIIa if refractory."
+  ],
+  "red_flags": [
+    "Major hemorrhage needs rapid hemostatic support.",
+    "Recurrent transfusions risk alloimmunization; coordinate with hematology."
+  ],
+  "algorithm": [
+    "Mucocutaneous bleeding with normal platelet count -> order aggregation studies.",
+    "Absent aggregation to physiologic agonists with normal ristocetin -> Glanzmann likely.",
+    "Plan peri-procedural hemostasis (antifibrinolytic +/- platelets)."
+  ],
+  "cases": [
+    {
+      "stem": "8-year-old with recurrent epistaxis and normal platelet count.",
+      "clues": ["No platelet clumping on smear", "Absent aggregation to ADP", "Ristocetin normal"],
+      "answer": "Glanzmann thrombasthenia",
+      "teaching": "GPIIb/IIIa defect prevents fibrinogen-mediated platelet cross-linking."
+    },
+    {
+      "stem": "Teen scheduled for tonsillectomy with known Glanzmann.",
+      "clues": ["Qualitative platelet disorder", "Normal ristocetin test"],
+      "answer": "Use antifibrinolytic; have platelets available for intra/postoperative bleeding.",
+      "teaching": "Desmopressin will not correct an aggregation receptor defect."
+    }
+  ]
+}

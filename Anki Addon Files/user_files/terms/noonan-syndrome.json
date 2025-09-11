@@ -1,0 +1,40 @@
+{
+  "id": "noonan-syndrome",
+  "names": [
+    "Noonan Syndrome"
+  ],
+  "definition": "Noonan syndrome is an autosomal dominant RASopathy marked by short stature, characteristic facies, congenital heart defects, and variable developmental delay. Severity of the disorder varies and is dependent on which genes are involved. \n\nMost commonly, the disease affects PTPN11, SOS1, RAF1 and RIT1 and causes hyperstimulation of proteins in the RAS/MAPK pathway, stunting cell growth.",
+  "aliases": [
+    "Male Turner Syndrome"
+  ],
+  "abbr": [
+    "NS"
+  ],
+  "primary_tag": "endocrine",
+  "tags": [
+    "endocrine"
+  ],
+  "why_it_matters": "Early clinical diagnosis is an essential first step. Isolating the causal gene can prevent future complications such as hypertrophic cardiomyopathy, and inform whether treatment with growth hormone therapy is indicated.",
+  "how_youll_see_it": [
+    "Short stature",
+    "Short, sometimes webbed neck",
+    "Broad forehead, sometimes appears triangle shaped with low posterior hairline",
+    "Ptosis",
+    "Hypertelorism with down-slanting palpebral fissues",
+    "Low-set, posteriorly rotated ears, often with thickened helices",
+    "Failure to thrive in early infancy",
+    "In newborns, ASD and/or difficulty breathing requiring oscillating ventilation"
+  ],
+  "problem_solving": [
+    "Suspect with polyhydramnios and thickened nuchal folds diagnosed by ultrasound",
+    "Shortened long bones as detected by ultrasound"
+  ],
+  "exam_appearance": [
+    "Expectant mother undergoes a routine ultrasound at 13 weeks gestation. The results show a thickened nuchal fold and shortened long bones. The mother is measuring large for dates and began \"showing\" early."
+  ],
+  "differentials": [
+    "Turner syndrome",
+    "DiGeorge syndrome",
+    "Down Syndrome (indicated in pregnancy)"
+  ]
+}

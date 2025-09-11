@@ -1,0 +1,74 @@
+{
+  "id": "thrombotic-thrombocytopenic-purpura",
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "renal"],
+  "names": ["Thrombotic thrombocytopenic purpura"],
+  "aliases": ["ADAMTS13 deficiency", "Moschcowitz syndrome"],
+  "abbr": ["TTP"],
+  "patterns": [
+    "TTP", "ttp",
+    "thrombotic thrombocytopenic purpura",
+    "thrombotic-thrombocytopenic purpura",
+    "adamts13", "ADAMTS13"
+  ],
+  "definition": "Life-threatening thrombotic microangiopathy from severe ADAMTS13 deficiency or inhibition leading to ultra-large vWF multimers, platelet-rich microthrombi, thrombocytopenia, and microangiopathic hemolytic anemia with organ ischemia.",
+  "images": [
+    {
+      "src": "https://fake.link/ttp.png",
+      "alt": "TTP with platelet microthrombi due to ADAMTS13 deficiency",
+      "credit": { "text": "illustration", "href": "https://fake.link/credit" }
+    }
+  ],
+  "why_it_matters": "Emergency; mortality falls with rapid plasma exchange. PT/PTT are usually normal, which helps separate TTP from DIC.",
+  "how_youll_see_it": [
+    "Adult (often female) with petechiae or purpura and neurologic changes such as headache or confusion.",
+    "Hemolysis signs: jaundice or dark urine; smear with schistocytes; high LDH and low haptoglobin.",
+    "Thrombocytopenia with normal PT and PTT."
+  ],
+  "problem_solving": [
+    "Treat immediately when microangiopathic hemolytic anemia plus thrombocytopenia and normal PT/PTT; do not wait for ADAMTS13 assay.",
+    "Avoid platelet transfusions unless life-threatening bleeding.",
+    "Common triggers: autoantibodies, pregnancy or postpartum, infection, HIV, malignancy, and drugs such as quinine, clopidogrel, and calcineurin inhibitors."
+  ],
+  "differentials": [
+    { "id": "hemolytic-uremic-syndrome", "hint": "Kidney predominant; often after Shiga toxin diarrhea in children." },
+    { "id": "disseminated-intravascular-coagulation", "name": "Disseminated intravascular coagulation", "hint": "Prolonged PT and PTT, low fibrinogen, high D-dimer." },
+    { "id": "immune-thrombocytopenia", "name": "Immune thrombocytopenia", "hint": "Isolated thrombocytopenia; no schistocytes." }
+  ],
+  "tricks": [
+    "Mnemonic FAT RN: Fever, microangiopathic hemolytic Anemia, Thrombocytopenia, Renal injury, Neurologic signs.",
+    "Normal PT and PTT separates TTP or HUS from DIC."
+  ],
+  "exam_appearance": [
+    "Woman with confusion, petechiae, anemia, schistocytes, and normal PT and PTT; start plasma exchange.",
+    "Postpartum patient with microangiopathic hemolysis and neurologic findings; ADAMTS13 activity low: TTP."
+  ],
+  "treatment": [
+    "Immediate plasma exchange (PLEX).",
+    "High-dose glucocorticoids.",
+    "Rituximab for refractory or relapsing disease; caplacizumab can reduce early events."
+  ],
+  "red_flags": [
+    "Delay in plasma exchange increases mortality.",
+    "Platelet transfusion can worsen thrombosis; reserve for life-threatening hemorrhage."
+  ],
+  "algorithm": [
+    "Suspect TTP in microangiopathic hemolytic anemia plus thrombocytopenia; check PT and PTT.",
+    "If normal, treat as TTP (PLEX plus steroids) and send ADAMTS13 tests.",
+    "If PT or PTT prolonged and fibrinogen low, evaluate for DIC."
+  ],
+  "cases": [
+    {
+      "stem": "34-year-old woman with petechiae, confusion, and dark urine.",
+      "clues": ["Schistocytes", "Platelets 18000 per microliter", "PT and PTT normal", "High LDH", "Low haptoglobin"],
+      "answer": "TTP",
+      "teaching": "Start plasma exchange promptly; do not wait for assays."
+    },
+    {
+      "stem": "Postpartum patient with fluctuating aphasia and renal injury.",
+      "clues": ["Microangiopathic hemolysis", "Thrombocytopenia", "Normal PT and PTT"],
+      "answer": "TTP triggered in pregnancy",
+      "teaching": "Pregnancy and postpartum can precipitate inhibitory ADAMTS13 deficiency."
+    }
+  ]
+}

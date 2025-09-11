@@ -1,0 +1,38 @@
+{
+  "id": "leukemia",
+  "names": ["Leukemia"],
+  "aliases": ["leukaemia"],
+  "patterns": ["leukemia", "leukaemia", "leukemias"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc"],
+  "definition": "Malignant proliferation of hematopoietic cells with primary involvement of bone marrow and blood.",
+  "why_it_matters": "Presents with infection, anemia, bleeding due to marrow failure; different acute/chronic subtypes.",
+  "how_youll_see_it": [
+    "Fatigue, infections, bleeding; high or low WBC with circulating blasts (acute)",
+    "Splenomegaly, lymphocytosis (CLL) or neutrophilia (CML) for chronic forms"
+  ],
+  "problem_solving": [
+    "Peripheral smear + flow cytometry; bone marrow biopsy confirms",
+    "Emergencies: leukostasis (dyspnea/neurologic sx), DIC in APL"
+  ],
+  "differentials": [
+    { "id": "lymphoma", "hint": "nodal/extranodal masses rather than primary marrow disease" }
+  ],
+  "tricks": [
+    "APL (t(15;17)) → ATRA; CML (BCR‑ABL) → TKI (imatinib)"
+  ],
+  "exam_appearance": [
+    "Child with blasts and marrow failure (ALL/AML); older adult with high lymphocyte count (CLL)"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Acute_myeloid_leukemia_-_peripheral_blood.jpg",
+      "alt": "Peripheral smear with blasts",
+      "credit": "https://commons.wikimedia.org/wiki/File:Acute_myeloid_leukemia_-_peripheral_blood.jpg"
+    }
+  ],
+  "see_also": ["lymphoma"],
+  "sources": [
+    { "title": "Leukemia (overview)", "url": "https://en.wikipedia.org/wiki/Leukemia" }
+  ]
+}

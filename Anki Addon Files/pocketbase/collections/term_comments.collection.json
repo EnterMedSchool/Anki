@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pbc_4293984731",
+    "listRule": "id != null",
+    "viewRule": "id != null",
+    "createRule": "@request.auth.id != '' && user = @request.auth.id",
+    "updateRule": "user = @request.auth.id",
+    "deleteRule": "user = @request.auth.id",
+    "name": "term_comments",
+    "type": "base",
+    "fields": [
+      {
+        "autogeneratePattern": "[a-z0-9]{15}",
+        "hidden": false,
+        "id": "text3208210256",
+        "max": 15,
+        "min": 15,
+        "name": "id",
+        "pattern": "^[a-z0-9]+$",
+        "presentable": false,
+        "primaryKey": true,
+        "required": true,
+        "system": true,
+        "type": "text"
+      },
+      {
+        "cascadeDelete": true,
+        "collectionId": "pbc_1139048858",
+        "hidden": false,
+        "id": "term",
+        "maxSelect": 1,
+        "minSelect": 0,
+        "name": "term",
+        "presentable": false,
+        "required": true,
+        "system": false,
+        "type": "relation"
+      },
+      {
+        "cascadeDelete": true,
+        "collectionId": "_pb_users_auth_",
+        "hidden": false,
+        "id": "user",
+        "maxSelect": 1,
+        "minSelect": 0,
+        "name": "user",
+        "presentable": false,
+        "required": true,
+        "system": false,
+        "type": "relation"
+      },
+      {
+        "cascadeDelete": true,
+        "collectionId": "pbc_4293984731",
+        "hidden": false,
+        "id": "parent",
+        "maxSelect": 1,
+        "minSelect": 0,
+        "name": "parent",
+        "presentable": false,
+        "required": false,
+        "system": false,
+        "type": "relation"
+      },
+      {
+        "autogeneratePattern": "",
+        "hidden": false,
+        "id": "body",
+        "max": 2000,
+        "min": 1,
+        "name": "body",
+        "pattern": "",
+        "presentable": false,
+        "primaryKey": false,
+        "required": true,
+        "system": false,
+        "type": "text"
+      }
+    ],
+    "indexes": [
+      "CREATE INDEX idx_term_comments_term ON `term_comments` (`term`)",
+      "CREATE INDEX idx_term_comments_parent ON `term_comments` (`parent`)",
+      "CREATE INDEX idx_term_comments_user ON `term_comments` (`user`)"
+    ],
+    "system": false
+  }
+]

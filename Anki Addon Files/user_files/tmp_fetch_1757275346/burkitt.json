@@ -1,0 +1,61 @@
+{
+  "id": "burkitt-lymphoma",
+  "names": ["Burkitt lymphoma"],
+  "aliases": ["endemic Burkitt", "sporadic Burkitt"],
+  "abbr": ["BL"],
+  "patterns": ["burkitt", "burkitt's lymphoma", "burkitt lymphoma"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics"],
+  "definition": "Highly aggressive B‑cell NHL driven by MYC translocation; classic 'starry‑sky' histology.",
+  "why_it_matters": "Explains explosive tumor growth in kids/young adults and emergent tumor lysis risk.",
+  "how_youll_see_it": [
+    "Endemic (Africa): jaw/face mass; EBV‑associated",
+    "Sporadic: abdominal/ileocecal mass, bowel obstruction",
+    "Very high LDH; rapid doubling time"
+  ],
+  "problem_solving": [
+    "Think Burkitt with jaw mass + EBV or ileocecal mass with sky‑high LDH",
+    "Start tumor lysis prophylaxis immediately (IV fluids, allopurinol/rasburicase)"
+  ],
+  "differentials": [
+    { "id": "follicular-lymphoma", "hint": "indolent, waxing/waning nodes" },
+    { "id": "mantle-cell-lymphoma", "hint": "older men, cyclin D1" }
+  ],
+  "tricks": [
+    "Mnemonic: **8 → MYC**: t(8;14) or variants t(2;8), t(8;22) place *MYC* next to heavy/light chain promoters"
+  ],
+  "exam_appearance": [
+    "Photomicrograph with 'starry‑sky' (tingible‑body macrophages)",
+    "Child with jaw mass (endemic) vs teen with RLQ mass (sporadic)"
+  ],
+  "treatment": [
+    "Intensive multi‑agent chemo (e.g., CODOX‑M/IVAC); CNS prophylaxis",
+    "Manage tumor lysis (aggressive hydration, rasburicase if uric acid high)"
+  ],
+  "red_flags": [
+    "Hyperkalemia, hyperphosphatemia, rising creatinine = tumor lysis emergency"
+  ],
+  "algorithm": [
+    "Stabilize & labs → TLS prophylaxis",
+    "Staging + CNS eval",
+    "Start intensive regimen; add CNS prophylaxis"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Burkitt_lymphoma_%28starry_sky_appearance%29.jpg",
+      "alt": "Burkitt lymphoma starry‑sky histology",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Burkitt_lymphoma_(starry_sky_appearance).jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["non-hodgkin-lymphoma", "lymphoma"],
+  "prerequisites": ["leukemia"],
+  "sources": [
+    { "title": "Burkitt lymphoma (overview)", "url": "https://en.wikipedia.org/wiki/Burkitt_lymphoma" }
+  ]
+}

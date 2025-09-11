@@ -1,0 +1,78 @@
+{
+  "id": "hpa-axis",
+  "primary_tag": "endocrine",
+  "tags": ["endocrine", "physiology", "stress_response"],
+  "names": ["HPA axis", "hypothalamic–pituitary–adrenal axis", "hypothalamic-pituitary-adrenal axis"],
+  "abbr": ["HPA"],
+  "definition": "Neuroendocrine circuit for stress: CRH (hypothalamus) → ACTH (anterior pituitary) → cortisol (adrenal cortex) with negative feedback on both hypothalamus and pituitary.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/HPA-axis_-_animation.gif",
+      "alt": "HPA axis animation",
+      "credit": {
+        "text": "image credit",
+        "href": "https://upload.wikimedia.org/wikipedia/commons/b/b6/HPA-axis_-_animation.gif"
+      }
+    }
+  ],
+  "why_it_matters": "Explains patterns in cortisol testing, responses to stress, and the physiology behind Cushing syndromes and adrenal insufficiency.",
+  "how_youll_see_it": [
+    "Dexamethasone suppression testing workflows",
+    "Early‑morning (8am) cortisol vs late‑night salivary cortisol",
+    "Interpretation of ACTH values (high vs low) to localize pathology"
+    ],
+  "problem_solving": [
+    "Think in feedback loops: what is producing cortisol and who is driving it?",
+    "High cortisol + low ACTH → adrenal source or exogenous glucocorticoids",
+    "High cortisol + high ACTH → pituitary (Cushing disease) vs ectopic; use high‑dose dex or IPSS"
+  ],
+  "differentials": [
+    { "id": "cushing-disease", "name": "Cushing disease", "hint": "pituitary ACTH excess" },
+    { "id": "ectopic-acth", "name": "Ectopic ACTH", "hint": "paraneoplastic; no dex suppression" },
+    { "id": "primary-adrenal-insufficiency", "name": "Primary adrenal insufficiency", "hint": "low cortisol; ACTH elevated" }
+  ],
+  "tricks": [
+    "Random afternoon cortisol is rarely useful—use standardized morning/late‑night tests",
+    "Chronic exogenous steroids suppress CRH/ACTH → adrenal atrophy → crisis risk"
+  ],
+  "exam_appearance": [
+    "CRH stimulates ACTH from anterior pituitary; cortisol provides negative feedback",
+    "High‑dose dex suppresses pituitary ACTH more than ectopic sources"
+  ],
+  "treatment": [
+    "HPA axis itself isn’t a disease—treat the underlying disorder (Cushing, Addison, exogenous steroids)",
+    "Stress‑dose steroids when physiologically suppressed axes are stressed (eg, surgery, sepsis)"
+  ],
+  "red_flags": [
+    "Adrenal crisis: hypotension, hyponatremia, vomiting—give IV hydrocortisone immediately"
+  ],
+  "algorithm": [
+    "Suspected hypercortisolism → screening test (overnight dex OR late‑night salivary OR 24‑hr urine)",
+    "If positive → ACTH level",
+    "High ACTH → pituitary vs ectopic (high‑dose dex ± IPSS); Low ACTH → adrenal imaging",
+    "Suspected adrenal insufficiency → 8am cortisol ± ACTH stimulation"
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old with central obesity and violaceous striae.",
+      "clues": ["Overnight dex test abnormal", "ACTH elevated", "Partial suppression with high‑dose dex"],
+      "answer": "Cushing disease (pituitary)",
+      "teaching": "Pituitary corticotrophs retain some feedback responsiveness."
+    },
+    {
+      "stem": "A 67‑year‑old with chronic prednisone abruptly stopped before elective surgery.",
+      "clues": ["Hypotension", "Hyponatremia", "Low ACTH & cortisol"],
+      "answer": "Secondary adrenal insufficiency",
+      "teaching": "Exogenous steroids suppress the HPA axis; always taper and consider stress doses."
+    }
+  ],
+  "see_also": ["acth", "cortisol", "crh"],
+  "actions": [
+    { "label": "Watch Lecture", "href": "https://entermedschool.com", "variant": "primary" },
+    { "label": "Read Notes", "href": "https://entermedschool.com/hpa-axis", "variant": "secondary" }
+  ],
+  "sources": [
+    { "title": "Physiology review: HPA axis", "url": "https://www.ncbi.nlm.nih.gov/books/" },
+    { "title": "Endocrine Society—clinical testing overview", "url": "https://www.endocrine.org" }
+  ]
+}

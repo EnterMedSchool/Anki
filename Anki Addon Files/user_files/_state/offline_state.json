@@ -1,0 +1,9 @@
+{
+  "offline": false,
+  "ts": 1757549976,
+  "reason": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it> @ http://127.0.0.1:8090/api/collections/tamagotchi/records?perPage=1&filter=user%3D%27ufyt2zrbey3lkbg%27",
+  "last_notify": 1757379131,
+  "fails": 0,
+  "last_err": "URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it> @ http://127.0.0.1:8090/api/health",
+  "last_ok_ts": 1757379693
+}
