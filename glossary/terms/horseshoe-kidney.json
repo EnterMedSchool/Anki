@@ -1,0 +1,171 @@
+{
+    "id": "horseshoe-kidney",
+    "names": \[
+        "Horseshoe kidney"
+    ],
+    "aliases": \[
+        "renal fusion",
+        "ren arcuatus",
+        "fused kidneys"
+    ],
+    "abbr": \[
+        "HSK"
+    ],
+    "patterns": \[
+        "horseshoe kidney",
+        "horse shoe kidney",
+        "horseshoe kidneys",
+        "renal fusion",
+        "ren arcuatus"
+    ],
+"primary\_tag": "renal",
+    "tags": \[
+        "renal",
+        "pathology",
+        "peds",
+        "radiology",
+        "surgery"
+    ],
+    "definition": "Congenital fusion anomaly in which the two kidneys—most often at the **lower poles**—are joined by an **isthmus** crossing the midline. The fused unit tends to sit **low** and is **malrotated**; ascent is commonly limited by the **inferior mesenteric artery (IMA)**.",
+"why\_it\_matters": "It’s the **most common renal fusion anomaly** (\~1 in 500; male ≈2:1). Many are incidental, but the abnormal orientation/ureteral course predisposes to **UPJ obstruction → hydronephrosis**, **vesicoureteral reflux**, **recurrent UTIs**, and **nephrolithiasis** (\~36% over a lifetime). Important **syndromic associations** (e.g., Turner syndrome, trisomy 18) and a **higher tumor risk** (e.g., Wilms tumor \~2×; transitional cell carcinoma \~3–4×) make it high‑yield.",
+"how\_youll\_see\_it": \[
+        "Incidentally on prenatal, pediatric, or adult imaging.",
+        "Child with recurrent febrile UTIs or hydronephrosis; adolescent/adult with flank pain or stones.",
+        "Imaging clues: low‑lying kidneys; **midline isthmus** anterior to aorta/IVC; **malrotation** with **anteriorly oriented renal pelvis** and medially directed lower poles."
+    ],
+"problem\_solving": \[
+        "First‑line imaging: **renal/bladder ultrasound** (look for isthmus, hydronephrosis, stones).",
+        "Define anatomy/complications: **CT urogram** (or MRI urography) for isthmus position, collecting system, and stones; map **variant vasculature** when surgery is planned.",
+        "Obstruction? → **Diuretic renography (MAG3)** for drainage/function; **UPJ obstruction** is most common.",
+        "Recurrent febrile UTIs/antenatal hydronephrosis (peds) → **VCUG** to assess **VUR**.",
+        "Treat the **complication**, not the fusion: pyeloplasty for significant UPJ obstruction, standard stone pathways (URS/PCNL/ESWL with anatomy‑aware planning), UTI management ± prophylaxis. **Do not divide the isthmus** routinely."
+    ],
+    "tricks": \[
+        "Embryology pearl: ascent gets **“stuck” under the IMA** (classically around L3–L5).",
+        "**Malrotation** is expected → pelvis faces **anteriorly**, calyces often point posterior/medial.",
+        "**Syndromes to remember**: **Turner (≈14–20%)**, **trisomy 18**; Down syndrome is less frequent.",
+"Stones are common in adults with HSK (\~**36%**).",
+        "HSK is more susceptible to **blunt abdominal trauma** (low, midline position)."
+    ],
+"exam\_appearance": \[
+        "Short, web‑necked teen with primary amenorrhea and coarctation: ultrasound shows **fused lower poles with midline isthmus** → HSK in **Turner syndrome**.",
+        "Toddler with recurrent febrile UTIs and bilateral hydronephrosis: MAG3 shows delayed washout at **UPJ** → HSK with **UPJ obstruction**.",
+        "Adult with colicky flank pain and microscopic hematuria: CT shows U‑shaped kidneys crossing midline with proximal ureteral stone."
+    ],
+    "treatment": \[
+        "Asymptomatic → **observation**; monitor BP, renal function, and complications.",
+        "**UPJ obstruction** with impaired drainage → **pyeloplasty** after functional confirmation.",
+        "Stones → standard approaches (URS/PCNL/ESWL) tailored to anatomy; note **SWL** may be less effective for certain stones due to clearance issues.",
+        "UTIs → guideline‑based treatment; address reflux/obstruction if present."
+    ],
+"red\_flags": \[
+        "Child with HSK + new **abdominal mass or gross hematuria** → evaluate for **Wilms tumor**.",
+        "Planned aortic/abdominal surgery without imaging → risk of injuring **aberrant renal vessels**; obtain CTA/MRA.",
+        "Lower abdominal **blunt trauma** with flank pain/hematuria → consider contrast CT (isthmus/low‑lying kidney injury)."
+    ],
+    "algorithm": \[
+        "Incidental HSK or hydronephrosis/UTIs → **US**.",
+        "Confirm and map anatomy/complications → **CT urogram/MR urogram**; consider **CTA/MRA** if surgery anticipated.",
+        "If obstruction suspected → **MAG3**; in peds with febrile UTIs/hydronephrosis → **VCUG**.",
+        "Treat **complications** (pyeloplasty for UPJ obstruction, stone management, UTI care); **no routine isthmus division**.",
+        "Long‑term follow‑up for infections, stones, BP, and renal function."
+    ],
+    "differentials": \[
+        {
+            "name": "Crossed fused renal ectopia",
+            "hint": "Fused kidneys on the **same side**; one ureter crosses midline to normal bladder insertion."
+        },
+        {
+            "name": "Pelvic kidney (simple ectopia)",
+            "hint": "Low‑lying kidney **without** fusion; may mimic HSK on limited views."
+        },
+        {
+            "name": "Duplicated collecting system",
+            "hint": "Can cause hydronephrosis/UTIs, but kidneys are separate; look for duplex ureter signs."
+        }
+    ],
+    "images": \[
+        {
+            "src": "[https://upload.wikimedia.org/wikipedia/commons/3/3d/Hufeisenniere.png](https://upload.wikimedia.org/wikipedia/commons/3/3d/Hufeisenniere.png)",
+            "alt": "Sketch diagram of a horseshoe kidney with fused lower poles (isthmus) crossing the midline",
+            "credit": {
+                "text": "Public domain — Wikimedia Commons (Hufeisenniere.png)",
+                "href": "[https://commons.wikimedia.org/wiki/File](https://commons.wikimedia.org/wiki/File)\:Hufeisenniere.png"
+            }
+        }
+    ],
+    "cases": \[
+        {
+            "stem": "A 3‑year‑old boy has three febrile UTIs in 12 months and poor weight gain.",
+            "clues": \[
+                "US: bilateral hydronephrosis + midline parenchymal band",
+                "MAG3: delayed washout from renal pelvis",
+                "No distal obstruction on imaging"
+            ],
+            "answer": "Horseshoe kidney with **UPJ obstruction**",
+            "teaching": "Fusion and malrotation can kink the UPJ → poor drainage, stasis, infections. Manage based on drainage/function (often pyeloplasty if threatened)."
+        },
+        {
+            "stem": "A 16‑year‑old girl with short stature, webbed neck, and primary amenorrhea is evaluated for hypertension.",
+            "clues": \[
+                "45,X karyotype (Turner syndrome)",
+                "CXR: rib notching from coarctation",
+                "Renal US: fused lower poles crossing the midline"
+            ],
+            "answer": "Horseshoe kidney in **Turner syndrome**",
+            "teaching": "HSK is a classic renal anomaly in Turner (≈14–20%). Most are asymptomatic; screen for reflux/obstruction when clinically indicated."
+        }
+    ],
+"see\_also": \[
+        "ureteropelvic-junction-obstruction",
+        "vesicoureteral-reflux",
+        "wilms-tumor",
+        "turner-syndrome"
+    ],
+    "prerequisites": \[
+        "kidney-embryology",
+        "urinary-tract-anatomy"
+    ],
+    "sources": \[
+        {
+            "title": "StatPearls – Horseshoe Kidney (2023 update)",
+            "url": "[https://www.ncbi.nlm.nih.gov/books/NBK431105/](https://www.ncbi.nlm.nih.gov/books/NBK431105/)"
+        },
+        {
+            "title": "BJR (Open Access): Multimodality imaging spectrum of complications of horseshoe kidney (2017)",
+            "url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC5510309/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5510309/)"
+        },
+        {
+            "title": "AJR: Incidence and Spectrum of Renal Complications and Extrarenal Diseases in Children with HSK (2015)",
+            "url": "[https://ajronline.org/doi/pdf/10.2214/AJR.15.14625](https://ajronline.org/doi/pdf/10.2214/AJR.15.14625)"
+        },
+        {
+            "title": "Systematic Review & Meta‑analysis: Kidney stones in HSK (2018)",
+            "url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC5791465/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5791465/)"
+        },
+        {
+            "title": "J Pediatr Urol: The horseshoe kidney—Surgical anatomy and embryology (2016)",
+            "url": "[https://www.jpurol.com/article/S1477-5131(16)30097-3/pdf](https://www.jpurol.com/article/S1477-5131%2816%2930097-3/pdf)"
+        },
+        {
+            "title": "UpToDate: Renal ectopic and fusion anomalies (overview)",
+            "url": "[https://www.uptodate.com/contents/renal-ectopic-and-fusion-anomalies](https://www.uptodate.com/contents/renal-ectopic-and-fusion-anomalies)"
+        },
+        {
+            "title": "Radiopaedia: Horseshoe kidney (reference)",
+            "url": "[https://radiopaedia.org/articles/horseshoe-kidney](https://radiopaedia.org/articles/horseshoe-kidney)"
+        },
+        {
+            "title": "Nature Reviews Urology (2025): Wilms tumour risk notes incl. extrarenal WT and HSK",
+            "url": "[https://www.nature.com/articles/s41585-025-01055-1](https://www.nature.com/articles/s41585-025-01055-1)"
+        }
+    ],
+    "credits": \[
+        {
+            "email": "[test@test.com](mailto:test@test.com)",
+            "role": "Author",
+            "display": "Ari Horesh",
+            "avatar": "[https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo\_transparent\_blue.png](https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png)"
+        }
+    ]
+}
