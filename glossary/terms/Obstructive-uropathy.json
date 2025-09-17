@@ -1,0 +1,115 @@
+{
+  "id": "obstructive-uropathy",
+  "names": ["Obstructive uropathy"],
+  "aliases": ["Urinary tract obstruction", "Obstructive nephropathy"],
+  "patterns": ["obstructive uropathy", "urinary tract obstruction", "obstructive nephropathy", "hydronephrosis", "post-renal AKI", "postrenal azotemia"],
+  "primary_tag": "renal",
+  "tags": ["renal", "peds", "surgery", "pathology"],
+  "definition": "Obstructive uropathy is a structural or functional **blockage** of urinary flow, causing a back-up of urine (hydronephrosis) and potential kidney damage.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg",
+      "alt": "Ultrasound of a kidney with moderate hydronephrosis (dilated renal calyces visible)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_right_kidney_moderate_hydronephrosis.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Without prompt relief, obstruction can cause permanent kidney damage or life-threatening renal failure; however, it’s a **reversible** cause of acute kidney injury when recognized (classic in infant boys with PUV and older men with BPH).",
+  "how_youll_see_it": [
+    "Flank pain (if upper tract, e.g., stone) or lower abdominal/bladder distension (if lower tract); poor urinary stream, straining, or **urinary retention** (e.g., BPH, PUV). May have hematuria (stone) or UTI symptoms. Severe bilateral obstruction → oliguria and rising creatinine.",
+    "Pediatric causes: **Posterior urethral valves (PUV)** in infant boys (congenital bladder outlet obstruction), **ureteropelvic junction (UPJ) obstruction** (congenital hydronephrosis), and **neurogenic bladder** (e.g., spina bifida).",
+    "Adult causes: **Benign prostatic hyperplasia (BPH)** – most common, **ureteral calculi** (kidney stones), **tumors** (prostate, bladder, cervical, etc.), urethral strictures, pelvic masses, and **retroperitoneal fibrosis**."
+  ],
+  "problem_solving": [
+    "In any acute kidney injury, rule out post-renal obstruction: check for bladder distension (bladder scan, catheter) and perform renal ultrasound for hydronephrosis.",
+    "Remember that unilateral obstruction (normal other kidney) may not raise creatinine; bilateral or single-kidney obstruction is needed to cause acute renal failure."
+  ],
+  "differentials": [
+    {
+      "id": "neurogenic-bladder",
+      "hint": "Neurologic bladder dysfunction causing retention (functional obstruction)"
+    },
+    {
+      "id": "vesicoureteral-reflux",
+      "hint": "Urine flows backward from bladder to kidney (hydronephrosis without true obstruction)"
+    },
+    {
+      "name": "Intrinsic renal failure",
+      "hint": "Elevated creatinine from glomerular/tubular disease (no hydronephrosis on imaging)"
+    }
+  ],
+  "tricks": [
+    "A **palpable bladder** in a newborn boy with poor urine output = think PUV (posterior urethral valves).",
+    "After relieving a prolonged obstruction, watch for **post-obstructive diuresis** (massive urine output) and replace fluids/electrolytes.",
+    "Unexplained rise in creatinine? Always consider a post-renal cause — obstructive uropathy is one of the most easily reversible causes of AKI."
+  ],
+  "exam_appearance": [
+    "Newborn boy with a distended bladder, weak urinary stream, and bilateral hydronephrosis → posterior urethral valves (congenital obstruction).",
+    "Flank pain radiating to the groin with hematuria; ultrasound shows hydronephrosis → ureteral stone causing obstruction."
+  ],
+  "treatment": [
+    "Promptly **relieve the obstruction**: e.g., insert a Foley catheter for bladder outlet obstruction, or place a nephrostomy tube/ureteral stent for upper tract obstruction.",
+    "Treat the underlying cause: endoscopic valve ablation for PUV, stone removal (lithotripsy or ureteroscopy), prostate management (medications or TURP for BPH), or surgical resection of tumors/masses.",
+    "Manage complications: treat UTIs with antibiotics, and monitor for post-obstructive diuresis (aggressive IV fluids and electrolyte monitoring if high output)."
+  ],
+  "red_flags": [
+    "**Post-obstructive diuresis**: after decompression, high urine output can cause dehydration/electrolyte imbalance; monitor urine output closely.",
+    "Bilateral obstruction (or obstruction of a solitary kidney) can cause **acute kidney injury** – a urologic emergency requiring urgent drainage.",
+    "Urinary stasis from obstruction → **recurrent UTIs** and stones; chronic obstruction leads to permanent renal scarring if untreated."
+  ],
+  "algorithm": [
+    "Suspect obstructive uropathy → assess bladder (palpation/bladder scan) and do renal ultrasound for hydronephrosis.",
+    "If obstruction confirmed → decompress immediately (e.g., Foley catheter, nephrostomy).",
+    "Find and address cause: imaging (CT, cystoscopy, VCUG) to identify level/cause → definitive treatment (stone removal, valve ablation, prostate surgery, etc.)."
+  ],
+  "cases": [
+    {
+      "stem": "A newborn boy is noted to have a palpable lower abdominal mass and minimal urine output. Prenatal ultrasound showed bilateral hydronephrosis.",
+      "clues": [
+        "Male infant",
+        "Distended bladder",
+        "Bilateral hydronephrosis",
+        "Oliguria"
+      ],
+      "answer": "Posterior urethral valves (congenital bladder outlet obstruction)",
+      "teaching": "A membrane in the posterior urethra (only in boys) causes urinary outflow obstruction. It is the most common congenital cause of bladder outlet obstruction, leading to hydronephrosis and potentially fatal renal damage if not promptly relieved (initial catheterization and then endoscopic valve ablation)."
+    },
+    {
+      "stem": "An 80‑year‑old man with long-standing urinary hesitancy, straining, and nocturia presents with confusion and no urine output for 8 hours. Exam reveals a very distended bladder and bilateral flank tenderness.",
+      "clues": [
+        "Elderly male",
+        "History of BPH symptoms (weak stream, nocturia)",
+        "Urinary retention (no output)",
+        "Palpable bladder",
+        "Elevated creatinine"
+      ],
+      "answer": "Obstructive uropathy due to benign prostatic hyperplasia",
+      "teaching": "Chronic bladder outlet obstruction from BPH can lead to acute urinary retention and post-renal azotemia. Immediate catheterization relieves the obstruction and typically results in copious urine output (post-obstructive diuresis). Definitive management includes BPH therapy (e.g., alpha-1 blockers, 5-alpha-reductase inhibitors, or TURP)."
+    }
+  ],
+  "see_also": [
+    "vesicoureteral-reflux",
+    "neurogenic-bladder",
+    "benign-prostatic-hyperplasia"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Obstructive Uropathy (2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK558921/"
+    },
+    {
+      "title": "Merck Manual Professional - Obstructive Uropathy",
+      "url": "https://www.merckmanuals.com/professional/genitourinary-disorders/obstructive-uropathy/obstructive-uropathy"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

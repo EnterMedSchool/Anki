@@ -1,0 +1,128 @@
+{
+  "id": "mitral-valve-prolapse",
+  "names": ["Mitral valve prolapse"],
+  "aliases": ["floppy mitral valve syndrome", "Barlow syndrome", "click-murmur syndrome", "billowing mitral valve syndrome"],
+  "abbr": ["MVP"],
+  "patterns": ["mvp", "mitral valve prolapse", "mitral prolapse", "Barlow syndrome", "floppy mitral valve", "click murmur syndrome", "billowing mitral valve", "myxomatous mitral valve"],
+  "primary_tag": "cardio",
+  "tags": ["cardio", "pathology", "surgery"],
+  "definition": "Bulging (prolapse) of one or both mitral valve leaflets into the left atrium during systole, due to degeneration of valve tissue (myxomatous change):contentReference[oaicite:0]{index=0}. Often causes a characteristic **mid-systolic click** with or without a late systolic murmur, and can lead to **mitral regurgitation**:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}.",
+  "why_it_matters": "Common valvular disorder (~2% of people):contentReference[oaicite:3]{index=3} and the leading cause of non-ischemic **mitral regurgitation**:contentReference[oaicite:4]{index=4}. Usually benign, but can sometimes result in severe MR with **heart failure**, arrhythmias (rarely sudden death), **infective endocarditis**, or stroke:contentReference[oaicite:5]{index=5}:contentReference[oaicite:6]{index=6}. A classic exam topic due to its distinctive auscultation findings (click-murmur) and associations (e.g. **Marfan** syndrome).",
+  "how_youll_see_it": [
+    "Often **asymptomatic**: many cases are found incidentally during a routine exam (hearing a click/murmur) or via echocardiogram:contentReference[oaicite:7]{index=7}:contentReference[oaicite:8]{index=8}.",
+    "Common scenario: a young **female** patient with **palpitations**, **atypical chest pain** (non-exertional), or **anxiety**; on exam she has a **mid-systolic click** followed by a late systolic murmur at the apex:contentReference[oaicite:9]{index=9}:contentReference[oaicite:10]{index=10}.",
+    "Associated with connective tissue diseases: patients with **Marfan** or **Ehlers-Danlos** (tall, thin habitus, hyperflexible joints, maybe pectus excavatum) often have MVP due to myxomatous valve changes:contentReference[oaicite:11]{index=11}:contentReference[oaicite:12]{index=12}.",
+    "If **severe mitral regurgitation** develops, patients can present with **dyspnea**, fatigue, or arrhythmias later in life. Exam then shows a **holosystolic murmur** (from MR) that can obscure the click:contentReference[oaicite:13]{index=13}:contentReference[oaicite:14]{index=14}."
+  ],
+  "problem_solving": [
+    "Suspected MVP (hearing a click/murmur) is confirmed by **echocardiography**:contentReference[oaicite:15]{index=15}:contentReference[oaicite:16]{index=16}, which shows leaflet displacement (>2 mm beyond annulus) and can quantify mitral regurgitation.",
+    "Know the maneuvers: **standing/Valsalva** (↓ venous return) make the click occur earlier and murmur longer, whereas **squatting/handgrip** (↑ afterload/volume) delay the click and shorten the murmur:contentReference[oaicite:17]{index=17}:contentReference[oaicite:18]{index=18}. This helps distinguish MVP’s murmur from others (e.g. differentiating it from hypertrophic cardiomyopathy).",
+    "If the patient has **palpitations or syncope**, evaluate for arrhythmias. MVP can cause ventricular ectopic beats or arrhythmias in some patients:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20} (Holter monitoring or ECG may show PVCs, etc.).",
+    "**No antibiotic prophylaxis** is needed for MVP (for dental or minor procedures) unless the patient has a history of infective endocarditis or valve repair:contentReference[oaicite:21]{index=21}:contentReference[oaicite:22]{index=22}.",
+    "Don’t confuse MVP’s mid-systolic click with an **aortic ejection click** (e.g., bicuspid aortic valve): the latter occurs earlier (right after S1), at the base of the heart, and does **not change with position**:contentReference[oaicite:23]{index=23}."
+  ],
+  "tricks": [
+    "The hallmark **mid-systolic click** is practically diagnostic of MVP:contentReference[oaicite:24]{index=24}.",
+    "MVP murmur **moves with maneuvers**: it gets longer/louder when standing, and shorter/softer when squatting (due to LV volume changes):contentReference[oaicite:25]{index=25}.",
+    "Common in young women — historically called **Barlow syndrome**; these patients often have palpitations or anxiety but a benign prognosis:contentReference[oaicite:26]{index=26}.",
+    "Associations: think **connective tissue** – conditions like Marfan and Ehlers-Danlos often feature MVP (myxomatous valves):contentReference[oaicite:27]{index=27}.",
+    "**Most common cause of MR** in patients without coronary heart disease:contentReference[oaicite:28]{index=28} (MVP causes degenerative mitral regurgitation).",
+    "Exam update: **no prophylactic antibiotics** needed for MVP (unless there’s a prosthetic valve or prior endocarditis):contentReference[oaicite:29]{index=29}."
+  ],
+  "differentials": [
+    {
+      "name": "Hypertrophic cardiomyopathy (HOCM)",
+      "hint": "Harsh crescendo-decrescendo systolic murmur at left sternal border; **no click**; murmur also changes with maneuvers but is heard in a different location (septal hypertrophy on echo)."
+    },
+    {
+      "name": "Chronic mitral regurgitation",
+      "hint": "Holosystolic **blowing** murmur at apex (radiating to axilla), beginning immediately at S1 (no mid-systolic click). Often due to ischemic or rheumatic disease."
+    },
+    {
+      "name": "Bicuspid aortic valve",
+      "hint": "Early systolic ejection click at the right upper sternal border with a systolic murmur; aortic click occurs right after S1 and **does not vary** with squatting/standing."
+    }
+  ],
+  "exam_appearance": [
+    "Young woman with anxiety, palpitations, and **atypical chest pain**; exam reveals a mid-systolic click and late systolic murmur that becomes softer when squatting → **Mitral valve prolapse**.",
+    "Tall, thin patient with long limbs and **hyperflexible joints** (Marfanoid habitus), plus a mid-systolic click on auscultation → **Mitral valve prolapse** (associated with connective tissue disorder).",
+    "Older patient with history of MVP who now has exertional dyspnea and a new **holosystolic murmur** radiating to the axilla → **Severe mitral regurgitation** due to progressed MVP."
+  ],
+  "treatment": [
+    "If asymptomatic and trivial regurgitation: **reassurance** and observation (no treatment needed):contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}.",
+    "For autonomic symptoms (palpitations, chest pain, anxiety): **beta blockers** (e.g. propranolol) can help alleviate symptoms:contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}.",
+    "When **severe MR** is present (especially with symptoms or LV dysfunction): recommend **mitral valve repair** (surgery) before heart failure ensues:contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}.",
+    "Manage arrhythmias if they occur (e.g., treat atrial fibrillation with rate control and anticoagulation as appropriate):contentReference[oaicite:36]{index=36}.",
+    "No need for antibiotic prophylaxis for MVP (unless there’s a prosthetic valve or prior endocarditis):contentReference[oaicite:37]{index=37}:contentReference[oaicite:38]{index=38}."
+  ],
+  "red_flags": [
+    "**Acute chordae rupture**: sudden chest pain, pulmonary edema, and cardiogenic shock in an MVP patient could indicate a ruptured chordae tendineae causing acute severe MR (flail leaflet):contentReference[oaicite:39]{index=39} – a surgical emergency.",
+    "**Unexplained syncope** or complex ventricular arrhythmias (PVCs, VT) in MVP – could signify malignant arrhythmic MVP with risk of sudden death:contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}; requires urgent cardiology evaluation.",
+    "**Heart failure** signs (new dyspnea, edema) or **LV dilation** on echo in an MVP patient – suggests progression to severe chronic MR; consider timely valve repair to prevent permanent damage:contentReference[oaicite:42]{index=42}."
+  ],
+  "algorithm": [
+    "Auscultation suggests MVP (click ± murmur) → obtain a transthoracic **echocardiogram** to confirm prolapse and assess degree of MR:contentReference[oaicite:43]{index=43}:contentReference[oaicite:44]{index=44}.",
+    "If MVP is confirmed with **no significant MR and no symptoms** → periodic follow-up (e.g., exam and echo every few years):contentReference[oaicite:45]{index=45}.",
+    "If **symptomatic** (palpitations, chest pain) but **no severe MR** → conservative management (reassurance, lifestyle, ± beta blockers) and evaluate/treat other causes of symptoms.",
+    "If **severe MR or LV dysfunction** on echo (even if asymptomatic) → refer for **mitral valve repair** (surgical intervention) before onset of heart failure symptoms:contentReference[oaicite:46]{index=46}:contentReference[oaicite:47]{index=47}.",
+    "In all cases, address complications: e.g., manage atrial fibrillation (anticoagulate if needed):contentReference[oaicite:48]{index=48}, and remember no endocarditis prophylaxis is required for uncomplicated MVP:contentReference[oaicite:49]{index=49}."
+  ],
+  "cases": [
+    {
+      "stem": "A 24-year-old woman with palpitations and anxiety is noted to have a heart murmur on exam.",
+      "clues": [
+        "Mid-systolic click with late systolic murmur heard at the apex",
+        "Murmur occurs earlier when standing, softer when squatting",
+        "Echocardiogram shows myxomatous mitral valve prolapse with trivial regurgitation"
+      ],
+      "answer": "Mitral valve prolapse",
+      "teaching": "Classic **MVP** presentation: young female with nonspecific symptoms and the hallmark **click-murmur** on exam:contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}. It is often benign; provide reassurance or beta blockers for palpitations. Follow periodically for development of significant regurgitation."
+    },
+    {
+      "stem": "A 58-year-old man with a history of MVP presents with sudden severe shortness of breath.",
+      "clues": [
+        "Acute pulmonary edema and hypotension",
+        "New loud holosystolic murmur at the apex",
+        "Echo: flail posterior mitral leaflet with severe mitral regurgitation"
+      ],
+      "answer": "Acute mitral regurgitation due to chordae tendineae rupture (in MVP)",
+      "teaching": "MVP can lead to rupture of chordae tendineae, causing a flail leaflet and **acute MR**:contentReference[oaicite:52]{index=52}. Acute MR presents with flash pulmonary edema and shock, requiring emergent surgical repair. In chronic MVP, watch for progressive MR and intervene before heart failure develops:contentReference[oaicite:53]{index=53}."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Heart_mitral_valve_prolapse.svg",
+      "alt": "Diagram of a heart with mitral valve prolapse (mitral leaflets bulging upward into the left atrium during systole)",
+      "credit": {
+        "text": "Wikimedia Commons (Patrick J. Lynch, CC BY 2.5)",
+        "href": "https://commons.wikimedia.org/wiki/File:Heart_mitral_valve_prolapse.svg"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls — Mitral Valve Prolapse (2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470288"
+    },
+    {
+      "title": "Merck Manual Professional – Mitral Valve Prolapse",
+      "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/valvular-disorders/mitral-valve-prolapse-mvp"
+    },
+    {
+      "title": "American College of Cardiology – MVP Syndrome: Once Benign and Now Malignant (2020)",
+      "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2020/12/01/01/42/Mitral-Valve-Prolapse-Syndrome-Once-Benign-and-Now-Malignant"
+    },
+    {
+      "title": "Mayo Clinic – Mitral Valve Prolapse: Symptoms & Causes",
+      "url": "https://www.mayoclinic.org/diseases-conditions/mitral-valve-prolapse/symptoms-causes/syc-20355446"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

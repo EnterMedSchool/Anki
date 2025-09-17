@@ -1,0 +1,98 @@
+{
+  "id": "bilateral-renal-agenesis",
+  "names": ["Bilateral renal agenesis"],
+  "aliases": ["Potter syndrome", "Potter sequence", "renal agenesis (bilateral)"],
+  "abbr": ["BRA"],
+  "patterns": ["bilateral renal agenesis", "bilateral kidney agenesis", "Potter syndrome", "Potter sequence", "renal agenesis bilateral", "oligohydramnios sequence"],
+  "primary_tag": "renal",
+  "tags": ["renal", "pathology", "peds", "obstetrics", "embryology"],
+  "definition": "Congenital absence of both kidneys (and ureters), often referred to as classic Potter syndrome. The lack of fetal renal function causes severe oligohydramnios (anhydramnios) leading to pulmonary hypoplasia, characteristic facies (Potter facies), and limb contractures. It is a uniformly fatal anomaly, usually resulting in stillbirth or death shortly after birth due to respiratory failure.",
+  "why_it_matters": "Bilateral renal agenesis is a rare but important congenital anomaly (historically ~1 in 3,000–5,000 births; ~1 in 8,000–9,000 pregnancies in the ultrasound era) with a strong male predominance (~3:1). It is the quintessential cause of the Potter oligohydramnios sequence, which is frequently tested in exams for its classic clinical findings. Early recognition on prenatal ultrasound is critical for parental counseling because the condition is incompatible with life. Notable associations include maternal pregestational diabetes and teratogen exposures (e.g., ACE inhibitors), and it often co-occurs with other anomalies (e.g., VACTERL association in ~50% of cases). There is an increased risk of renal anomalies in relatives (recurrence risk ~5%), and bilateral renal agenesis can be part of genetic syndromes like branchio-oto-renal, Fraser syndrome, or sirenomelia.",
+  "how_youll_see_it": [
+    "Routine mid-trimester prenatal ultrasound shows severe oligohydramnios with non-visualization of fetal kidneys and an empty bladder.",
+    "Pregnant patient presents with markedly low fundal height; ultrasound confirms anhydramnios and absence of both fetal kidneys (Potter sequence).",
+    "Newborn (often male) with Potter facies (flattened nose, recessed chin, low-set ears), limb contractures (clubbed feet), and immediate respiratory distress; no urine output is observed and imaging/postmortem reveals bilateral renal agenesis."
+  ],
+  "problem_solving": [
+    "First-line diagnostic approach is prenatal ultrasound: look for absent kidneys in the renal fossae (and no ectopic kidney), absent bladder filling, and measure amniotic fluid index (AFI). Color Doppler can help by showing absence of renal arteries (normally arising from the aorta), and the 'lying-down adrenal sign' may suggest an empty renal fossa.",
+    "If ultrasound is inconclusive due to poor visualization (because anhydramnios limits imaging), a fetal MRI can be used for confirmation of renal absence and to look for any renal tissue or alternate causes of oligohydramnios.",
+    "Once bilateral renal agenesis is confirmed, evaluate for other anomalies or syndromic features. A detailed anatomy scan (and possibly fetal echocardiogram) is warranted, as up to half of cases have other malformations (e.g., vertebral, cardiac, gastrointestinal). Consider genetic testing (karyotype or microarray) since aneuploidy is present in ~7%.",
+    "Provide prompt counseling to the expectant parents. Emphasize that bilateral renal agenesis is uniformly fatal due to lung underdevelopment (pulmonary hypoplasia). Discussion should include the option of pregnancy termination (if early enough) versus continuation with palliative care planning. Psychological support is important given the grim prognosis.",
+    "There is no curative treatment available. Experimental interventions such as serial amnioinfusions during pregnancy (to mitigate pulmonary hypoplasia) have shown some prolonged survival in small trials, but these infants still require immediate dialysis and have high mortality. In standard practice, management is supportive: if the fetus is carried to term, plan for comfort care after delivery (oxygen/ventilation for a brief period if needed, but typically intensive interventions are futile without kidneys)."
+  ],
+  "tricks": [
+    "Mnemonic for Potter sequence: **POTTER** – **P**ulmonary hypoplasia, **O**ligohydramnios, **T**wisted (wrinkled) skin, **T**wisted face (Potter facies: flat nose, low-set ears, micrognathia), **E**xtremity deformities (clubbed feet, contracted limbs), **R**enal agenesis (bilateral).",
+    "Imaging pearl: The **lying-down adrenal sign** on fetal ultrasound – in the absence of kidneys, the adrenal glands appear flattened and oriented longitudinally in the renal fossae. Also, absence of renal arteries on Doppler is a key clue to confirm renal agenesis.",
+    "Male predominance: bilateral renal agenesis is about 2.5–3 times more common in male fetuses. If a question stem involves a male fetus with severe oligohydramnios, think of posterior urethral valves (if bladder is enlarged) versus bilateral renal agenesis (if bladder is absent).",
+    "Risk factors: Maternal conditions like **diabetes mellitus** (pre-gestational), **obesity**, **smoking**, and heavy alcohol use (especially binge drinking in early pregnancy) are associated with increased risk of bilateral renal agenesis. Avoidance of ACE inhibitors and NSAIDs in pregnancy is also crucial, as they can cause renal failure and Potter-like sequence.",
+    "Recurrence and relatives: Although usually sporadic, there is ~5% recurrence risk in subsequent pregnancies and up to 15% of first-degree relatives may have some form of renal anomaly (like unilateral agenesis). Families with a history of bilateral renal agenesis should receive genetic counseling and early prenatal ultrasounds in future pregnancies."
+  ],
+  "exam_appearance": [
+    "A 20-week prenatal ultrasound shows almost no amniotic fluid and an inability to visualize the fetal kidneys or bladder. The fetus is in an abnormal posture due to restricted space. Diagnosis: bilateral renal agenesis (Potter syndrome), which carries a fatal prognosis.",
+    "A newborn boy is delivered at 34 weeks with a flattened nose, low-set ears, and clubbed feet. He has severe respiratory distress and does not produce any urine. Despite maximal support, he dies shortly after birth. Autopsy reveals complete absence of both kidneys, consistent with classic Potter sequence from bilateral renal agenesis.",
+    "On an anatomy exam, you see a stillborn fetus with characteristic facies (widely separated eyes, epicanthal folds, flat nose), limb contractures, and pulmonary hypoplasia. This is a classic presentation of Potter sequence caused by bilateral renal agenesis."
+  ],
+  "treatment": [
+    "No definitive treatment exists for bilateral renal agenesis, as the condition is uniformly fatal. Historically, affected pregnancies often result in stillbirth or neonatal death due to pulmonary hypoplasia.",
+    "Prenatal management is mainly anticipatory: once diagnosed, parents should be counseled regarding the lethal outcome. Many opt for termination of pregnancy if the diagnosis is made early. If the pregnancy continues, serial amnioinfusions have been attempted in research settings to improve lung development, but this is not standard care.",
+    "Neonatal management is palliative. If a baby is born alive, they may receive comfort care or brief respiratory support, but long-term survival would require immediate dialysis and a kidney transplant, which is generally not feasible given the profound lung hypoplasia. Emphasis is placed on family support and end-of-life care."
+  ],
+  "red_flags": [
+    "Second-trimester **anhydramnios** (absence of amniotic fluid) on ultrasound is a major red flag – always search for fetal kidneys and bladder. If both are absent, suspect bilateral renal agenesis as the cause of the oligohydramnios.",
+    "Do not confuse **bilateral renal agenesis** with treatable causes of oligohydramnios like **posterior urethral valves (PUV)**. In PUV, the bladder is enlarged and kidneys are present (though hydronephrotic), whereas in bilateral agenesis the bladder is typically not seen and no kidneys are present. Misdiagnosis could lead to inappropriate management expectations.",
+    "If an infant is born after an undiagnosed oligohydramnios with immediate respiratory failure and anuria (no urine output), recognize this as a likely missed bilateral renal agenesis. In such cases, invasive interventions will not succeed – the focus should shift to confirming the diagnosis and providing compassionate care."
+  ],
+  "algorithm": [
+    "Suspected on screening ultrasound (oligohydramnios noted) -> **Targeted fetal ultrasound** to evaluate kidneys and bladder (look for absent kidneys, empty bladder, lying-down adrenal sign, absent renal arteries on Doppler).",
+    "If **bilateral renal agenesis** is confirmed (no kidneys, no bladder filling) -> **Assess for additional anomalies** (detailed ultrasound or fetal MRI) and consider **genetic testing** (aneuploidy and syndrome workup) for complete counseling.",
+    "Prenatal management: Once confirmed, discuss **prognosis (lethal)** with the family. Provide options: **termination** (if within legal/ethical timeframe) or **expectant management** with planned palliative care. If continuing pregnancy, arrange delivery at a center equipped for high-risk neonatal care (though only comfort measures will be possible).",
+    "No effective in utero therapy exists in routine practice (experimental serial amnioinfusions can be considered only in research trials). Ensure **maternal health** is monitored (anhydramnios can complicate labor with cord compression, etc., often leading to early induction).",
+    "Postnatal: If live-born, implement **comfort care** (warmth, oxygen as needed for comfort, but avoid painful interventions). In rare experimental scenarios, immediate **dialysis** might be initiated to bridge an infant to transplant, but this is extraordinary and not standard. The primary focus is on family support and grieving resources."
+  ],
+  "differentials": [
+    { "name": "Autosomal recessive polycystic kidney disease (ARPKD)", "hint": "Both kidneys are present but enlarged and echogenic with cysts; causes oligohydramnios and Potter sequence, but on ultrasound the kidneys are visible (often massively enlarged) rather than absent." },
+    { "name": "Posterior urethral valves (PUV)", "hint": "Occurs in male fetuses; severe bladder outlet obstruction leads to oligohydramnios. However, ultrasound will show a distended bladder and hydronephrotic kidneys (the 'keyhole' sign), distinguishing it from absent kidneys." },
+    { "name": "Bilateral multicystic dysplastic kidneys (MCDK)", "hint": "Both kidneys are replaced by multiple cysts and nonfunctioning tissue. This can also result in minimal or no amniotic fluid if severe, but usually ultrasound will show cystic masses in the renal fossae rather than completely empty fossae." }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Potter_sequence.webm/1280px--Potter_sequence.webm.jpg",
+      "alt": "Diagram illustrating the effects of low amniotic fluid on the fetus: the compressed fetus in utero leads to pulmonary hypoplasia (underdeveloped fetal lungs), a key feature of Potter sequence.",
+      "credit": {
+        "text": "Osmosis (open.osmosis.org) via Wikimedia Commons, CC BY-SA 4.0",
+        "href": "https://commons.wikimedia.org/wiki/File:Potter_sequence.webm"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22-year-old G1P0 woman at 21 weeks gestation is noted to have a significantly small fundal height. Ultrasound reveals a virtual absence of amniotic fluid and inability to visualize the fetal kidneys or bladder.",
+      "clues": ["Severe oligohydramnios (anhydramnios) on mid-pregnancy ultrasound", "No fetal kidneys seen in renal fossae; fetal bladder is empty", "Fetus has clubbed feet and a compressed face on ultrasound"],
+      "answer": "Bilateral renal agenesis (Potter sequence)",
+      "teaching": "Bilateral absence of kidneys leads to anhydramnios, which in turn causes Potter sequence (lung hypoplasia, facies, limb deformities). The ultrasound findings of no fluid and no kidneys confirm the diagnosis, which is uniformly fatal. Early diagnosis allows appropriate counseling (often pregnancy termination or expectant management with palliative care)."
+    },
+    {
+      "stem": "A newborn male is delivered at 35 weeks to a mother who received minimal prenatal care. The baby is noted to have a flattened nose, low-set ears, and contractures of the limbs. He is in respiratory distress and does not void urine. Despite resuscitation efforts, he dies within an hour of birth.",
+      "clues": ["Characteristic Potter facies and limb positioning deformities at birth", "Respiratory failure immediately due to pulmonary hypoplasia", "No urine output; ultrasound confirms absence of kidneys"],
+      "answer": "Potter syndrome from bilateral renal agenesis",
+      "teaching": "This is a classic presentation of Potter sequence caused by undiagnosed bilateral renal agenesis. The neonate’s features (Potter facies, clubbed feet) and the absence of urine output are key clues. Unfortunately, without kidneys the baby cannot survive due to lack of lung development. This scenario underlines the importance of prenatal ultrasound for early detection."
+    }
+  ],
+  "see_also": ["potter-sequence", "posterior-urethral-valves", "autosomal-recessive-polycystic-kidney-disease", "multicystic-dysplastic-kidney", "vacterl-association"],
+  "prerequisites": ["kidney-embryology", "urinary-tract-anatomy"],
+  "sources": [
+    { "title": "StatPearls: Potter Syndrome (NCBI Bookshelf, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK560858/" },
+    { "title": "Radiopaedia: Potter sequence (reference article, last revised Aug 2025)", "url": "https://radiopaedia.org/articles/potter-sequence" },
+    { "title": "Miller JL et al. Neonatal survival after serial amnioinfusions for bilateral renal agenesis (RAFT trial results, JAMA 2023;330:2096)", "url": "https://jamanetwork.com/journals/jama/fullarticle/2812481" },
+    { "title": "Cleveland Clinic: Renal Agenesis – Unilateral vs Bilateral (patient information, 2023)", "url": "https://my.clevelandclinic.org/health/diseases/24161-renal-agenesis" },
+    { "title": "Slickers JE et al. Maternal BMI, smoking, and risk of bilateral renal agenesis (Natl Birth Defects Prevention Study, Am J Epidemiol 2008)", "url": "https://pubmed.ncbi.nlm.nih.gov/18835865/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "chronic-kidney-disease",
+  "names": [
+    "Chronic kidney disease"
+  ],
+  "aliases": [
+    "chronic renal failure",
+    "chronic renal insufficiency",
+    "chronic kidney failure",
+    "chronic renal disease"
+  ],
+  "abbr": [
+    "CKD"
+  ],
+  "patterns": [
+    "ckd",
+    "chronic kidney disease",
+    "chronic renal failure",
+    "chronic renal insufficiency",
+    "chronic kidney failure"
+  ],
+  "primary_tag": "renal",
+  "tags": [
+    "pathology",
+    "renal",
+    "peds",
+    "endocrine"
+  ],
+  "definition": "Progressive loss of kidney function over ≥3 months, defined by **eGFR** <60 mL/min/1.73 m² or signs of kidney damage (e.g., persistent **albuminuria**).",
+  "why_it_matters": "Very common (≈14% of adults) and a leading cause of **end-stage renal disease** requiring dialysis or transplant. Causes systemic issues (anemia, bone disease, acidosis, CV risk) and frequently appears on exams linking kidney function to widespread effects.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** until late stages; early clues are subtle (nocturia, fatigue). Advanced CKD causes **uremic** symptoms (anorexia, pruritus, confusion), plus **edema**, **hypertension**, and **anemia** (due to low EPO).",
+    "Adult causes: **diabetes** (diabetic nephropathy) and **hypertension** are most common; also chronic glomerular diseases (e.g., IgA nephropathy), **polycystic kidney disease**, or long-standing obstruction (stones, BPH).",
+    "Pediatric causes: usually **CAKUT** (congenital anomalies of kidney & urinary tract like reflux or posterior urethral valves), **reflux nephropathy** from recurrent UTIs, hereditary nephropathies (e.g., **nephronophthisis**), or chronic glomerulopathies."
+  ],
+  "problem_solving": [
+    "Confirm chronicity: check old creatinine trends and kidney size (small, shrunken kidneys suggest chronic disease).",
+    "Stage the CKD: GFR categories 1–5 (stage 3 starts at **GFR <60**, stage 5 is **<15** or dialysis) and classify **albuminuria** (A1 <30, A2 30–300, A3 >300 mg/g).",
+    "Evaluate cause: get **urinalysis** (protein, hematuria, casts) and **urine ACR** (albumin-creatinine ratio) to quantify proteinuria; consider serologies for glomerulonephritis if indicated.",
+    "Imaging: perform renal **ultrasound** to assess size and rule out obstruction or structural abnormalities (CKD kidneys often appear small and scarred, except in diabetes or PKD which may be enlarged).",
+    "Monitor for complications: regularly check **hemoglobin** (for anemia of CKD), **electrolytes** (especially potassium), **bicarbonate** (metabolic acidosis), and **calcium/phosphate/PTH** (secondary hyperparathyroidism)."
+  ],
+  "differentials": [
+    {
+      "name": "Prerenal azotemia",
+      "hint": "reversible ↓GFR from low perfusion (e.g., dehydration, heart failure)"
+    },
+    {
+      "name": "Acute glomerulonephritis",
+      "hint": "active urinary sediment (RBC casts), shorter duration, often nephritic syndrome"
+    },
+    {
+      "name": "Postrenal (obstructive) AKI",
+      "hint": "acute decline due to obstruction (hydronephrosis on imaging, resolves if blockage relieved)"
+    }
+  ],
+  "tricks": [
+    "Fewer nephrons → surviving nephrons **hyperfilter** to compensate, which over time causes fibrosis (hyperfiltration injury accelerates CKD).",
+    "CKD usually leads to **small kidneys** on imaging due to scarring (exceptions: diabetic nephropathy and **PKD** can have normal or large kidneys).",
+    "ACE inhibitors/ARBs slow progression by reducing hyperfiltration pressure (dilate efferent arteriole)."
+  ],
+  "exam_appearance": [
+    "Long-standing diabetic patient with proteinuria, progressively ↑creatinine, and small echogenic kidneys on ultrasound → diabetic CKD (nephropathy).",
+    "Child with history of recurrent UTIs, growth failure, anemia, and bilateral renal scarring on imaging → CKD from reflux nephropathy.",
+    "CKD patient with pericardial friction rub and confusion → **uremic** pericarditis/encephalopathy (indication for urgent dialysis)."
+  ],
+  "treatment": [
+    "Slow the progression: strict **BP control** (<130/80) with ACEi/ARB (especially if proteinuria); optimize glycemic control in diabetics; avoid nephrotoxins (NSAIDs, IV contrast).",
+    "Manage complications: **erythropoietin-stimulating agents** for anemia, **phosphate binders** and calcitriol for renal bone disease, **bicarbonate** supplements for metabolic acidosis, diuretics and salt restriction for volume overload, etc.",
+    "Plan for renal replacement: when GFR falls <20–30 (stage 4), educate and prepare for **dialysis** (vascular access for hemodialysis) or **transplant** evaluation; start dialysis for uremic symptoms or severe electrolyte imbalances."
+  ],
+  "red_flags": [
+    "Signs of **uremia** (encephalopathy, pericarditis, asterixis, bleeding) or refractory **hyperkalemia**/fluid overload → urgent dialysis is indicated.",
+    "Sudden GFR decline in CKD patient—think **acute on chronic** (e.g., volume depletion, nephrotoxic drug, obstruction) which may be reversible if addressed promptly."
+  ],
+  "algorithm": [
+    "Risk factors (diabetes, HTN) or elevated creatinine >3 months → suspect CKD.",
+    "Confirm CKD if **eGFR <60** for ≥3 months or markers of damage (proteinuria, structural lesions).",
+    "Exclude acute causes: review meds, ensure volume status, rule out obstruction (bladder scan, ultrasound).",
+    "Classify stage by eGFR and albuminuria; address reversible factors and co-morbidities (control BP, glucose, stop nephrotoxins).",
+    "Refer to nephrology by late Stage 3–4; if GFR <30, plan for renal replacement (access placement, transplant referral)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/CKD_-_Chronic_kidney_disease.jpg",
+      "alt": "Illustration of a chronically diseased kidney (irregular, scarred appearance).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:CKD_-_Chronic_kidney_disease.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 60‑year‑old man with a 20-year history of type 2 diabetes and hypertension is evaluated for fatigue and ankle swelling.",
+      "clues": [
+        "Creatinine has risen over years to 3.5 mg/dL",
+        "Urine albumin-creatinine ratio >300 mg/g",
+        "Hemoglobin 9 (low)",
+        "Bilateral small kidneys on ultrasound"
+      ],
+      "answer": "Chronic kidney disease (diabetic nephropathy)",
+      "teaching": "Longstanding diabetes and hypertension cause CKD via nephron loss and glomerulosclerosis. Persistent proteinuria and small scarred kidneys are typical; glycemic/BP control and ACEi can slow further decline."
+    },
+    {
+      "stem": "A 12‑year‑old boy with a history of Grade IV vesicoureteral reflux presents with poor growth, fatigue, and bed-wetting.",
+      "clues": [
+        "Recurrent kidney infections in childhood",
+        "Scarring seen in both kidneys on ultrasound",
+        "Blood pressure is elevated",
+        "Polyuria and anemia are noted"
+      ],
+      "answer": "Chronic kidney disease from reflux nephropathy",
+      "teaching": "VUR (a CAKUT) led to recurrent UTIs and renal scarring, reducing nephron mass. This pediatric CKD often causes growth failure, anemia, and hypertension; managing UTIs early could prevent progression."
+    }
+  ],
+  "see_also": [
+    "acute-kidney-injury",
+    "polycystic-kidney-disease",
+    "vesicoureteral-reflux",
+    "multicystic-dysplastic-kidney",
+    "obstructive-uropathy",
+    "nephrotic-syndrome"
+  ],
+  "prerequisites": [
+    "renal-physiology",
+    "nephron"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Chronic Kidney Disease (Vaidya & Aeddula, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535404/"
+    },
+    {
+      "title": "UpToDate: Chronic kidney disease in adults – overview of management",
+      "url": "https://www.uptodate.com/contents/chronic-kidney-disease-in-adults-overview-of-management"
+    },
+    {
+      "title": "Chronic Kidney Disease in Children (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/984358-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

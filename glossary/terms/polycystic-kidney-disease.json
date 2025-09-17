@@ -1,0 +1,139 @@
+{
+  "id": "polycystic-kidney-disease",
+  "names": [
+    "Polycystic kidney disease"
+  ],
+  "aliases": [
+    "Autosomal dominant polycystic kidney disease",
+    "Autosomal recessive polycystic kidney disease"
+  ],
+  "abbr": [
+    "PKD",
+    "ADPKD",
+    "ARPKD"
+  ],
+  "patterns": [
+    "pkd",
+    "adpkd",
+    "arpkd",
+    "polycystic kidney",
+    "polycystic kidney disease",
+    "autosomal dominant polycystic kidney disease",
+    "autosomal recessive polycystic kidney disease",
+    "adult polycystic kidney disease",
+    "infantile polycystic kidney disease"
+  ],
+  "primary_tag": "renal",
+  "tags": [
+    "pathology",
+    "renal",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Bilateral fluid-filled renal cysts causing enlarged kidneys and progressive renal failure; most often autosomal dominant (adult type) with a rarer autosomal recessive (infant) form.",
+  "why_it_matters": "Major inherited cause of end-stage kidney disease (~5–10% of dialysis cases):contentReference[oaicite:0]{index=0}, with extrarenal complications (e.g., berry aneurysms) that require vigilant management.",
+  "how_youll_see_it": [
+    "Adult form (ADPKD): Young adult (20s–40s) with **hypertension**, flank pain, hematuria; ± kidney stones or UTIs. Bilateral flank masses develop as cysts enlarge; usually a positive family history.",
+    "Infantile form (ARPKD): Newborn with **Potter sequence** (oligohydramnios → lung hypoplasia) and respiratory distress at birth. Surviving infants have **massive bilateral flank masses** (huge cystic kidneys) and later **congenital hepatic fibrosis** (portal hypertension)."
+  ],
+  "problem_solving": [
+    "Suspect ADPKD (young patient with HTN or family history) → confirm with **renal ultrasound** (multiple bilateral cysts).",
+    "Genetic testing is not routine; reserve for unclear cases (e.g., potential kidney donor with negative imaging).",
+    "Aggressive **blood pressure control** (ACE inhibitors) and high fluid intake (low caffeine) to slow cyst growth.",
+    "Manage complications: treat cyst infections (requires antibiotics penetrating cysts) and kidney stones promptly; monitor renal function.",
+    "Consider **tolvaptan** (ADH V2 antagonist) for rapidly progressing ADPKD; prepare for eventual dialysis/transplant if kidneys fail."
+  ],
+  "tricks": [
+    "Mnemonic: **\"polycystic kidney\" has 16 letters** → **PKD1** gene on chromosome **16** (85% of ADPKD cases); **PKD2** is on chromosome **4** (2^2=4).",
+    "**Dominant = adult**, **Recessive = infant** (ADPKD presents in adulthood; ARPKD in childhood)."
+  ],
+  "exam_appearance": [
+    "Middle-aged adult with early **hypertension**, hematuria, and bilateral flank masses; family history of kidney failure or brain aneurysm → **ADPKD**.",
+    "Newborn with flattened facies, pulmonary hypoplasia (Potter sequence) and huge palpable kidneys → **ARPKD**."
+  ],
+  "treatment": [
+    "No cure—focus on slowing progression: strict blood pressure control (ACE inhibitors), high fluid intake, low salt/caffeine diet.",
+    "Promptly treat infections (e.g., antibiotics for cyst infection) and nephrolithiasis; consider drainage if very large cyst causing pain.",
+    "**Tolvaptan** (vasopressin V2 receptor antagonist) can slow cyst growth in select ADPKD patients (slows GFR decline).",
+    "Dialysis or kidney transplant when renal failure advances (often by age 50–60 in ADPKD)."
+  ],
+  "red_flags": [
+    "Sudden **worst headache of life** in a PKD patient → suspect ruptured berry aneurysm (**subarachnoid hemorrhage**), a neurosurgical emergency."
+  ],
+  "algorithm": [
+    "Suspected PKD (young hypertensive patient or +FH) → obtain renal ultrasound.",
+    "If ultrasound shows multiple bilateral cysts → diagnosis confirmed. If high suspicion but ultrasound normal (especially <30y) → follow up later or genetic test if needed.",
+    "Upon diagnosis, begin ACE inhibitor for BP control, encourage increased hydration; avoid nephrotoxic drugs.",
+    "Monitor renal function periodically; educate patient to report signs of cyst infection (fever, flank pain).",
+    "Refer to nephrology for possible tolvaptan therapy if rapidly progressing; plan for dialysis/transplant in case of ESRD."
+  ],
+  "differentials": [
+    {
+      "name": "Simple renal cyst",
+      "hint": "solitary or few cysts; benign incidental finding, normal renal function"
+    },
+    {
+      "name": "Acquired cystic kidney disease",
+      "hint": "multiple cysts from long-term dialysis (ESRD); risk of renal cell carcinoma"
+    },
+    {
+      "name": "Medullary sponge kidney",
+      "hint": "cystic dilations in collecting ducts; causes hematuria & stones but normal renal function"
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls — Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532934"
+    },
+    {
+      "title": "National Kidney Foundation – Polycystic Kidney Disease",
+      "url": "https://www.kidney.org/kidney-topics/polycystic-kidney-disease"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Polycystic_kidneys,_gross_pathology_CDC_PHIL.png",
+      "alt": "Gross pathology of polycystic kidney disease (enlarged, cyst-filled kidneys)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Polycystic_kidneys,_gross_pathology_CDC_PHIL.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 38‑year‑old man with a history of hypertension and episodic hematuria presents with flank pain.",
+      "clues": [
+        "Bilateral palpable flank masses",
+        "Family history of kidney failure in father"
+      ],
+      "answer": "Autosomal dominant polycystic kidney disease",
+      "teaching": "Multiple renal cysts → enlarged kidneys (causing HTN and hematuria). AD inheritance (PKD1 mutation) explains the family history and association with berry aneurysms."
+    },
+    {
+      "stem": "A newborn has respiratory distress at birth and characteristic facies with low-set ears and flat nose. Imaging shows massively enlarged, echogenic kidneys.",
+      "clues": [
+        "Oligohydramnios (Potter sequence)",
+        "Hepatomegaly with fibrosis on ultrasound"
+      ],
+      "answer": "Autosomal recessive polycystic kidney disease",
+      "teaching": "In utero renal failure → oligohydramnios (Potter sequence). AR PKHD1 mutation causes infantile cystic kidneys and congenital hepatic fibrosis (portal hypertension)."
+    }
+  ],
+  "see_also": [
+    "chronic-kidney-disease",
+    "tuberous-sclerosis"
+  ],
+  "prerequisites": [
+    "kidney"
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

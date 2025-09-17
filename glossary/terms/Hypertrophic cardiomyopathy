@@ -1,0 +1,205 @@
+{
+    "id": "hypertrophic-cardiomyopathy",
+    "names": [
+        "Hypertrophic cardiomyopathy"
+    ],
+    "aliases": \[
+        "hypertrophic obstructive cardiomyopathy",
+        "asymmetric septal hypertrophy",
+        "idiopathic hypertrophic subaortic stenosis"
+    ],
+    "abbr": \[
+        "HCM",
+        "HOCM",
+        "IHSS"
+    ],
+    "patterns": [
+        "hypertrophic cardiomyopathy",
+        "hocm",
+        "ihss",
+        "asymmetric septal hypertrophy",
+        "idiopathic hypertrophic subaortic stenosis"
+    ],
+"primary_tag": "cardio",
+    "tags": [
+        "cardio",
+        "genetics",
+        "pathology",
+        "peds",
+        "radiology"
+    ],
+    "definition": "Genetic cardiomyopathy (usually autosomal dominant) characterized by unexplained left‑ventricular hypertrophy (often asymmetric septal) that can cause dynamic LV outflow tract obstruction (LVOTO), diastolic dysfunction, myocardial ischemia, and atrial/ventricular arrhythmias. Adult diagnosis is typically by imaging with maximal LV wall thickness ≥15 mm (or 13–14 mm in the presence of a pathogenic sarcomeric variant or clear family history) in the absence of another cause of hypertrophy.",
+"why\_it\_matters": "Common inherited heart disease (\~0.2% ≈ 1 in 500 adults) and a leading cause of sudden cardiac death (SCD) in the young, including athletes. Accurate recognition changes exercise counseling, family screening, SCD prevention (ICD decisions), and symptom management (beta‑blockers, myosin inhibitors, or septal reduction at expert centers).",
+"how\_youll\_see\_it": \[
+        "Symptoms: exertional dyspnea, chest pain, presyncope/syncope (classically during or just after exertion), palpitations; many are asymptomatic.",
+        "Exam (obstructive physiology): harsh systolic crescendo–decrescendo murmur at left lower sternal border that **increases** with Valsalva/standing and **decreases** with squatting/handgrip; S4; possibly brisk/bisferiens carotid pulse.",
+        "ECG: LVH with repolarization changes; deep, narrow “dagger‑like” Q waves in lateral (I, aVL, V5–V6) ± inferior (II, III, aVF) leads; sometimes normal.",
+        "Echo: asymmetric septal hypertrophy; systolic anterior motion (SAM) of the mitral valve; dynamic LVOTO (at rest or with provocation); secondary MR; small LV cavity; diastolic dysfunction.",
+        "CMR: clarifies patterns (e.g., apical HCM), detects apical aneurysm, and quantifies fibrosis (late gadolinium enhancement).",
+        "Genetics: pathogenic variants most often in **MYH7** and **MYBPC3**; also TNNT2, TNNI3, TPM1, MYL2/MYL3, ACTC1. Variable penetrance and expression."
+    ],
+"problem\_solving": \[
+        "Confirm **unexplained** LVH: rule out severe hypertension, aortic stenosis, athlete’s heart, infiltrative/storage disease (amyloid, Fabry/GLA, Danon/LAMP2, PRKAG2) before labeling HCM.",
+        "Quantify obstruction: measure LVOT gradient at rest and with provocation (Valsalva, exercise, post‑PVC, amyl nitrite). A **peak gradient ≥30 mm Hg** indicates obstruction; **≥50 mm Hg** is a typical threshold for advanced therapy in symptomatic patients.",
+        "Risk‑stratify SCD (initial and q1–2 y): prior cardiac arrest/VT, family history of premature SCD, unexplained (likely arrhythmic) syncope, maximal wall thickness (e.g., ≥30 mm), apical aneurysm, LVEF < 50%, non‑sustained VT on ambulatory ECG, and extensive LGE on CMR. Use guideline calculators and shared decision‑making for ICD.",
+        "Differentiate HCM from athlete’s heart: athlete’s has symmetric LVH, larger LV cavity, normal/augmented diastolic function, and regression with detraining; HCM often has asymmetric hypertrophy, small cavity, diastolic dysfunction, and fibrosis on CMR.",
+        "AF in HCM: low threshold for anticoagulation (DOACs first‑line) even with paroxysms ≥24 h; rhythm control often preferred; consider ablation in experienced centers.",
+        "Family cascade: offer diagnostic genetic testing to proband; screen first‑degree relatives by ECG + echo (intervals by age/risk) and/or targeted genetic testing if a pathogenic variant is found."
+    ],
+    "tricks": \[
+        "Dynamic murmur logic: ↓preload/↓afterload (Valsalva, standing) → **louder** HCM murmur; ↑preload/↑afterload (squatting, handgrip) → **softer**. Opposite pattern of most left‑sided systolic murmurs.",
+        "Avoid preload/afterload reducers (nitrates, ACEi/ARB, dihydropyridine CCBs) and high‑dose diuretics in **obstructive** HCM—they can worsen gradients.",
+        "Pulsus bisferiens (double‑peaked carotid) can occur in obstructive HCM (and severe AR).",
+        "If symptomatic obstruction despite beta‑blocker or non‑DHP CCB, adding **disopyramide** (negative inotrope) can reduce gradients while awaiting definitive therapy.",
+        "Brockenbrough–Braunwald–Morrow sign: after a PVC, LV systolic pressure rises but aortic pulse pressure falls—hemodynamic clue to dynamic subaortic obstruction."
+    ],
+    "differentials": [
+        "Athlete’s heart (physiologic LVH)",
+        "Hypertensive heart disease (concentric LVH)",
+        "Aortic stenosis or subvalvular fixed obstruction",
+        "Infiltrative/storage: cardiac amyloidosis, Fabry disease (GLA), Danon (LAMP2), PRKAG2 cardiomyopathy",
+        "Other cardiomyopathies (dilated, restrictive), LV noncompaction, congenital anomalies (e.g., anomalous papillary muscles)"
+    ],
+"exam_appearance": [
+        "A 17‑year‑old collapses during basketball warm‑ups. Harsh systolic murmur at LLSB that intensifies with Valsalva. ECG shows LVH with deep narrow Q waves in V5–V6.",
+        "A 32‑year‑old with exertional chest pain and dyspnea. Echo: asymmetric septal hypertrophy with SAM and resting LVOT gradient 45 mm Hg; symptoms worsen with dehydration.",
+        "A 48‑year‑old with palpitations and near‑syncope. Ambulatory ECG reveals NSVT; CMR shows extensive LGE. Discuss primary‑prevention ICD.",
+        "A 25‑year‑old competitive rower with LV wall thickness 13–14 mm. CMR shows no fibrosis; deconditioning reduces thickness—more consistent with athlete’s heart than HCM."
+    ],
+    "treatment": \[
+        "Lifestyle & counseling: stay hydrated; avoid sudden preload/afterload drops; individualized sports counsel—**mild‑to‑moderate recreational exercise is encouraged**; expert‑led evaluation for higher‑intensity competition.",
+        "Obstructive HCM (symptomatic): **non‑vasodilating beta‑blockers** first‑line; if not tolerated/ineffective → **verapamil or diltiazem** (avoid in hypotension/high gradients); add **disopyramide** if needed.",
+        "Cardiac myosin inhibitor: **mavacamten** for symptomatic obstructive HCM per contemporary guidelines and FDA labeling; monitor LVEF and drug interactions via REMS program.",
+        "Persistent symptoms with LVOTO ≥50 mm Hg: **septal reduction therapy** (surgical myectomy or alcohol septal ablation) at **experienced HCM centers**.",
+        "Atrial fibrillation: **DOACs first‑line** for stroke prevention (≥24 h AF or clinical AF); rate/rhythm control per guideline; consider ablation, especially if undergoing myectomy.",
+        "SCD prevention: **ICD** for survivors of VT/VF or for high predicted risk (based on risk markers and shared decision‑making).",
+        "Heart failure end‑stage (EF < 50% or burned‑out HCM): guideline‑directed HF therapy; consider transplant evaluation."
+    ],
+"red\_flags": \[
+        "Exertional syncope or near‑syncope, especially in adolescents/young adults.",
+        "Family history of premature SCD or known pathogenic sarcomere variant.",
+        "Maximal LV wall thickness ≥30 mm, apical aneurysm, or LVEF <50%.",
+        "Recurrent NSVT on ambulatory ECG or extensive LGE on CMR."
+    ],
+    "algorithm": \[
+        "Suspect HCM (murmur that gets louder with Valsalva/standing, exertional symptoms, family history, abnormal ECG).",
+        "Transthoracic echo ± provocation → confirm pattern of hypertrophy; if nondiagnostic/complex → CMR.",
+        "Exclude phenocopies/secondary causes (hypertension, AS, amyloid, Fabry, PRKAG2, etc.).",
+        "Quantify LVOT gradient (rest + provocation); classify obstructive vs non‑obstructive.",
+        "Risk‑stratify SCD (history, family history, wall thickness, EF, NSVT, LGE, apical aneurysm) → discuss ICD as appropriate.",
+        "Manage symptoms (beta‑blocker → NDHP‑CCB → +disopyramide; consider **mavacamten** or **septal reduction therapy** at HCM center).",
+        "Genetics: test proband; cascade test/screen relatives; set echo/ECG surveillance intervals by age/risk.",
+        "Longitudinal follow‑up: reassess symptoms, gradients, rhythm (Holter), exercise counseling, and risk markers q1–2 y."
+    ],
+    "images": \[
+        {
+            "src": "[https://commons.wikimedia.org/wiki/Special](https://commons.wikimedia.org/wiki/Special)\:FilePath/FIGURA%2010.jpg",
+            "alt": "Echocardiographic still showing left ventricular hypertrophy—pattern consistent with cardiomyopathy",
+            "credit": {
+                "text": "Wikimedia Commons—Public Domain (PD‑self; no copyright)",
+                "href": "[https://commons.wikimedia.org/wiki/File](https://commons.wikimedia.org/wiki/File)\:FIGURA\_10.jpg"
+            }
+        },
+        {
+            "src": "[https://commons.wikimedia.org/wiki/Special](https://commons.wikimedia.org/wiki/Special)\:FilePath/Sonographer%20doing%20pediatric%20echocardiography.JPG",
+            "alt": "Public‑domain photo of an echocardiography exam being performed",
+            "credit": {
+                "text": "Wikimedia Commons—Public Domain (no copyright)",
+                "href": "[https://commons.wikimedia.org/wiki/File](https://commons.wikimedia.org/wiki/File)\:Sonographer\_doing\_pediatric\_echocardiography.JPG"
+            }
+        }
+    ],
+    "cases": \[
+        {
+            "stem": "A 19‑year‑old sprinter has exertional syncope. Father died suddenly at 42. Harsh systolic murmur increases with Valsalva.",
+            "clues": \[
+                "Deep narrow Q waves in V5–V6",
+                "Echo: asymmetric septal hypertrophy with SAM",
+                "Provoked LVOT gradient 70 mm Hg"
+            ],
+            "answer": "Obstructive HCM with high SCD risk",
+            "teaching": "Classic dynamic murmur and family history. Discuss ICD for primary prevention and start a beta‑blocker; consider myosin inhibitor or referral for myectomy if symptoms persist."
+        },
+        {
+            "stem": "A 35‑year‑old with exertional dyspnea has LV wall thickness 16 mm on echo; BP is well controlled; CMR shows patchy LGE.",
+            "clues": \[
+                "No significant valvular disease",
+                "NSVT on 48‑hr Holter",
+                "No secondary cause identified"
+            ],
+            "answer": "HCM (non‑obstructive) with arrhythmic risk markers",
+            "teaching": "Meets diagnostic criteria (≥15 mm without another cause). Even without obstruction, fibrosis and NSVT elevate SCD risk—consider ICD after shared decision‑making."
+        },
+        {
+            "stem": "A collegiate rower has LV wall thickness 13–14 mm, large LV cavity, normal diastolic function, and no LGE.",
+            "clues": \[
+                "Deconditioning over 3 months reduces wall thickness",
+                "No family history, normal Holter"
+            ],
+            "answer": "Physiologic athlete’s heart",
+            "teaching": "Symmetric remodeling with regression on detraining favors athlete’s heart rather than HCM."
+        }
+    ],
+"see\_also": \[
+        "sudden-cardiac-death",
+        "aortic-stenosis",
+        "mitral-regurgitation",
+        "athletes-heart",
+        "cardiomyopathy-overview"
+    ],
+    "prerequisites": \[
+        "cardiac-anatomy",
+        "cardiac-physiology",
+        "echocardiography-basics"
+    ],
+    "sources": \[
+        {
+            "title": "2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy (full text/abstract hub)",
+            "url": "[https://www.ahajournals.org/doi/10.1161/CIR.0000000000001250](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001250)"
+        },
+        {
+            "title": "2024 AHA/ACC HCM Guideline slide deck (diagnostic criteria; LVOT gradient thresholds; exercise & AF recommendations)",
+            "url": "[https://professional.heart.org/en/-/media/PHD-Files/Education/2024\_HCM\_Guideline\_for\_the\_Management\_of\_HCM\_Slide\_Deck.pdf](https://professional.heart.org/en/-/media/PHD-Files/Education/2024_HCM_Guideline_for_the_Management_of_HCM_Slide_Deck.pdf)"
+        },
+        {
+            "title": "ACC—Key Points: 2024 Multisociety HCM Guideline",
+            "url": "[https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/05/06/15/12/2024-hypertrophic-cardiomyopathy-gl](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/05/06/15/12/2024-hypertrophic-cardiomyopathy-gl)"
+        },
+        {
+            "title": "2020 AHA/ACC Guideline for HCM—Guidelines Made Simple (management algorithms; pharmacologic therapy; sports)",
+            "url": "[https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Guidelines/2020/HCM-Guidelines-Made-Simple-Tool-gl-hcm.pdf](https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Guidelines/2020/HCM-Guidelines-Made-Simple-Tool-gl-hcm.pdf)"
+        },
+        {
+            "title": "2023 ESC Guidelines for the Management of Cardiomyopathies (HCM focused update, family screening, CMR)",
+            "url": "[https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Cardiomyopathy-Guidelines](https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Cardiomyopathy-Guidelines)"
+        },
+        {
+            "title": "StatPearls: Hypertrophic Cardiomyopathy (epidemiology; genetics; adult diagnostic thresholds)",
+            "url": "[https://www.ncbi.nlm.nih.gov/books/NBK430788/](https://www.ncbi.nlm.nih.gov/books/NBK430788/)"
+        },
+        {
+            "title": "Circulation Research Review—Hypertrophic Cardiomyopathy: Genetics, Pathogenesis, Clinical Manifestations, Diagnosis, and Therapy",
+            "url": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC5654557/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5654557/)"
+        },
+        {
+            "title": "Merck Manual (Professional): Maneuvers That Aid in Diagnosis of Murmurs (dynamic changes with Valsalva/squatting/handgrip)",
+            "url": "[https://www.merckmanuals.com/professional/multimedia/table/maneuvers-that-aid-in-diagnosis-of-murmurs](https://www.merckmanuals.com/professional/multimedia/table/maneuvers-that-aid-in-diagnosis-of-murmurs)"
+        },
+        {
+            "title": "ECG features: deep, narrow Q waves in HCM (review & examples)",
+            "url": "[https://litfl.com/hypertrophic-cardiomyopathy-hcm-ecg-library/](https://litfl.com/hypertrophic-cardiomyopathy-hcm-ecg-library/)"
+        },
+        {
+            "title": "FDA Prescribing Information—CAMZYOS (mavacamten) 2024 label (Boxed Warning; REMS; indication for symptomatic obstructive HCM)",
+            "url": "[https://www.accessdata.fda.gov/drugsatfda\_docs/label/2024/214998s009lbl.pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/214998s009lbl.pdf)"
+        }
+    ],
+    "credits": \[
+        {
+            "display": "Ari Horesh",
+            "role": "Author",
+            "email": "[test@test.com](mailto:test@test.com)",
+            "avatar": "[https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo\_transparent\_blue.png](https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png)"
+        }
+    ]
+}

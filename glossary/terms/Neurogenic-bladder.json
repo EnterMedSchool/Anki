@@ -1,0 +1,135 @@
+{
+  "id": "neurogenic-bladder",
+  "names": [
+    "Neurogenic bladder",
+    "Neurogenic bladder dysfunction"
+  ],
+  "aliases": [
+    "neuropathic bladder"
+  ],
+  "abbr": [
+    "NGB"
+  ],
+  "patterns": [
+    "neurogenic bladder",
+    "neurogenic bladder dysfunction",
+    "neuropathic bladder",
+    "NGB"
+  ],
+  "primary_tag": "renal",
+  "tags": [
+    "pathology",
+    "renal",
+    "peds",
+    "neuro"
+  ],
+  "definition": "Urinary bladder dysfunction caused by injury or disease of the nervous system that impairs bladder control (e.g., spinal cord or peripheral nerve damage).",
+  "why_it_matters": "Untreated neurogenic bladder can lead to recurrent UTIs, hydronephrosis, and **renal failure**. It commonly occurs in patients with conditions like spina bifida or spinal cord injury, so early recognition and management are critical to protect the kidneys and improve quality of life.",
+  "how_youll_see_it": [
+    "Infant with **myelomeningocele** (spina bifida) having dribbling incontinence, recurrent UTIs, and hydronephrosis on ultrasound.",
+    "Patient with **spinal cord injury** or **multiple sclerosis** experiencing urinary urgency, incontinence, or retention requiring catheterization.",
+    "Physical exam may show a distended bladder (if retention) or signs of upper motor neuron lesion (if spastic bladder, e.g., brisk reflexes) or lower motor neuron lesion (if flaccid bladder, e.g., decreased perineal sensation)."
+  ],
+  "problem_solving": [
+    "Differentiate high-pressure vs low-pressure neurogenic bladder: **hyperreflexic (spastic)** bladder holds little urine and leaks under high pressure (risking VUR and kidney damage), whereas **areflexic (flaccid)** bladder overfills with large residual volumes (risking retention and UTI).",
+    "Always measure a **post-void residual (PVR)** in patients with incontinence or retention to detect incomplete emptying.",
+    "In a child with risk factors (e.g., spina bifida) or recurrent UTIs, evaluate for neurogenic bladder early (ultrasound, VCUG, urodynamics) to prevent silent kidney damage."
+  ],
+  "tricks": [
+    "**Spina bifida** = assume neurogenic bladder (most myelomeningocele patients have it and need early bladder management).",
+    "**Lesion location matters**: Spinal lesions above T12 often cause a hyperreflexic bladder (↑ tone, small capacity, DSD), while sacral (S2–S4) lesions cause an areflexic bladder (flaccid, large capacity).",
+    "The combo of **clean intermittent catheterization (CIC)** plus anticholinergics is a classic regimen to protect the upper tract in high-pressure neurogenic bladder."
+  ],
+  "exam_appearance": [
+    "Newborn with **open spina bifida** + urinary dribbling → neurogenic bladder (requires catheterization to prevent renal damage).",
+    "Patient with **multiple sclerosis** + sudden urinary urgency/incontinence → detrusor overactivity from neurogenic bladder."
+  ],
+  "treatment": [
+    "**Clean intermittent catheterization (CIC)** on a regular schedule to empty the bladder fully.",
+    "**Anticholinergic** medications (e.g., oxybutynin) to relax an overactive bladder and lower intravesical pressures.",
+    "Surgical interventions if needed: e.g., bladder **augmentation** (to increase capacity), **vesicostomy** or other urinary diversions, or sphincter procedures to improve emptying or continence."
+  ],
+  "red_flags": [
+    "Untreated high-pressure bladder can cause **hydronephrosis** and renal scarring – always act on new imaging changes or rising creatinine.",
+    "**Autonomic dysreflexia** in a spinal cord injury patient (headache, flushing, hypertension triggered by a full bladder) is a medical emergency – immediately relieve bladder distension.",
+    "Frequent febrile UTIs in a neurogenic bladder patient are warning signs – evaluate for VUR or improper catheterization."
+  ],
+  "algorithm": [
+    "Known risk (e.g., spina bifida) → **screen early** with renal ultrasound ± VCUG; get baseline urodynamics.",
+    "If **high-pressure** (hyperreflexic) bladder on urodynamics → start CIC + anticholinergic to protect kidneys.",
+    "If **low-pressure** (areflexic) bladder → ensure complete emptying (CIC) to avoid retention (± consider bethanechol).",
+    "**Follow-up** regularly with renal ultrasound and renal function tests; escalate to surgical options if bladder pressures remain unsafe or incontinence is unacceptable."
+  ],
+  "differentials": [
+    {
+      "name": "Obstructive uropathy",
+      "hint": "non-neurologic block in urine flow (e.g., posterior urethral valves in a boy) causing similar hydronephrosis/retention."
+    },
+    {
+      "name": "Vesicoureteral reflux (VUR)",
+      "hint": "retrograde urine flow from bladder to ureters/kidneys causing UTIs and hydronephrosis (can coexist with neurogenic bladder)."
+    },
+    {
+      "name": "Functional incontinence",
+      "hint": "urinary issues not due to nerve damage (e.g., **dysfunctional voiding** or behavioral holding in children)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls - Neurogenic Bladder (2023 update)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560617/"
+    },
+    {
+      "title": "MedlinePlus - Neurogenic Bladder Overview",
+      "url": "https://medlineplus.gov/ency/article/000754.htm"
+    },
+    {
+      "title": "Urology Care Foundation - Neurogenic Bladder info",
+      "url": "https://www.urologyhealth.org/urology-a-z/n/neurogenic-bladder"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Pine_cone_shape_of_a_neurogenic_bladder.jpg",
+      "alt": "Ultrasound showing a thick-walled, trabeculated \"pine cone\" bladder due to chronic neurogenic dysfunction.",
+      "credit": "https://commons.wikimedia.org/wiki/File:Pine_cone_shape_of_a_neurogenic_bladder.jpg"
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 1-year-old boy with repaired myelomeningocele has continuous dribbling of urine and recurrent fevers. Ultrasound shows bilateral hydronephrosis.",
+      "clues": [
+        "Spina bifida (open neural tube defect)",
+        "Chronic urinary incontinence",
+        "Hydronephrosis",
+        "Recurrent UTIs"
+      ],
+      "answer": "Neurogenic bladder (due to myelomeningocele)",
+      "teaching": "Spinal cord damage from a neural tube defect causes a neurogenic bladder. Without interventions like CIC and anticholinergics, high intravesical pressures lead to reflux (VUR), UTIs, and kidney damage."
+    },
+    {
+      "stem": "A 38-year-old woman with multiple sclerosis notes sudden urges to void and occasional urine leaks. She has no sensation of incomplete emptying.",
+      "clues": [
+        "Multiple sclerosis",
+        "Urinary urgency and frequency",
+        "Urge incontinence",
+        "No significant residual volume"
+      ],
+      "answer": "Neurogenic overactive bladder (detrusor hyperreflexia due to MS)",
+      "teaching": "Demyelination (as in MS) disrupts central inhibition of the bladder, often causing detrusor overactivity. These patients experience urge incontinence and respond to anticholinergic therapy."
+    }
+  ],
+  "see_also": [
+    "spina-bifida",
+    "vesicoureteral-reflux",
+    "multiple-sclerosis"
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

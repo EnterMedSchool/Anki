@@ -1,0 +1,109 @@
+{
+  "id": "multicystic-dysplastic-kidney",
+  "names": ["Multicystic dysplastic kidney"],
+  "aliases": ["kidney dysplasia", "renal dysplasia"],
+  "abbr": ["MCDK"],
+  "patterns": ["mcdk", "multicystic dysplastic kidney", "kidney dysplasia", "renal dysplasia"],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "peds", "obgyn"],
+  "definition": "Congenital malformation of a kidney in which multiple noncommunicating cysts replace normal renal tissue, rendering the organ nonfunctional:contentReference[oaicite:0]{index=0}.",
+  "why_it_matters": "Most common cystic kidney disease in infants:contentReference[oaicite:1]{index=1}; a key cause of a flank mass in newborns. Unilateral MCDK highlights management of a child with a single kidney, whereas bilateral MCDK causes Potter sequence (fatal), making early recognition crucial.",
+  "how_youll_see_it": [
+    "Often detected on **prenatal ultrasound** as a unilateral cystic kidney; if missed in utero, a newborn may present with an asymptomatic **flank mass**:contentReference[oaicite:2]{index=2}.",
+    "Bilateral MCDK leads to **oligohydramnios** → **Potter sequence** (lung hypoplasia, flat facies, limb deformities; usually fatal):contentReference[oaicite:3]{index=3}.",
+    "Associated urinary tract anomalies are common – e.g. contralateral **vesicoureteral reflux** or other CAKUT – so the normal kidney may show signs of reflux or obstruction:contentReference[oaicite:4]{index=4}.",
+    "If one kidney is affected, the **other kidney hypertrophies** to compensate; children with unilateral MCDK generally have normal renal function due to the healthy kidney:contentReference[oaicite:5]{index=5}."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with postnatal **renal ultrasound** and evaluate the **contralateral kidney** (e.g. perform a voiding cystourethrogram to check for reflux):contentReference[oaicite:6]{index=6}.",
+    "In unilateral MCDK, management is **conservative**: regular follow-up with ultrasound and blood pressure monitoring, since most dysplastic kidneys undergo spontaneous involution:contentReference[oaicite:7]{index=7}.",
+    "Avoid immediate nephrectomy unless complications arise – observe unless there is problematic **hypertension**, recurrent **UTIs**, or a suspicion of malignancy in the dysplastic kidney:contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}.",
+    "Bilateral MCDK requires **neonatal intensive care** and nephrology consultation. If any renal function is present, dialysis may be initiated as a bridge to possible transplant, though prognosis is poor."
+  ],
+  "tricks": [
+    "Ultrasound appearance is like a **“cluster of grapes”** instead of a kidney – a classic clue for MCDK (especially if unilateral). If both kidneys are replaced by “grapes,” the fetus will have Potter sequence."
+  ],
+  "exam_appearance": [
+    "Newborn with a unilateral flank mass on exam; ultrasound shows multiple non-communicating cysts in one kidney → **Multicystic dysplastic kidney (unilateral)**.",
+    "Prenatal ultrasound reveals **bilateral large, cystic kidneys** with oligohydramnios; neonate is born with respiratory distress (Potter sequence) → **Bilateral MCDK (lethal)**.",
+    "Prenatal ultrasound finds one kidney filled with cysts but normal amniotic fluid volume; the infant is born healthy with normal urine output → **Unilateral MCDK**, best managed with observation."
+  ],
+  "treatment": [
+    "Unilateral MCDK: **observe and monitor** – periodic ultrasounds and blood pressure checks, as the cystic kidney usually regresses over time:contentReference[oaicite:10]{index=10}.",
+    "No intervention is needed unless there are complications. If the dysplastic kidney causes issues (e.g. persistent hypertension or infections), **surgical nephrectomy** can be considered:contentReference[oaicite:11]{index=11}:contentReference[oaicite:12]{index=12}.",
+    "Bilateral MCDK: primarily **supportive care** – manage respiratory failure at birth, consider dialysis; renal transplant would be the only definitive treatment if the infant survives long enough."
+  ],
+  "red_flags": [
+    "Bilateral MCDK → **Potter sequence** (oligohydramnios leading to pulmonary hypoplasia) – a neonatal emergency that is usually incompatible with life.",
+    "In a child with known MCDK, new-onset **hypertension**, **UTI**, or abdominal pain warrants prompt evaluation – the dysplastic kidney may need removal to prevent further harm."
+  ],
+  "algorithm": [
+    "Suspected MCDK on prenatal ultrasound → plan postnatal **ultrasound** to confirm and check both kidneys.",
+    "If confirmed MCDK: assess contralateral kidney function and do **VCUG** to rule out reflux in the healthy kidney:contentReference[oaicite:13]{index=13}.",
+    "Unilateral MCDK → **routine follow-up** (renal ultrasounds, BP monitoring, renal function tests). Protect the solitary functioning kidney (avoid nephrotoxins, counsel on hydration and sports).",
+    "Bilateral MCDK → immediate supportive management at birth (airway and breathing support due to lung hypoplasia). If possible, initiate dialysis and discuss **renal transplant** options."
+  ],
+  "differentials": [
+    {
+      "id": "polycystic-kidney-disease",
+      "name": "Autosomal recessive PKD",
+      "hint": "Congenital **bilateral** cystic kidneys (inheritied); causes neonatal kidney failure and hepatic fibrosis (also leads to Potter sequence)."
+    },
+    {
+      "name": "Ureteropelvic junction obstruction",
+      "hint": "**Hydronephrosis** with a dilated renal pelvis (appears as one large central cyst); usually unilateral and has a patent ureter (not atretic)."
+    },
+    {
+      "id": "wilms-tumor",
+      "name": "Wilms tumor (nephroblastoma)",
+      "hint": "Pediatric **renal tumor** (solid mass, not cystic) usually presenting after infancy (often age 2–4) with hematuria or hypertension."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Multicystic_Dysplastic_kidney.svg/1024px-Multicystic_Dysplastic_kidney.svg.png",
+      "alt": "Diagram of a normal left kidney vs a multicystic dysplastic kidney on the right (multiple cysts replacing the kidney)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Multicystic_Dysplastic_kidney.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 1-day-old newborn is noted to have a palpable mass in the left flank on routine exam. Prenatal care was limited, but postnatal ultrasound shows the left kidney is replaced by numerous cysts of varying size. The right kidney appears normal.",
+      "clues": ["Unilateral flank mass in neonate", "Multiple non-communicating renal cysts on US", "Normal contralateral kidney"],
+      "answer": "Multicystic dysplastic kidney (unilateral)",
+      "teaching": "Unilateral MCDK is a congenital nonfunctional kidney made of multiple cysts (most common cause of newborn abdominal mass). The other kidney hypertrophies and maintains normal renal function. Management is observation and monitoring."
+    },
+    {
+      "stem": "A fetus is found to have bilateral enlarged, cystic kidneys on a 20-week ultrasound. There is severe oligohydramnios. At birth, the baby has respiratory distress, limb deformities, and characteristic facies. Despite maximal support, the infant dies shortly after birth.",
+      "clues": ["Bilaterally cystic kidneys in utero", "Oligohydramnios", "Pulmonary hypoplasia (respiratory failure)"],
+      "answer": "Bilateral multicystic dysplastic kidneys (Potter sequence)",
+      "teaching": "Bilateral MCDK results in no functional kidneys → almost no fetal urine → oligohydramnios. The resulting Potter sequence (lung underdevelopment, flattened face, limb contractures) is typically fatal. There is no viable treatment because of absent renal function."
+    }
+  ],
+  "see_also": ["polycystic-kidney-disease", "vesicoureteral-reflux", "posterior-urethral-valves", "potter-sequence"],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Swiatecka-Urban A., \"Multicystic Renal Dysplasia (MCDK)\" – Medscape (Updated Sept 2024)",
+      "url": "https://emedicine.medscape.com/article/982560-overview"
+    },
+    {
+      "title": "Children’s Hospital of Philadelphia – Multicystic Dysplastic Kidney (patient resource)",
+      "url": "https://www.chop.edu/conditions-diseases/multicystic-dysplastic-kidney"
+    },
+    {
+      "title": "Multicystic dysplastic kidney – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Multicystic_dysplastic_kidney"
+    }
+  ]
+}

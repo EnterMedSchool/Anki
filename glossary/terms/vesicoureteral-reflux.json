@@ -1,0 +1,127 @@
+{
+  "id": "vesicoureteral-reflux",
+  "names": [
+    "Vesicoureteral reflux"
+  ],
+  "aliases": [
+    "vesicoureteric reflux",
+    "urinary reflux"
+  ],
+  "abbr": [
+    "VUR"
+  ],
+  "patterns": [
+    "vesicoureteral reflux",
+    "vesicoureteric reflux",
+    "VUR"
+  ],
+  "primary_tag": "peds",
+  "tags": [
+    "peds",
+    "renal",
+    "pathology",
+    "radiology"
+  ],
+  "definition": "Retrograde flow of urine from the bladder into the ureters and kidneys due to incompetent ureterovesical junction (UVJ):contentReference[oaicite:0]{index=0}. Primary VUR is usually a congenital UVJ defect (short intramural ureter), whereas secondary VUR results from high bladder pressures (e.g., due to outlet obstruction or neurogenic bladder):contentReference[oaicite:1]{index=1}.",
+  "why_it_matters": "VUR is a common cause of recurrent pediatric urinary tract infections and can lead to **pyelonephritis** and permanent renal scarring. Scarring from reflux nephropathy may impair kidney growth and cause hypertension or chronic kidney disease later in life:contentReference[oaicite:2]{index=2}.",
+  "how_youll_see_it": [
+    "Infants or young children with **recurrent febrile UTIs** (especially if a boy, or if <2 years old).",
+    "**Prenatal ultrasound** may show hydronephrosis; postnatal evaluation then reveals VUR.",
+    "Possible history of a **sibling with VUR** (familial tendency).",
+    "Secondary VUR clues: e.g. a male infant with **distended bladder** and weak urinary stream (suggesting posterior urethral valves)."
+  ],
+  "problem_solving": [
+    "Initial test: Renal and bladder **ultrasound** to check for hydronephrosis or anatomic anomalies.",
+    "**Voiding cystourethrogram (VCUG)** is the gold standard to diagnose and grade VUR:contentReference[oaicite:3]{index=3}:contentReference[oaicite:4]{index=4}.",
+    "Consider secondary causes if VUR is detected (evaluate for **posterior urethral valves** in boys, dysfunctional voiding, etc.)."
+  ],
+  "tricks": [
+    "Think of **VCUG** for **VUR** – the names sound similar (VCUG is the key test for reflux).",
+    "Primary VUR tends to improve as the child grows (maturation lengthens the intramural ureter), whereas secondary VUR persists until the underlying issue is fixed."
+  ],
+  "exam_appearance": [
+    "Toddler with recurrent fevers and UTIs; ultrasound shows renal scarring → suspect VUR causing reflux nephropathy.",
+    "Newborn boy with bilateral hydronephrosis and poor urinary stream → think **posterior urethral valves** (secondary VUR)."
+  ],
+  "treatment": [
+    "Low-grade (I–II) VUR: often managed conservatively – many cases resolve with growth. **Antibiotic prophylaxis** (low-dose daily antibiotics) is used to prevent UTIs while observing:contentReference[oaicite:5]{index=5}.",
+    "High-grade (III–V) or persistent VUR: higher risk of renal damage – consider surgical correction. Options include **ureteral reimplantation** or endoscopic injection to fix the UVJ. Indicated if breakthrough infections or new scars occur despite prophylaxis:contentReference[oaicite:6]{index=6}."
+  ],
+  "red_flags": [
+    "Any **febrile UTI** in a young child (<2 years) is a red flag – evaluate for possible VUR to prevent missed renal damage.",
+    "Known VUR with **breakthrough pyelonephritis** or worsening hydronephrosis → escalation of care (surgical intervention) is needed to protect the kidneys."
+  ],
+  "algorithm": [
+    "Child with first febrile UTI → obtain renal ultrasound (look for hydronephrosis or scarring).",
+    "If ultrasound is abnormal or UTIs recur → perform VCUG to confirm and grade VUR:contentReference[oaicite:7]{index=7}.",
+    "VUR present: Grades I–II → observe with prophylaxis; Grades III–V or complications → urology referral for possible surgery."
+  ],
+  "differentials": [
+    {
+      "id": "multicystic-dysplastic-kidney",
+      "hint": "Congenital nonfunctional kidney with multiple cysts (can mimic hydronephrosis on prenatal ultrasound)."
+    },
+    {
+      "name": "Posterior urethral valves",
+      "hint": "Congenital membrane in the posterior urethra (boys) causing bladder outlet obstruction and secondary reflux."
+    },
+    {
+      "name": "Neurogenic bladder",
+      "hint": "Neurologic dysfunction (e.g., spina bifida) leading to incomplete bladder emptying and high-pressure reflux."
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-year-old girl has had two febrile urinary tract infections. An ultrasound shows renal scarring at the upper pole of one kidney.",
+      "clues": [
+        "Recurrent febrile UTIs",
+        "Renal scarring on ultrasound"
+      ],
+      "answer": "Primary vesicoureteral reflux",
+      "teaching": "Chronic reflux of urine led to pyelonephritis and scarring (reflux nephropathy). The next step is a VCUG to confirm VUR and determine its grade, guiding management."
+    },
+    {
+      "stem": "A male neonate is born with bilateral hydronephrosis detected on prenatal ultrasound. Postnatally, he has a weak urinary stream and difficulty voiding.",
+      "clues": [
+        "Bilateral hydronephrosis",
+        "Distended bladder",
+        "Weak urinary stream"
+      ],
+      "answer": "Posterior urethral valves (causing secondary VUR)",
+      "teaching": "Posterior urethral valves create a urethral obstruction in infant boys, leading to high bladder pressures and vesicoureteral reflux. This often presents with prenatal bilateral hydronephrosis and requires prompt surgical valve ablation."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Primary_VesicoUreteral_Reflux_%28VUR%29.jpg",
+      "alt": "Ultrasound showing a dilated distal ureter (arrow) due to primary VUR",
+      "credit": "https://commons.wikimedia.org/wiki/File:Primary_VesicoUreteral_Reflux_(VUR).jpg"
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Vesicoureteral Reflux (Lotfollahzadeh & Leslie, updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK563262/"
+    },
+    {
+      "title": "Radiopaedia Case: Vesicoureteral reflux (Grade IV) discussion",
+      "url": "https://radiopaedia.org/cases/vesicoureteral-reflux-10"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Vesicoureteral reflux",
+      "url": "https://medlineplus.gov/ency/article/001272.htm"
+    },
+    {
+      "title": "Mayo Clinic: Vesicoureteral reflux - Diagnosis & treatment",
+      "url": "https://www.mayoclinic.org/diseases-conditions/vesicoureteral-reflux/diagnosis-treatment/drc-20378824"
+    }
+  ],
+  "credits": [
+    {
+      "email": "arihoresh@entermedschool.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

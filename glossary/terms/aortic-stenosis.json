@@ -1,0 +1,99 @@
+{
+  "id": "aortic-stenosis",
+  "names": ["Aortic stenosis"],
+  "aliases": ["aortic valve stenosis", "calcific aortic stenosis", "senile aortic stenosis"],
+  "abbr": ["AS"],
+  "patterns": ["aortic stenosis", "aortic valve stenosis", "as", "calcific aortic stenosis", "bicuspid aortic valve"],
+  "primary_tag": "cardio",
+  "tags": ["cardio", "pathology", "surgery", "peds"],
+  "definition": "Narrowing of the aortic valve opening that obstructs left ventricular outflow, most often due to age-related calcific degeneration of a normal tricuspid valve in older adults, a congenital **bicuspid** valve in younger patients, or rheumatic commissural fusion:contentReference[oaicite:0]{index=0}.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Aortic_stenosis_rheumatic%2C_gross_pathology_20G0014_lores.jpg",
+      "alt": "Gross pathology of aortic stenosis: thickened and fused aortic valve leaflets (view from above the valve, with aorta removed)",
+      "credit": {
+        "text": "CDC/Public Health Image Library (PHIL #848) – Public Domain",
+        "href": "https://phil.cdc.gov/Details.aspx?pid=848"
+      }
+    }
+  ],
+  "why_it_matters": "Most common valvular heart disease in developed countries (affecting ~2–3% of those >65):contentReference[oaicite:1]{index=1}. Once classic symptoms (exertional angina, syncope, dyspnea) appear, **untreated AS has a poor prognosis** (~50% 5-year survival without intervention):contentReference[oaicite:2]{index=2}. Early recognition of severe AS (e.g., harsh murmur with carotid radiation, **SAD** triad) and timely valve replacement is critical and frequently tested on exams.",
+  "how_youll_see_it": [
+    "Long asymptomatic period (even with severe stenosis):contentReference[oaicite:3]{index=3}, then the classic triad of **exertional dyspnea** (heart failure), **angina**, and **syncope** develops in late stages:contentReference[oaicite:4]{index=4}.",
+    "Cardiac exam: **Harsh crescendo–decrescendo systolic murmur** (mid-systolic ejection) best heard at the right upper sternal border with radiation to the carotids:contentReference[oaicite:5]{index=5}. Severe AS leads to a **slow-rising, low-amplitude carotid pulse** (pulsus parvus et tardus) and a soft or paradoxically split S2:contentReference[oaicite:6]{index=6}; an S4 gallop is often present (LV hypertrophy).",
+    "Possible complications include **heart failure** (due to LV pressure overload), **microangiopathic hemolytic anemia** (schistocytes from high-velocity jet), and angiodysplasia-related **GI bleeding** (Heyde syndrome from von Willebrand factor degradation):contentReference[oaicite:7]{index=7}."
+  ],
+  "problem_solving": [
+    "If AS is suspected (e.g., appropriate murmur or symptoms) → obtain a **transthoracic echocardiogram** to confirm diagnosis and assess severity (valve calcification, reduced cusp mobility, pressure gradient):contentReference[oaicite:8]{index=8}.",
+    "**Severe AS** is defined by a valve area ≤1.0 cm² (normal ~3 cm²) or jet velocity ≥4 m/s or mean gradient ≥40 mm Hg:contentReference[oaicite:9]{index=9}:contentReference[oaicite:10]{index=10}. Avoid exercise **stress testing** if symptomatic (risk of syncope):contentReference[oaicite:11]{index=11}.",
+    "Always evaluate for concomitant **coronary artery disease** before intervention (e.g., coronary angiography with catheterization):contentReference[oaicite:12]{index=12}. If echo findings are incongruent with symptoms, consider invasive hemodynamic assessment via cardiac cath.",
+    "ECG often shows **left ventricular hypertrophy** (due to chronic pressure load) and may show conduction blocks (e.g., LBBB):contentReference[oaicite:13]{index=13}; chest X-ray may reveal a calcified aortic valve or post-stenotic aortic root dilation, but imaging is usually nonspecific."
+  ],
+  "tricks": [
+    "Mnemonic for symptoms: think **SAD** (Syncope, Angina, Dyspnea) as the triad of severe aortic stenosis:contentReference[oaicite:14]{index=14}.",
+    "**Pulsus parvus et tardus** (weak, delayed carotid upstroke) is a classic finding specific to severe AS:contentReference[oaicite:15]{index=15}.",
+    "**Murmur maneuvers**: The AS murmur **decreases with Valsalva** (less preload) – opposite of **hypertrophic cardiomyopathy**, which increases (useful in exam scenarios).",
+    "Bicuspid aortic valve (younger patients) is associated with **coarctation of the aorta** and Turner syndrome (45,X), and leads to earlier stenosis than the typical degenerative form:contentReference[oaicite:16]{index=16}.",
+    "Severe AS can cause an acquired von Willebrand disease (high shear stress cleaves vWF), explaining the classic association of AS with **angiodysplasia** GI bleeding (Heyde syndrome):contentReference[oaicite:17]{index=17}."
+  ],
+  "exam_appearance": [
+    "Elderly man with **exertional syncope**, chest pain, and a late-peaking murmur radiating to the neck → **Aortic stenosis (degenerative calcific)**.",
+    "Middle-aged patient with **bicuspid aortic valve** and early-onset systolic murmur; history of Turner syndrome or coarctation → **Premature aortic stenosis due to bicuspid valve**."
+  ],
+  "treatment": [
+    "No medical therapy halts progression—definitive treatment is **aortic valve replacement (AVR)** for severe AS.:contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19} Symptomatic patients with severe AS should undergo prompt valve replacement (improves survival).",
+    "Choose **surgical AVR** vs. **TAVR** (transcatheter AVR) based on patient’s surgical risk, age, and anatomy. TAVR is often preferred in older or high-risk patients, while younger low-risk patients usually get surgery.",
+    "Indications for AVR in asymptomatic severe AS: LVEF <50%, very high aortic velocity (≥5 m/s) or mean gradient ≥60 mm Hg, **abnormal exercise test**, or if the patient is undergoing other cardiac surgery:contentReference[oaicite:20]{index=20}.",
+    "Bridge therapy: in patients who are not immediate AVR candidates, **balloon aortic valvuloplasty** can provide temporary relief (especially in younger patients or as a bridge to TAVR):contentReference[oaicite:21]{index=21}, but the benefit is short-lived.",
+    "Manage heart failure symptoms cautiously (gentle diuresis for pulmonary edema, avoid excessive afterload reduction):contentReference[oaicite:22]{index=22}. Treat coexisting hypertension, but use vasodilators with caution (AS patients are preload-dependent)."
+  ],
+  "red_flags": [
+    "Exertional **syncope** or **angina** in a patient with AS → signals critical stenosis; high risk of sudden death without intervention.",
+    "Severe AS with **hypotension** or acute pulmonary edema (cardiogenic shock) – patients are extremely preload-dependent, so avoid nitrates/vasodilators; stabilize with fluids and pressors and arrange urgent valve intervention:contentReference[oaicite:23]{index=23}.",
+    "**Atrial fibrillation** onset in AS can precipitate flash pulmonary edema (loss of atrial kick) – often requires urgent cardioversion to restore hemodynamics:contentReference[oaicite:24]{index=24}."
+  ],
+  "algorithm": [
+    "Suspected AS (murmur or risk factors) → obtain transthoracic **echo** to confirm and assess severity.",
+    "If **severe AS** (e.g., valve area ≤1 cm², Vmax ≥4 m/s) and patient is symptomatic or LV systolic dysfunction present → refer for **aortic valve replacement** (SAVR vs. TAVR).",
+    "If severe but asymptomatic (normal EF) → conservative management (close follow-up and repeat echos); consider AVR if any high-risk features (Vmax ≥5 m/s, EF dropping <50%, positive exercise test, or planned other cardiac surgery):contentReference[oaicite:25]{index=25}.",
+    "If mild/moderate AS → periodic monitoring with echo (e.g., every 1–2 years for moderate), manage risk factors (e.g., hypertension), and educate patient to report symptoms immediately.",
+    "Acute decompensation (e.g., **flash pulmonary edema** or syncope) in known AS → stabilize hemodynamics (maintain preload, avoid hypotension) and arrange emergent valve intervention (e.g., balloon valvuloplasty as bridge to AVR)."
+  ],
+  "differentials": [
+    { "name": "Hypertrophic obstructive cardiomyopathy", "hint": "**Dynamic** LV outflow obstruction; murmur also cresc–decr but **loudest with Valsalva**, improves with squatting; no carotid radiation." },
+    { "name": "Aortic sclerosis", "hint": "Valve leaflet thickening with a murmur but **no significant pressure gradient** (no LV outflow obstruction); usually no pulsus parvus et tardus." },
+    { "name": "Mitral regurgitation", "hint": "Also causes systolic murmur, but MR is **holosystolic** and radiates to axilla (contrast: AS murmur can radiate to apex but usually also to carotids)." }
+  ],
+  "cases": [
+    {
+      "stem": "A 75‑year‑old man has several months of exertional chest pain, shortness of breath, and two episodes of lightheaded **syncope** with exertion.",
+      "clues": ["Harsh crescendo‑decrescendo murmur at RUSB radiating to the carotids", "Delayed, weak carotid pulse (pulsus parvus et tardus)", "Echocardiogram: calcified aortic valve with 0.8 cm² opening"],
+      "answer": "Degenerative (senile) aortic stenosis",
+      "teaching": "Age-related **calcific degeneration** of a tricuspid aortic valve is the most common cause of AS in older adults. The classic triad of syncope, angina, and dyspnea indicates severe disease requiring valve replacement."
+    },
+    {
+      "stem": "A 45‑year‑old woman with Turner syndrome (45,X) and a history of repaired coarctation of the aorta is evaluated for decreasing exercise tolerance.",
+      "clues": ["Blood pressure is higher in the arms than legs", "Systolic ejection murmur heard best at right upper sternal edge", "Echo: **bicuspid aortic valve** with severe calcific stenosis"],
+      "answer": "Early-onset aortic stenosis from a bicuspid valve",
+      "teaching": "Congenital **bicuspid aortic valve** leads to premature stenosis (typically in 50s). Bicuspid valves are associated with coarctation (as in Turner syndrome) and account for the majority of AS cases in patients <70 years:contentReference[oaicite:26]{index=26}."
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls — Aortic Stenosis",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557628"
+    },
+    {
+      "title": "2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease",
+      "url": "https://www.jacc.org/doi/full/10.1016/j.jacc.2020.11.018"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

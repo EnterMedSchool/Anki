@@ -1,0 +1,153 @@
+{
+  "id": "hypertensive-heart-disease",
+  "names": [
+    "Hypertensive heart disease"
+  ],
+  "aliases": [
+    "hypertensive cardiomyopathy"
+  ],
+  "abbr": [
+    "HHD"
+  ],
+  "patterns": [
+    "hypertensive heart disease",
+    "hypertensive cardiomyopathy",
+    "HHD",
+    "hypertensive cardiomyopathy",
+    "left ventricular hypertrophy hypertension",
+    "LVH hypertension"
+  ],
+  "primary_tag": "cardio",
+  "tags": [
+    "cardio",
+    "pathology"
+  ],
+  "definition": "Cardiac changes caused by chronic high blood pressure, primarily pressure-overload–induced **concentric left ventricular hypertrophy (LVH)**:contentReference[oaicite:0]{index=0} leading to reduced ventricular compliance. This remodeling results in a stiff left ventricle with impaired diastolic filling and can progress to heart failure (typically **HFpEF**) and arrhythmias:contentReference[oaicite:1]{index=1}.",
+  "why_it_matters": "Hypertension is extremely common and a major cause of heart disease worldwide. Long-standing high BP causes LVH that markedly increases the risk of heart failure (it accounts for ~**25–50%** of HF cases overall and up to **68%** in the elderly):contentReference[oaicite:2]{index=2}. Hypertensive LVH also predisposes to **atrial fibrillation** and other arrhythmias, and is associated with higher rates of myocardial infarction and sudden cardiac death:contentReference[oaicite:3]{index=3}. Early recognition and treatment can prevent progression, and exam questions frequently test the signs (e.g., **LVH on ECG**, **S4 gallop**) and complications of hypertensive heart disease.",
+  "how_youll_see_it": [
+    "**Often asymptomatic early on:** patients with chronic hypertension may have **LVH** for years with no overt symptoms (e.g., LVH noted incidentally on an ECG or echo).",
+    "Progressive **exertional dyspnea** and decreased exercise tolerance as diastolic heart failure (**HFpEF**) develops (stiff LV cannot fill adequately):contentReference[oaicite:4]{index=4}. Patients may report fatigue or mild swelling; acute **pulmonary edema** can occur with blood pressure surges (\"flash\" pulmonary edema).",
+    "New-onset **atrial fibrillation** (palpitations, irregularly irregular pulse) or other arrhythmias can be the first presentation, due to left atrial enlargement from long-standing LV stiffness. Some patients also experience **angina** or chest tightness (hypertrophied myocardium has increased oxygen demand, and coronary perfusion is relatively reduced).",
+    "Physical exam may reveal a sustained **apical impulse** (LV heave) and a loud **S4** gallop (atrial kick against a non-compliant LV). Signs of chronic hypertension (e.g., **retinal changes**) or heart failure (pulmonary rales, peripheral edema) may be present in advanced disease."
+  ],
+  "problem_solving": [
+    "Suspect HHD in patients with long-standing **hypertension** and evidence of LVH (e.g., high-voltage QRS on ECG or an S4 heart sound). The best initial test is a **transthoracic echocardiogram** to assess LV wall thickness, mass, and diastolic function:contentReference[oaicite:5]{index=5}.",
+    "**Electrocardiogram (ECG):** may show LVH criteria (e.g., very tall S in V1 + R in V5 >35 mm) and a characteristic \"strain\" pattern (lateral ST depression and T-wave inversion) reflecting subendocardial ischemia. **Chest X-ray** is often normal until late (LVH doesn't greatly enlarge the silhouette unless accompanied by dilation).",
+    "**Cardiac MRI:** indicated if further characterization is needed – it precisely measures LV mass and can detect fibrosis. CMR can help distinguish hypertensive LVH from other causes (e.g., genetic **hypertrophic cardiomyopathy** or infiltrative disease).",
+    "Evaluate for other causes of LV hypertrophy in suspected HHD: check for **aortic stenosis** (murmur and valve calcification on imaging), review athletic history for **athlete’s heart** (physiologic hypertrophy), and consider genetic testing/family history if HCM is suspected. Typically, hypertensive LVH is concentric and diffuse, whereas HCM often shows asymmetric septal hypertrophy."
+  ],
+  "tricks": [
+    "Mnemonic: **Pressure** overload (e.g., HTN, aortic stenosis) causes **concentric** hypertrophy; **Volume** overload (e.g., regurgitant valves, endurance training) causes **eccentric** hypertrophy. (Pressure → parallel sarcomere addition, walls thicken; Volume → series addition, chamber dilates.)",
+    "Remember the heart sound: a stiff LV from LVH often produces an **S4** (\"atrial gallop\") – a low-frequency sound just before S1, from the left atrium forcefully filling a non-compliant ventricle (common in hypertensive heart disease).",
+    "**ECG LVH criteria:** One common board formula is S(V1) + R(V5 or V6) > 35 mm = LVH. Also look for the \"LV strain\" pattern (inverted T waves in V5-6, I, aVL) in a hypertensive patient – a clue to long-standing LVH."
+  ],
+  "exam_appearance": [
+    "Older adult with a history of poorly controlled **hypertension**, now with dyspnea on exertion, a loud **S4** heart sound, and echo showing thickened LV walls but normal EF → **Hypertensive heart disease** (concentric LVH causing diastolic HF).",
+    "Patient with chronic hypertension experiences sudden acute pulmonary edema (flash pulmonary edema) after a blood pressure surge; echo reveals concentric LV hypertrophy and diastolic dysfunction → acute decompensated **hypertensive heart failure** (HFpEF exacerbation from HHD)."
+  ],
+  "treatment": [
+    "**Aggressive blood pressure control** is the cornerstone: target <130/80 mmHg if tolerated:contentReference[oaicite:6]{index=6}. Use **ACE inhibitors or ARBs** (which can promote LVH regression via RAAS blockade), often combined with thiazide diuretics or calcium channel blockers for optimal BP control.",
+    "Encourage lifestyle modifications: low-salt diet, weight loss, exercise, and avoiding excessive alcohol – these help improve blood pressure and reduce cardiac workload.",
+    "If diastolic heart failure (**HFpEF**) is present, manage volume overload with cautious **diuretics** (to relieve congestion without dropping BP too much). Control heart rate (beta-blockers or non-dihydropyridine CCBs) especially if atrial fibrillation is present, and consider anticoagulation for AF to prevent stroke.",
+    "In patients with advanced disease, follow heart failure guidelines: e.g., consider **mineralocorticoid receptor antagonists** or **SGLT2 inhibitors** which have shown benefit in HFpEF, and manage coronary artery disease risk factors aggressively. Importantly, regression of LVH is possible with sustained BP control, which improves outcomes."
+  ],
+  "red_flags": [
+    "Long-time hypertensive patient with new **atrial fibrillation** (palpitations, dizziness) and rapid heart rate — can precipitate acute decompensated heart failure; requires prompt rate/rhythm control and anticoagulation.",
+    "**Flash pulmonary edema** (acute onset severe dyspnea, pink frothy sputum) in a hypertensive patient — often due to sudden diastolic failure; treat as hypertensive emergency (IV nitroglycerin, diuretics) and ICU monitoring.",
+    "Severe **hypertensive emergency** (BP >180/120 mmHg with chest pain, neurologic symptoms, or pulmonary edema) — immediate blood pressure reduction is critical to prevent acute heart failure, stroke, or myocardial infarction."
+  ],
+  "algorithm": [
+    "Uncontrolled hypertension with possible LVH (e.g., high BP readings, S4 gallop, ECG voltage) **→ Obtain an echocardiogram** to assess for concentric LVH and diastolic function.",
+    "If echo shows **concentric LVH** with preserved EF (and no alternate cause) **→ Diagnose hypertensive heart disease** (asymptomatic stage = HF stage B).",
+    "**Begin intensive BP management:** lifestyle changes + medications (often ACEi/ARB-based regimen) to reach goal BP; schedule follow-up to monitor BP and any symptoms.",
+    "If patient develops **HFpEF symptoms** (HF stage C) **→** add diuretics for symptom relief, manage atrial fibrillation if present (rate control, anticoagulation), and consider referral to cardiology for advanced therapies (e.g., SGLT2 inhibitors for HFpEF).",
+    "**Follow-up:** periodic echocardiography to track LVH regression or progression; ensure continued blood pressure control and monitor for complications (arrhythmias, ischemic events)."
+  ],
+  "differentials": [
+    {
+      "id": "hypertrophic-cardiomyopathy",
+      "hint": "Genetic cardiomyopathy with **asymmetric septal hypertrophy**; can mimic LVH but often in younger patients and with systolic anterior motion of mitral valve."
+    },
+    {
+      "name": "Athlete’s heart",
+      "hint": "Physiologic adaptation in highly trained individuals; mild **symmetric LVH** with normal or enhanced diastolic function, resolves with detraining."
+    },
+    {
+      "id": "aortic-stenosis",
+      "hint": "Chronic pressure overload from a narrowed aortic valve also causes concentric LVH; differentiate by presence of a loud **crescendo-decrescendo murmur** and valve calcifications on imaging."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Heart_left_ventricular_hypertrophy_sa.jpg",
+      "alt": "Illustration of a short-axis view of the heart showing markedly thickened left ventricular walls (concentric LVH) with a smaller chamber volume.",
+      "credit": {
+        "text": "Patrick J. Lynch (CC BY 2.5)",
+        "href": "https://creativecommons.org/licenses/by/2.5/"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72-year-old man with a 20-year history of hypertension reports gradually increasing shortness of breath when climbing stairs. He has no chest pain. Blood pressure is 162/90 mmHg, and exam reveals a sustained PMI and an S4 gallop. An echocardiogram shows a concentric increase in left ventricular wall thickness with normal ejection fraction.",
+      "clues": [
+        "Long-standing hypertension",
+        "Dyspnea on exertion",
+        "S4 heart sound",
+        "Concentric LVH on echo",
+        "Preserved EF"
+      ],
+      "answer": "Hypertensive heart disease (diastolic HF/HFpEF)",
+      "teaching": "Chronic hypertension has caused concentric LV hypertrophy and diastolic dysfunction (HFpEF). The patient’s exertional dyspnea and S4 are classic. Treatment is focused on aggressive blood pressure control and managing heart failure symptoms."
+    },
+    {
+      "stem": "A 64-year-old woman with poorly controlled hypertension experiences a sudden onset of severe shortness of breath and pink, frothy sputum. Blood pressure is 210/120 mmHg and lungs have diffuse crackles. ECG shows LVH with strain. After stabilization, echocardiography shows marked concentric LV hypertrophy and left atrial enlargement with normal systolic function.",
+      "clues": [
+        "Severely elevated BP",
+        "Acute pulmonary edema",
+        "LVH on ECG",
+        "Concentric LVH on echo",
+        "Normal EF"
+      ],
+      "answer": "Acute pulmonary edema from hypertensive heart disease",
+      "teaching": "Hypertensive emergency caused acute diastolic heart failure (“flash” pulmonary edema). Concentric LVH from chronic HTN led to a stiff heart that cannot handle sudden increases in pressure. Management includes aggressive blood pressure reduction (e.g., IV nitroglycerin, diuretics) and long-term hypertension control."
+    }
+  ],
+  "see_also": [
+    "hypertension",
+    "heart-failure-with-preserved-ejection-fraction",
+    "atrial-fibrillation",
+    "aortic-stenosis",
+    "hypertrophic-cardiomyopathy"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "blood-pressure-regulation"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hypertensive Heart Disease (NCBI Bookshelf, updated Apr 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539800/"
+    },
+    {
+      "title": "ESC Cardio Practice: Hypertension and heart failure – a dangerous relationship (Camafort et al., 2024)",
+      "url": "https://www.escardio.org/Councils/Council-for-Cardiology-Practice-(CCP)/Cardiopractice/hypertension-and-heart-failure-a-dangerous-relationship"
+    },
+    {
+      "title": "Medscape: Hypertensive Heart Disease (Riaz, K. MD, updated Dec 2020)",
+      "url": "https://emedicine.medscape.com/article/162449-overview"
+    },
+    {
+      "title": "Messerli FH et al. Hypertensive heart disease: a review (The American Journal of Medicine, 2007)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18060942/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}
